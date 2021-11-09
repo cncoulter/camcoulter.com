@@ -1,8 +1,8 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: "Homepage"
 ---
 
-## You're ready to go!
+## Hiya! This website is under development.
 
-Start developing your Jekyll website.
+I am currently developing this website. This will be my personal website/blog. Stay tuned!
