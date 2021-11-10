@@ -7,3 +7,11 @@ body {
   color: $bodyColor;
   font-family: $bodyFont;
 }
+
+a:focus {
+	outline: 2px solid;
+	outline-offset: 1px;
+}
+a:hover {
+	text-decoration: none;
+}
