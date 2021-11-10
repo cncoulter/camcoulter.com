@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
-  </head>
-  <body>
-    {{ content }}
-  </body>
+<html lang="{{ site.lang | default: "en-US" }}" dir="ltr">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>{{ page.title }} - {{ site.title }}</title>
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+	<header>
+		<p>Cam Coulter</p>
+	</header>
+
+	<main>
+		{{ content }}
+	</main>
+
+	<footer>
+		<p>&copy; Cam Coulter 2021</p>
+	</footer>
+</body>
+
 </html>
