@@ -6,4 +6,4 @@ permalink: /About-This-Site/
 
 # About This Site
 
-* View the [ReadMe](/ReadMe/) page for this site.
+* View the [ReadMe](/About-This-Site/ReadMe/) page for this site.

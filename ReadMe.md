@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "README"
-permalink: /ReadMe/
+permalink: /About-This-Site/ReadMe/
 ---
 
 # ReadMe
@@ -13,12 +13,12 @@ This website is a work-in-progress. This will be my personal website/blog.
 * <code>jekyll new camcoulter.com --blank</code>
 * Host codebase on GitHub
 * Host site with Netlify
+* Add 404 page
 
 ## To-Do
 
 ### Getting Started
 
-* Add 404 page
 * Make website [REUSE-compliant](https://reuse.software/)
 * Add dark mode
 * Figure out and start using:
