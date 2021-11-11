@@ -16,12 +16,12 @@ This website is a work-in-progress. This will be my personal website/blog.
 * Host codebase on GitHub
 * Host site with Netlify
 * Add 404 page
+* Make website [REUSE-compliant](https://reuse.software/)
 
 ## To-Do
 
 ### Getting Started
 
-* Make website [REUSE-compliant](https://reuse.software/)
 * Add dark mode
 * Figure out and start using:
 	* HTML validator/linter
