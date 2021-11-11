@@ -7,8 +7,8 @@
 	],
 	"sourcesContent": [
 		"@import \"main\";\r\n",
-		"$backgroundColor: #ffffff;\r\n$bodyColor: #000000;\r\n$bodyFont: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\r\n\r\nbody {\r\n  background: $backgroundColor;\r\n  color: $bodyColor;\r\n  font-family: $bodyFont;\r\n}\r\n\r\na:focus {\r\n\toutline: 2px solid;\r\n\toutline-offset: 1px;\r\n}\r\na:hover {\r\n\ttext-decoration: none;\r\n}\r\n"
+		"/*\r\n * SPDX-FileCopyrightText: 2021 Cam Coulter <git@camcoulter.com>\r\n * SPDX-License-Identifier: AGPL-3.0-or-later\r\n */\r\n\r\nbody {\r\n  background: white;\r\n  color: black;\r\n  font-family: sans-serif;\r\n}\r\n\r\na:focus {\r\n\toutline: 2px solid;\r\n\toutline-offset: 1px;\r\n}\r\na:hover {\r\n\ttext-decoration: none;\r\n}\r\n"
 	],
 	"names": [],
-	"mappings": "ACIA,AAAA,IAAI,CAAC,EACH,UAAU,EALM,OAAO,EAMvB,KAAK,EALK,OAAO,EAMjB,WAAW,EALF,aAAa,EAAC,kBAAkB,EAAC,UAAU,EAAC,SAAS,EAAC,KAAK,EAAC,UAAU,EAAC,mBAAmB,EAAC,gBAAgB,EAAC,iBAAiB,GAMvI;;AAED,AAAA,CAAC,CAAC,KAAK,CAAC,EACP,OAAO,EAAE,SAAS,EAClB,cAAc,EAAE,GAAG,GACnB;;AACD,AAAA,CAAC,CAAC,KAAK,CAAC,EACP,eAAe,EAAE,IAAI,GACrB"
+	"mappings": "ACAA,8GAGG;AAEH,AAAA,IAAI,CAAC,EACH,UAAU,EAAE,KAAK,EACjB,KAAK,EAAE,KAAK,EACZ,WAAW,EAAE,UAAU,GACxB;;AAED,AAAA,CAAC,CAAC,KAAK,CAAC,EACP,OAAO,EAAE,SAAS,EAClB,cAAc,EAAE,GAAG,GACnB;;AACD,AAAA,CAAC,CAAC,KAAK,CAAC,EACP,eAAe,EAAE,IAAI,GACrB"
 }

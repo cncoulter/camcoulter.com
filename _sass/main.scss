@@ -1,11 +1,12 @@
-$backgroundColor: #ffffff;
-$bodyColor: #000000;
-$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+/*
+ * SPDX-FileCopyrightText: 2021 Cam Coulter <git@camcoulter.com>
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ */
 
 body {
-  background: $backgroundColor;
-  color: $bodyColor;
-  font-family: $bodyFont;
+  background: white;
+  color: black;
+  font-family: sans-serif;
 }
 
 a:focus {
