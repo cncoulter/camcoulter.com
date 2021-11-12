@@ -1,8 +1,0 @@
-/* SPDX-FileCopyrightText: 2021 Cam Coulter <git@camcoulter.com> SPDX-License-Identifier: AGPL-3.0-or-later */
-body { background: white; color: black; font-family: sans-serif; }
-
-a:focus { outline: 2px solid; outline-offset: 1px; }
-
-a:hover { text-decoration: none; }
-
-/*# sourceMappingURL=main.css.map */
