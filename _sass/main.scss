@@ -2,17 +2,48 @@
  * SPDX-FileCopyrightText: 2021 Cam Coulter <git@camcoulter.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
+:root {
+	/* Colors */
+	--color: #000000;
+	--bg-color: #FFFFFF;
+	--link-color: #2E2EFF;
+	--link-visited-color: #B10DC9;
+	--link-active-color: #EB0C00;
+}
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color: #FFFFFF;
+		--bg-color: #121212;
+		--link-color: #3DA5FF;
+		--link-visited-color: #E66DF8;
+		--link-active-color: #FF3429;
+	}
+}
 
 body {
-  background: white;
-  color: black;
-  font-family: sans-serif;
+	color: var(--color);
+	background: var(--bg-color);
+	font-family: sans-serif;
+}
+
+a:link {
+	color: var(--link-color);
+	text-decoration: underline;
+}
+
+a:visited {
+	color: var(--link-visited-color);
 }
 
 a:focus {
 	outline: 2px solid;
 	outline-offset: 1px;
 }
+
 a:hover {
 	text-decoration: none;
+}
+
+a:active {
+	color: var(--link-active-color);
 }

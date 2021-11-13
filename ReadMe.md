@@ -17,12 +17,12 @@ This website is a work-in-progress. This will be my personal website/blog.
 * Host site with Netlify
 * Add 404 page
 * Make website [REUSE-compliant](https://reuse.software/)
+* Add dark mode
 
 ## To-Do
 
 ### Getting Started
 
-* Add dark mode
 * Figure out and start using:
 	* HTML validator/linter
 	* A11y linters
