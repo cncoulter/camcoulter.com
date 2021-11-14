@@ -1,6 +1,6 @@
 ---
 SPDX-FileCopyrightText: 2021 Cam Coulter <git@camcoulter.com>
-SPDX-License-Identifier: AGPL-3.0-or-later
+SPDX-License-Identifier: CC-BY-SA-4.0
 layout: default
 title: "Homepage"
 ---
