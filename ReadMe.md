@@ -18,20 +18,14 @@ This website is a work-in-progress. This will be my personal website/blog.
 * Add 404 page
 * Make website [REUSE-compliant](https://reuse.software/)
 * Add dark mode
+* Add accessibility statement
 
 ## To-Do
-
-### Getting Started
-
-* Figure out and start using:
-	* HTML validator/linter
-	* A11y linters
 
 ### Filling Out Content & Style
 
 * Add head/meta
 * About This Site
-	* Accessibility Statement
 	* Privacy Policy
 	* Analytics
 	* Website Design & Hosting
@@ -58,6 +52,7 @@ This website is a work-in-progress. This will be my personal website/blog.
 * Add search form
 * Add dark/light mode toggle
 	* Examples/Inspiration:
+		* <https://a11y.coffee>
 		* <https://oinam.github.io/oinam-jekyll/>
 * Add focusable heading anchor links
 * Add transition/transform to focus styles?
