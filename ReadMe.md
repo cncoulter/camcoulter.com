@@ -1,6 +1,6 @@
 ---
 SPDX-FileCopyrightText: 2021 Cam Coulter <git@camcoulter.com>
-SPDX-License-Identifier: AGPL-3.0-or-later
+SPDX-License-Identifier: CC-BY-SA-4.0
 layout: default
 title: "README"
 permalink: /About-This-Site/ReadMe/
@@ -18,7 +18,10 @@ This website is a work-in-progress. This will be my personal website/blog.
 * Add 404 page
 * Make website [REUSE-compliant](https://reuse.software/)
 * Add dark mode
-* Add accessibility statement
+* Add About This Site
+	* Accessibility Statement
+	* Website Design & Hosting
+	* Copyright
 
 ## To-Do
 
@@ -28,8 +31,6 @@ This website is a work-in-progress. This will be my personal website/blog.
 * About This Site
 	* Privacy Policy
 	* Analytics
-	* Website Design & Hosting
-	* Copyright
 	* Features & Non-Features
 * About
 * Blog
