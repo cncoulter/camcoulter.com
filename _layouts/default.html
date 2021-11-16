@@ -2,33 +2,36 @@
 SPDX-FileCopyrightText: 2021 Cam Coulter <git@camcoulter.com>
 SPDX-License-Identifier: AGPL-3.0-or-later
 ---
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}" dir="ltr">
+	<!DOCTYPE html>
+	<html lang="{{ site.lang | default: "en-US" }}" dir="ltr">
 
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">
-	<title>{{ page.title }} - {{ site.title }}</title>
-	<link rel="stylesheet" href="/assets/css/main.css">
-</head>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>{{ page.title }} - {{ site.title }}</title>
+		<link rel="stylesheet" href="/assets/css/main.css">
+	</head>
 
-<body>
-	<header>
-		<nav>
-			<p>
-				<a href="/">Cam Coulter</a>
-			</p>
-		</nav>
-	</header>
+	<body>
+		<header>
+			<nav>
+				<p>
+					<a href="/">Cam Coulter</a>
+				</p>
+				<ul>
+					<li><a href="/About/">About</a></li>
+				</ul>
+			</nav>
+		</header>
 
-	<main>
-		{{ content }}
-	</main>
+		<main>
+			{{ content }}
+		</main>
 
-	<footer>
-		<p>&copy; Cam Coulter 2021</p>
-		<p><a href="/About-This-Site/">About This Site</a></p>
-	</footer>
-</body>
+		<footer>
+			<p>&copy; Cam Coulter 2021</p>
+			<p><a href="/About-This-Site/">About This Site</a></p>
+		</footer>
+	</body>
 
-</html>
+	</html>
