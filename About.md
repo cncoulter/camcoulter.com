@@ -14,7 +14,7 @@ Cam Coulter is a writer and accessibility nerd, among other things. They work as
 
 <figure class="About__Headshot">
     <img
-	alt="Cam Coulter smiles at the beach. They wear glasses, a purple shirt, and a gray sweater."
+	alt="Cam Coulter smiles at the beach. They wear glasses, a purple shirt, and a gray sweatshirt."
 	width="300" height="400"
 	src="/assets/images/cam-coulter.jpg"
 	srcset="
