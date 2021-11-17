@@ -2,7 +2,7 @@
 SPDX-FileCopyrightText: 2021 Cam Coulter <git@camcoulter.com>
 SPDX-License-Identifier: CC-BY-SA-4.0
 layout: default
-title: "README"
+title: "ReadMe"
 permalink: /About-This-Site/ReadMe/
 ---
 
@@ -22,11 +22,13 @@ This website is a work-in-progress. This will be my personal website/blog.
 	* Accessibility Statement
 	* Website Design & Hosting
 	* Copyright
+* Add Blog
 
 ## To-Do
 
 ### Filling Out Content & Style
 
+* Add favicon
 * Add head/meta
 * About This Site
 	* Privacy Policy
@@ -34,9 +36,9 @@ This website is a work-in-progress. This will be my personal website/blog.
 	* Features & Non-Features
 * About
 * Blog
-	* Blog "home"
-	* Blog page template (with [TOC](https://github.com/toshimaru/jekyll-toc))
-	* Blog pages
+	* Add Tags and Categories pages
+	* Add [TOC](https://github.com/toshimaru/jekyll-toc) to `_layouts/post.html`
+	* Add featured images to `_layouts/post.html`
 * Publications
 * Projects
 * Style header
@@ -44,6 +46,7 @@ This website is a work-in-progress. This will be my personal website/blog.
 * Add print stylesheet
 * Add responsive typography
 * Style templates
+* Style Blog page
 * Image includes
 
 ### More Advanced Features
