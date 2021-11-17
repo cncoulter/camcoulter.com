@@ -51,3 +51,24 @@ a:active {
 cite {
 	font-style: italic;
 }
+
+img, picture {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: brightness(.8) contrast(1.2);
+  }
+}
+
+figure {
+	text-align: center;
+}
+
+figure.About__Headshot img {
+	border-radius: 10px;
+}
