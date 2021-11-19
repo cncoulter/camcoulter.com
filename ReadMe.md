@@ -23,6 +23,7 @@ This website is a work-in-progress. This will be my personal website/blog.
 	* Website Design & Hosting
 	* Copyright
 * Add Blog
+	* Add Category Index and Tag Index
 
 ## To-Do
 
@@ -35,8 +36,8 @@ This website is a work-in-progress. This will be my personal website/blog.
 	* Analytics
 	* Features & Non-Features
 * About
+	* Add content
 * Blog
-	* Add Tags and Categories pages
 	* Add [TOC](https://github.com/toshimaru/jekyll-toc) to `_layouts/post.html`
 	* Add featured images to `_layouts/post.html`
 * Publications

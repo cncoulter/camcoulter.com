@@ -9,7 +9,12 @@ permalink: /Blog/
 <h1>Blog</h1>
 
 <ul>
+	<li><a href="/Blog/Categories">View Category Index</a></li>
+	<li><a href="/Blog/Tags">View Tag Index</a></li>
+</ul>
+
+<ul>
 	{% for post in site.posts %}
-		<li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %e, %Y" }}</time>: <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+	<li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %e, %Y" }}</time>: <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 	{% endfor %}
 </ul>
