@@ -7,6 +7,10 @@ title: "Cam Coulter" # the name of your site, e.g. ACME Corp.
 
 permalink: /:year/:month/:day/:title/
 
+# Collections
+collections_dir: collections
+
+
 plugins:
   - jekyll-sitemap
   - jekyll-redirect-from
