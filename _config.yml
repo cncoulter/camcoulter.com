@@ -9,7 +9,9 @@ permalink: /:year/:month/:day/:title/
 
 # Collections
 collections_dir: collections
-
+collections:
+    images:
+        output: false
 
 plugins:
   - jekyll-sitemap

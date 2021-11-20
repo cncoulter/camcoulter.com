@@ -1,0 +1,15 @@
+{% comment %}
+SPDX-FileCopyrightText: 2021 Cam Coulter <git@camcoulter.com>
+SPDX-License-Identifier: AGPL-3.0-or-later
+{% endcomment %}
+
+{% assign image = site.images | where: 'title', include.image | first %}
+<figure>
+    <img
+	class="full-width"
+	alt="{{ image.alt }}"
+	width="{{ image.width }}" height="{{ image.height }}"
+	src="{{ image.source }}"
+	srcset="{{ image.srcset }}">
+    <figcaption>{{ image.content }}</figcaption>
+</figure>
