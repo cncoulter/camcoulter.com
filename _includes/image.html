@@ -4,12 +4,12 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 {% endcomment %}
 
 {% assign image = site.images | where: 'title', include.image | first %}
-<figure>
+<figure {% if include.figClass %}class="{{ include.figClass }}"{% endif %}>
     <img
-	class="full-width"
-	alt="{{ image.alt }}"
-	width="{{ image.width }}" height="{{ image.height }}"
+	alt="{% if include.alt %}{{ include.alt }}{% elsif image.alt %}{{ image.alt }}{% endif %}"
+	{% if image.width %}width="{{ image.width }}"{% endif %}
+	{% if image.height %}height="{{ image.height }}"{% endif %}
 	src="{{ image.source }}"
-	srcset="{{ image.srcset }}">
+	{% if image.height %}srcset="{{ image.srcset }}"{% endif %}>
     <figcaption>{{ image.content }}</figcaption>
 </figure>

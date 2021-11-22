@@ -37,7 +37,11 @@ layout: default
 		<p>{{ page.description }}</p>
 
 		<!-- Featured Image -->
-        {% include image.html image=page.image %}
+		{% if page.image_alt %}
+        	{% include image.html image=page.image alt=page.image_alt figClass="full-width" %}
+		{% else %}
+			{% include image.html image=page.image figClass="full-width" %}
+		{% endif %}
 
 	</header>
 
