@@ -7,6 +7,8 @@ title: "Cam Coulter" # the name of your site, e.g. ACME Corp.
 
 permalink: /:year/:month/:day/:title/
 
+default_image: desk-keyboard-notebook
+
 # Collections
 collections_dir: collections
 collections:
