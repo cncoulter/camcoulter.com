@@ -15,8 +15,7 @@ tags:
 - CSS
 - audio descriptions
 - color
-description:
-- Accessibility Adventures is my way to signal-boost cool stuff, to leave notes for my future self, and to reflect on and engage with things I come across.
+description: Accessibility Adventures is my way to signal-boost cool stuff, to leave notes for my future self, and to reflect on and engage with things I come across.
 image: titmouse-flies
 ---
 

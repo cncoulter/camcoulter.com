@@ -9,7 +9,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
-	<title>{{ page.title }} - {{ site.title }}</title>
+	<title>{{ page.title | strip_html }} - {{ site.title }}</title>
 	<link rel="stylesheet" href="/assets/css/main.css">
 </head>
 
@@ -31,7 +31,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 	</main>
 
 	<footer class="container">
-		<p>&copy; Cam Coulter 2021</p>
+		<p>&copy; Cam Coulter 2016&ndash;2021</p>
 		<p><a href="/About-This-Site/">About This Site</a></p>
 	</footer>
 </body>

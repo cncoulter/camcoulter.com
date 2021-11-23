@@ -8,16 +8,16 @@ layout: default
 
 	<header>
 
-		<h1>{{ page.title }}</h1>
+		<h1>{{ page.title | markdownify }}</h1>
 
 		<ul>
-			<li>Posted on: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %e, %Y" }}</time>.</li>
+			<li>Posted on: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %e, %Y at %-I:%M %P %Z" }}</time>.</li>
 
-			{% if page.date_modified != empty %}
-			<li>Last modified on: <time datetime="{{ page.date_modified | date_to_xmlschema }}">{{ page.date_modified | date: "%B %e, %Y" }}</time>.</li>
+			{% if page.date_modified %}
+			<li>Last modified on: <time datetime="{{ page.date_modified | date_to_xmlschema }}">{{ page.date_modified | date: "%B %e, %Y  at %-I:%M %P %Z" }}</time>.</li>
 			{% endif %}
 
-			{% if page.categories != empty %}
+			{% if page.categories %}
 			<li>Categorized under:
 				{% for category in page.categories %}
 				<a href="{{ site.baseurl }}/Blog/Categories#{{ category | url_encode }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% if forloop.last == true %}.{% endif %}
@@ -25,7 +25,7 @@ layout: default
 			</li>
 			{% endif %}
 
-			{% if page.tags != empty %}
+			{% if page.tags %}
 			<li>Tagged with:
 				{% for tag in page.tags %}
 				<a href="{{ site.baseurl }}/Blog/Tags#{{ tag | url_encode }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}{% if forloop.last == true %}.{% endif %}
@@ -34,7 +34,7 @@ layout: default
 			{% endif %}
 		</ul>
 
-		<p>{{ page.description }}</p>
+		<p>{{ page.description | markdownify }}</p>
 
 		<!-- Featured Image -->
 		{% if page.image %}

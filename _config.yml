@@ -7,6 +7,8 @@ title: "Cam Coulter" # the name of your site, e.g. ACME Corp.
 
 permalink: /:year/:month/:day/:title/
 
+timezone: America/Los_Angeles
+
 default_image: desk-keyboard-notebook
 
 # Collections
