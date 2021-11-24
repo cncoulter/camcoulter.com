@@ -17,33 +17,16 @@ tags:
 - color
 description: Accessibility Adventures is my way to signal-boost cool stuff, to leave notes for my future self, and to reflect on and engage with things I come across.
 image: titmouse-flies
+toc: true
 ---
 
 TK fix link
 
+## Intro
+
 My last Accessibility Adventures blog post was just over a year ago now: "[Accessibility Adventures: October 2020](#)," and I'm happy to jump back into this column now. I'm hoping to write these a little more frequently and keep the posts a little shorter.
 
 Accessibility Adventures is my roundup of things I've come across in the realm of accessibility. These posts are my way to signal-boost cool stuff, to leave notes for my future self, and to reflect on and engage with things I come across.
-
-## Contents
-
-1.  [Accessible Birding](#accessible-birding)
-2.  [Accessible Podcasts](#accessible-podcasts)
-3.  [Love Letter to HTML & CSS](#love-letter-to-html--css)
-4.  [Description Lists (Featuring Dungeons & Dragons)](#description-lists-featuring-dungeons--dragons)
-5.  [HTML Essential Training with Jen Simmons](#html-essential-training-with-jen-simmons)
-6.  [Personalization & Accessibility](#personalization--accessibility)
-7.  [Sheri Byrne-Haber](#sheri-byrne-haber)
-8.  [Jennison Asuncion](#jennison-asuncion)
-9.  [(Virtual) Braille Keyboards](#virtual-braille-keyboards)
-10. [People Who Are Blind Play Video Games](#people-who-are-blind-play-video-games)
-11. [Black ASL](#black-asl)
-12. [Hocus :Focus (Keyboard Accessibility Horror Game)](#hocus-focus-keyboard-accessibility-horror-game)
-13. [HTMHell](#htmhell)
-14. [Integrated Described Video](#integrated-described-video)
-15. [Producing Audio Descriptions (With Text-to-Speech)](#producing-audio-descriptions-with-text-to-speech)
-16. [Thinking More Deeply About Color & Contrast](#thinking-more-deeply-about-color--contrast)
-17. [Accessibility Internet Rally](#accessibility-internet-rally)
 
 ## Accessible Birding
 

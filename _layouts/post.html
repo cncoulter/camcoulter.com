@@ -50,6 +50,10 @@ layout: default
 
 	</header>
 
+	{% if page.toc == true %}<h2>Contents</h2>{% endif %}
+
+	{{ content | toc_only }}
+
 	{{ content }}
 
 </article>
