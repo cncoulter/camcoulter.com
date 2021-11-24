@@ -1,4 +1,6 @@
 ---
+SPDX-FileCopyrightText: 2021 Cam Coulter <git@camcoulter.com>
+SPDX-License-Identifier: CC-BY-SA-4.0
 layout: post
 title: "<cite>The Jesuit Guide to (Almost) Everything: A Spirituality for Real Life</cite> by James Martin, S.J."
 permalink:
