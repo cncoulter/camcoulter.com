@@ -3,24 +3,11 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 
 url: "https://www.camcoulter.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "Cam Coulter" # the name of your site, e.g. ACME Corp.
-
-permalink: /:year/:month/:day/:title/
-
+title: "Cam Coulter"
+author: "Cam Coulter"
 timezone: America/Los_Angeles
-
+permalink: /:year/:month/:day/:title/
 default_image: desk-keyboard-notebook
-
-toc:
-  min_level: 1
-  max_level: 6
-  ordered_list: true
-  no_toc_section_class: no_toc_section
-  list_id: toc
-  list_class: section-nav
-  sublist_class: ''
-  item_class: toc-entry
-  item_prefix: toc-
 
 # Collections
 collections_dir: collections
@@ -33,3 +20,15 @@ plugins:
   - jekyll-redirect-from
   - jekyll-toc
   - jekyll-paginate
+
+# Plugin: jekyll-toc
+toc:
+  min_level: 1
+  max_level: 6
+  ordered_list: true
+  no_toc_section_class: no_toc_section
+  list_id: toc
+  list_class: section-nav
+  sublist_class: ''
+  item_class: toc-entry
+  item_prefix: toc-
