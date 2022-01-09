@@ -35,13 +35,15 @@ This website is a work-in-progress. This will be my personal website/blog.
 * Add Publications
 * Smooth scrolling except when prefers reduced motion
 * Skip to Main Content link
+* Add head/meta
 
 ## To-Do
 
 ### Filling Out Content & Style
 
 * Add favicon: https://favicon.io/emoji-favicons/memo/
-* Add head/meta
+* google-site-verification
+
 * Add Site Map
 * About This Site
 	* Privacy Policy
@@ -50,7 +52,7 @@ This website is a work-in-progress. This will be my personal website/blog.
 * About
 	* Add rest of content
 * Blog
-	* Add all posts
+	* **Add all posts**
 	* Style posts
 	* Style blog home
 * Projects
