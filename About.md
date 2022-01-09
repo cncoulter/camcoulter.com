@@ -4,6 +4,7 @@ SPDX-License-Identifier: CC-BY-NC-ND-4.0
 layout: default
 title: "About"
 permalink: /About/
+description: "Cam Coulter is a writer and accessibility nerd, among other things. They work as a training specialist for a disability services organization, and they think incessantly about ethical technology, speculative fiction, and intentional community."
 ---
 
 # About
