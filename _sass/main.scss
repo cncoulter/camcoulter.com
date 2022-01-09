@@ -24,7 +24,6 @@ body {
 	color: var(--color);
 	background: var(--bg-color);
 	font-family: sans-serif;
-
 	margin: 0;
 }
 
@@ -54,17 +53,17 @@ cite {
 	font-style: italic;
 }
 
-img, picture {
+img,
+picture {
 	display: block;
 	margin: auto;
 	max-width: 100%;
 	height: auto;
 }
-
 @media (prefers-color-scheme: dark) {
-  img {
-    filter: brightness(.8) contrast(1.2);
-  }
+	img {
+		filter: brightness(.8) contrast(1.2);
+	}
 }
 
 figure {
