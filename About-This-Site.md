@@ -10,7 +10,7 @@ permalink: /About-This-Site/
 
 ## Accessibility Statement
 
-I aim for this website to conform to the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) level AA. As far as I'm aware, it does.
+I aim for this website to conform to the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) level AA.
 
 Here are some of the tools I'm using to test this site for accessibility:
 
