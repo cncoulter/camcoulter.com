@@ -10,6 +10,6 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 	{% if image.width %}width="{{ image.width }}"{% endif %}
 	{% if image.height %}height="{{ image.height }}"{% endif %}
 	src="{{ image.source }}"
-	{% if image.height %}srcset="{{ image.srcset }}"{% endif %}>
-    <figcaption>{{ image.content }}</figcaption>
+	{% if image.srcset %}srcset="{{ image.srcset }}"{% endif %}>
+	{% if include.caption != "False" %}<figcaption>{{ image.content }}</figcaption>{% endif %}
 </figure>
