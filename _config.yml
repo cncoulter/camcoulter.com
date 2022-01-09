@@ -8,6 +8,8 @@ author: "Cam Coulter"
 timezone: America/Los_Angeles
 permalink: /:year/:month/:day/:title/
 default_image: desk-keyboard-notebook
+default_description: "Cam Coulter is a writer and accessibility nerd, among other things. They work as a training specialist for a disability services organization, and they think incessantly about ethical technology, speculative fiction, and intentional community."
+default_keywords: "blog, accessibility, technology, science fiction, fantasy"
 
 # Collections
 collections_dir: collections
