@@ -32,13 +32,17 @@ This website is a work-in-progress. This will be my personal website/blog.
 	* Add featured images
 	* Add [TOC](https://github.com/toshimaru/jekyll-toc) to `_layouts/post.html`
 * Add container
+* Add Publications
+* Smooth scrolling except when prefers reduced motion
+* Skip to Main Content link
 
 ## To-Do
 
 ### Filling Out Content & Style
 
-* Add favicon
+* Add favicon: https://favicon.io/emoji-favicons/memo/
 * Add head/meta
+* Add Site Map
 * About This Site
 	* Privacy Policy
 	* Analytics
@@ -46,12 +50,9 @@ This website is a work-in-progress. This will be my personal website/blog.
 * About
 	* Add rest of content
 * Blog
-	* Add pagination
-	* Add archive
 	* Add all posts
 	* Style posts
 	* Style blog home
-* Publications
 * Projects
 * Style header
 * Style footer
@@ -65,7 +66,7 @@ This website is a work-in-progress. This will be my personal website/blog.
 
 * Add RSS feed
 * Add contact form
-* Add search form
+* Add search form: https://kevq.uk/how-to-add-search-jekyll
 * Add dark/light mode toggle
 	* Examples/Inspiration:
 		* <https://a11y.coffee>
@@ -77,7 +78,10 @@ This website is a work-in-progress. This will be my personal website/blog.
 	* One for SFF + books
 	* One for A11y + FS
 * Add blogrolls
-* Add breadcrumbs
+* Add breadcrumbs (WCAG 2.4.8)
+	* Reference/inspiration:
+		* <https://meiert.com/en/blog/html-common-idioms>
+		* <https://www.w3.org/WAI/WCAG21/Techniques/general/G65.html>
 * Add summaries (like [Lainey Feingold's website](https://www.lflegal.com/2021/11/overlay-legal-update/))
 * Try to meet additional WCAG AAA success criteria
 
@@ -88,6 +92,15 @@ This website is a work-in-progress. This will be my personal website/blog.
 
 ### Misc Inspiration
 * https://ericwbailey.design/
+* https://www.tempertemper.net/blog/if-html-and-aria-dont-allow-it-its-probably-a-bad-idea
+* https://danabyerly.com/notes/dear-html-element/
+* https://kevq.uk/posts/
+* https://www.matuzo.at/blog/html-boilerplate/
+* https://css-irl.info/dont-forget-the-lang-attribute/
+* https://css-irl.info/
+* https://css-irl.info/accessible-toggles/
+* https://www.smashingmagazine.com/2021/10/respecting-users-motion-preferences/
+* https://www.craigabbott.co.uk/blog/defining-a-strategy-for-accessibility
 
 ## Documentation/Notes to Self
 
