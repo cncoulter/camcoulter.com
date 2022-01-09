@@ -88,3 +88,34 @@ figure.full-width img {
 .bookinfo {
 	font-style: italic;
 }
+
+html {
+	scroll-behavior: smooth;
+}
+
+a.skip-nav {
+	text-decoration: none;
+	background: var(--bg-color);
+	padding: 0.5rem 1rem;
+	border-radius: 0.25rem;
+	position: absolute;
+	left: 2rem;
+	outline: 2px solid;
+	outline-offset: 1px;
+	transform: translateY(-200%);
+	transition: transform 300ms ease;
+}
+
+a.skip-nav:focus {
+	transform: translateY(0);
+}
+@media (prefers-reduced-motion) {
+	html {
+		scroll-behavior: auto;
+	}
+
+	* {
+		animation: none !important;
+		transition: none !important;
+	}
+}
