@@ -4,7 +4,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 {% endcomment %}
 
 {% assign image = site.images | where: 'title', include.image | first %}
-<figure {% if include.figClass %}class="{{ include.figClass }}"{% endif %}>
+<figure{% if include.figClass %} class="{{ include.figClass }}"{% endif %}>
     <img
 	alt="{% if include.alt %}{{ include.alt }}{% elsif image.alt %}{{ image.alt }}{% endif %}"
 	{% if image.width %}width="{{ image.width }}"{% endif %}
