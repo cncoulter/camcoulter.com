@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: 2021 Cam Coulter <git@camcoulter.com>
+SPDX-FileCopyrightText: 2022 Cam Coulter <git@camcoulter.com>
 SPDX-License-Identifier: CC-BY-SA-4.0
 layout: default
 title: "Blog"
@@ -15,7 +15,7 @@ title: "Blog"
 
 {% for post in site.posts limit:6 %}
 
-<h3>{{ post.title }}</h3>
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 <p>{{ post.description }}</p>
 <p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %e, %Y" }}</time></p>
 {% include image.html image=post.image caption="False" %}
@@ -29,7 +29,7 @@ title: "Blog"
 			<li><a href="/Blog/Archive">Blog Archive</a></li>
 			<li>Category Index</li>
 			<li>Tag Index</li>
-			<li>RSS Feed</li>
+			<li>RSS (Atom) Feed</li>
 		</ol>
 	</section>
 
