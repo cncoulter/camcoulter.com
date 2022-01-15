@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: 2021 Cam Coulter <git@camcoulter.com>
+SPDX-FileCopyrightText: 2022 Cam Coulter <git@camcoulter.com>
 SPDX-License-Identifier: CC-BY-SA-4.0
 layout: default
 title: "About This Site"
@@ -35,10 +35,12 @@ Please be advised, this website is still very much under development.
 
 ## Copyright
 
+This website's codebase is [REUSE-compliant](https://reuse.software/). That means each file should clearly indicate the copyright holder and license.
+
 This website (code and content) is created by and copyright Cam Coulter, unless otherwise noted.
 
 The code for this website is licensed under the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.html) (AGPL) version 3 or any later version, unless otherwise noted. The AGPL is a free/libre, open-source copyleft license. By all means, fork this project to set up your own website!
 
 Blog posts are licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0). All rights are reserved for all other content, unless otherwise noted.
 
-This website's codebase is [REUSE-compliant](https://reuse.software/). That means each file should clearly indicate the copyright holder and license.
+This website's favicon is the memo emoji from the open-source project [Twemoji](https://twemoji.twitter.com/). The graphic is copyright 2020 Twitter, Inc and other contributors, and it's licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. Thanks to [favicon.io](https://favicon.io/) for making it easy.

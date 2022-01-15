@@ -9,6 +9,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<title>{{ page.title | strip_html }} - {{ site.title }}</title>
 	<link rel="stylesheet" href="/assets/css/main.css">
 
@@ -19,6 +20,13 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 	{% if page.categories %}<meta name="keywords" content="{% for category in page.categories %}{{ category }}, {% endfor %}{% for tag in page.tags %}{{ tag }}{% if forloop.last == false %}, {% endif %}{% endfor %}">{% else %}<meta name="keywords" content="{{ site.default_keywords }}">{% endif %}
 	<meta name="author" content="{{ site.author }}">
 
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+
+	<!-- Open Graph Protocol -->
 	<meta property="og:title" content="{{ page.title | strip_html }} - {{ site.title }}">
 	<meta property="og:description" content="{% if page.description %}{{ page.description | markdownify | strip_html | strip }}{% else %}{{ site.default_description }}{% endif %}">
 	<meta property="og:locale" content="{{ site.lang | default: 'en-US' }}">
@@ -35,11 +43,14 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 	{% if page.date_modified %}<meta property="article:modified_time" content="{{ page.date_modified | date_to_xmlschema }}">{% endif %}
 	{% if page.tags %}<meta property="article:tag" content="{% for tag in page.tags %}{{ tag }}{% if forloop.last == false %}, {% endif %}{% endfor %}">{% endif %}{% else %}<meta property="og:type" content="website">{% endif %}
 
+	<!-- Twitter Cards -->
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="{{ page.title | strip_html }} - {{ site.title }}">
 	<meta name="twitter:description" content="{% if page.description %}{{ page.description | markdownify | strip_html | strip }}{% else %}{{ site.default_description }}{% endif %}">
 	<meta name="twitter:image" content="{{ site.url }}{{ og_image.source }}">
 	<meta name="twitter:image:alt" content="{{ og_image.alt }}">
+
+	<!-- Schema.org/JSON-LD -->
 
 </head>
 
