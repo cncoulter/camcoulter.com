@@ -1,4 +1,4 @@
-SPDX-FileCopyrightText: 2021 Cam Coulter <git@camcoulter.com>
+SPDX-FileCopyrightText: 2022 Cam Coulter <git@camcoulter.com>
 SPDX-License-Identifier: AGPL-3.0-or-later
 
 url: "https://www.camcoulter.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -18,10 +18,8 @@ collections:
         output: false
 
 plugins:
-  - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-toc
-  - jekyll-paginate
 
 # Plugin: jekyll-toc
 toc:
