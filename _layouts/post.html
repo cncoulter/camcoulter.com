@@ -8,7 +8,7 @@ layout: default
 
 	<header>
 
-		<h1>{{ page.title | markdownify }}</h1>
+		<h1>{{ page.title }}</h1>
 
 		<ul>
 			<li>Posted on: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %e, %Y at %-I:%M %P %Z" }}</time>.</li>
@@ -34,7 +34,7 @@ layout: default
 			{% endif %}
 		</ul>
 
-		<p>{{ page.description | markdownify }}</p>
+		{{ page.description | markdownify }}
 
 		<!-- Featured Image -->
 		{% if page.image %}
