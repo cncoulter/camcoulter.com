@@ -1,10 +1,11 @@
 ---
-SPDX-FileCopyrightText: 2021 Cam Coulter <git@camcoulter.com>
+SPDX-FileCopyrightText: 2022 Cam Coulter <git@camcoulter.com>
 SPDX-License-Identifier: CC-BY-SA-4.0
 layout: post
 title: "Recent Reading: Short Stories"
 published: true
 date: 2016-06-26 15:36
+date_modified: 2022-01-23 18:56
 categories:
 - reading
 tags:
@@ -16,12 +17,12 @@ tags:
 - Arthur C. Clarke
 - Roald Dahl
 - Langston Hughes
-description: I’ve been reading a lot of shot stories recently.
+description: I’ve been reading a lot of short stories recently.
 image: books-01
 toc: true
 ---
 
-I’ve been reading a lot of shot stories recently, so I figured I would group them all together in one post. Here we go.
+I’ve been reading a lot of short stories recently, so I figured I would group them all together in one post. Here we go.
 
 ## “[Beauty](http://www.lightspeedmagazine.com/fiction/beauty/	)” by David Barr Kirtley
 
