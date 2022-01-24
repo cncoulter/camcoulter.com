@@ -20,6 +20,7 @@ tags:
 - Mike Allen
 description: "Here's what I've read recently and my thoughts on it."
 image: books-01
+toc: true
 ---
 
 ## *Queer Style* by Adam Geczy and Vicki Karaminas
