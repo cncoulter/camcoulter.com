@@ -118,3 +118,8 @@ a.skip-nav:focus {
 		transition: none !important;
 	}
 }
+
+blockquote {
+	border-left: 0.2em solid var(--accent);
+	padding: .1em 2em;
+}
