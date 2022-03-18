@@ -123,3 +123,16 @@ blockquote {
 	border-left: 0.2em solid var(--accent);
 	padding: .1em 2em;
 }
+
+table {
+	display: table;
+	border-spacing: 2px;
+	border-collapse: collapse;
+	box-sizing: border-box;
+	text-indent: 0;
+}
+
+table, th, td {
+	outline: thin solid white;
+	padding: 0.25em;
+}
