@@ -14,7 +14,7 @@ tags:
 - Gravity Falls
 - Kipo and the Age of Wonderbeasts
 - Scooby-Doo
-description: "In SFF Adventures, I reflect on and shout out things I've been reading, listening to, and watching in the realms of science fiction and fantasy. Lately, that's included cartoons: <cite>Gravity Falls</cite>, <cite>Kipo</cite>, and <cite>Scooby-Doo</cite>."
+description: "Here’s what I’ve been reading, watching, and listening to lately in the realms of SFF: <cite>Gravity Falls</cite>, <cite>Kipo</cite>, <cite>Scooby-Doo</cite>, and <cite>Breaking the Glass Slipper</cite>."
 image: space-01
 toc: true
 ---

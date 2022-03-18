@@ -15,16 +15,14 @@ tags:
 - CSS
 - audio descriptions
 - color
-description: Accessibility Adventures is my way to signal-boost cool stuff, to leave notes for my future self, and to reflect on and engage with things I come across.
+description: "Here's what I've been thinking about in the world of accessibility: birding, description lists, personalization, video games, audio descriptions, and the contrast triangle."
 image: titmouse-flies
 toc: true
 ---
 
-TK fix link
+## Introduction
 
-## Intro
-
-My last Accessibility Adventures blog post was just over a year ago now: "[Accessibility Adventures: October 2020](#)," and I'm happy to jump back into this column now. I'm hoping to write these a little more frequently and keep the posts a little shorter.
+My last Accessibility Adventures blog post was just over a year ago now: "[Accessibility Adventures: October 2020]({{ site.baseurl }}{% post_url 2020-10-03-A11y-Adventures %})," and I'm happy to jump back into this column now. I'm hoping to write these a little more frequently and keep the posts a little shorter.
 
 Accessibility Adventures is my roundup of things I've come across in the realm of accessibility. These posts are my way to signal-boost cool stuff, to leave notes for my future self, and to reflect on and engage with things I come across.
 

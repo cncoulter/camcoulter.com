@@ -10,7 +10,7 @@ categories:
 tags:
 - short fiction
 - K.M. Szpara
-description: "Here are my favorite pieces of short fiction that were originally published in 2018."
+description: "Here are my favorite short stories from 2018."
 image: open-book-01
 ---
 
