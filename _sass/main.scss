@@ -2,6 +2,46 @@
  * SPDX-FileCopyrightText: 2021 Cam Coulter <git@camcoulter.com>
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
+
+@supports (font-variation-settings: normal) {
+	@font-face {
+		font-family: 'Source Serif';
+		src: url("../fonts/SourceSerif4Variable-Roman.otf.woff2") format("woff2 supports variations"), url("../fonts/SourceSerif4Variable-Roman.otf.woff2") format("woff2-variations");
+		font-style: normal;
+		font-weight: 200 900;
+	}
+	@font-face {
+		font-family: 'Source Serif';
+		src: url("../fonts/SourceSerif4Variable-Italic.otf.woff2") format("woff2 supports variations"), url("../fonts/SourceSerif4Variable-Italic.otf.woff2") format("woff2-variations");
+		font-style: italic;
+		font-weight: 200 900;
+	}
+	@font-face {
+		font-family: "Source Sans";
+		src: url("../font/SourceSans3VF-Roman.otf.woff2") format("woff2 supports variations"), url("../fonts/SourceSans3VF-Roman.otf.woff2") format("woff2-variations");
+		font-style: normal;
+		font-weight: 200 900;
+	}
+	@font-face {
+		font-family: "Source Sans";
+		src: url("../font/SourceSans3VF-Italic.otf.woff2") format("woff2 supports variations"), url("../fonts/SourceSans3VF-Italic.otf.woff2") format("woff2-variations");
+		font-style: italic;
+		font-weight: 200 900;
+	}
+	@font-face {
+		font-family: "Source Code";
+		src: url("../font/SourceCodeVariable-Roman.otf.woff2") format("woff2 supports variations"), url("../fonts/SourceCodeVariable-Roman.otf.woff2") format("woff2-variations");
+		font-style: normal;
+		font-weight: 200 900;
+	}
+	@font-face {
+		font-family: "Source Code";
+		src: url("../font/SourceCodeVariable-Italic.otf.woff2") format("woff2 supports variations"), url("../fonts/SourceCodeVariable-Italic.otf.woff2") format("woff2-variations");
+		font-style: italic;
+		font-weight: 200 900;
+	}
+}
+
 :root {
 	/* Colors */
 	--color: #000000;
@@ -9,6 +49,7 @@
 	--link-color: #2E2EFF;
 	--link-visited-color: #B10DC9;
 	--link-active-color: #EB0C00;
+	--accent: var(--link-color);
 }
 @media (prefers-color-scheme: dark) {
 	:root {
@@ -23,7 +64,11 @@
 body {
 	color: var(--color);
 	background: var(--bg-color);
-	font-family: sans-serif;
+	font-family: "Source Serif", serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.3rem;
+	line-height: 1.5;
 	margin: 0;
 }
 
@@ -80,16 +125,23 @@ figure.full-width img {
 
 .container {
 	margin: 0 auto;
-	max-width: 65rem;
+	max-width: 65rem; // this affects image sizes attribute
 	padding: 0 1rem;
+}
+
+.article_container {
+	margin: auto;
+	max-width: 50rem;
 }
 
 .bookinfo {
 	font-style: italic;
 }
-
-html {
-	scroll-behavior: smooth;
+@media (prefers-reduced-motion: no-preference) {
+	// progressive enhancement
+	html {
+		scroll-behavior: smooth;
+	}
 }
 
 a.skip-nav {
@@ -121,7 +173,7 @@ a.skip-nav:focus {
 
 blockquote {
 	border-left: 0.2em solid var(--accent);
-	padding: .1em 2em;
+	padding: 0.1em 2em;
 }
 
 table {
@@ -132,7 +184,9 @@ table {
 	text-indent: 0;
 }
 
-table, th, td {
+table,
+td,
+th {
 	outline: thin solid white;
 	padding: 0.25em;
 }

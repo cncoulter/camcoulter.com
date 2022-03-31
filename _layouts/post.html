@@ -50,10 +50,14 @@ layout: default
 
 	</header>
 
-	{% if page.toc == true %}<h2>Contents</h2>{% endif %}
+	<div class="article_container">
 
-	{{ content | toc_only }}
+		{% if page.toc == true %}<h2>Contents</h2>{% endif %}
 
-	{{ content }}
+		{{ content | toc_only }}
+
+		{{ content }}
+
+	</div>
 
 </article>
