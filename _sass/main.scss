@@ -47,9 +47,19 @@
 /*
 	# Variables (CSS Custom Properties)
 */
+/*
+	## Variables: First Defaults
+	* Mobile-first (affects font-size)
+	* Default color scheme: dark mode
+*/
 :root {
-	// ## Colors
-	// - Default color scheme: dark mode
+	// ### Fonts
+	--serif: "Source Serif", serif;
+	--sans: "Source Sans", system-ui, sans-serif;
+	--mono: "Source Code", monospace;
+	--fontSize-para: 1rem;
+
+	// ### Colors
 	--color: #FFFFFF;
 	--bg-color: #121212;
 	--link-color: #3DA5FF;
@@ -57,6 +67,9 @@
 	--link-active-color: #FF3429;
 	--accent: var(--link-color);
 }
+/*
+	## Variables: Light Mode
+*/
 @media (prefers-color-scheme: light) {
 	:root {
 		--color: #000000;
@@ -64,6 +77,22 @@
 		--link-color: #2E2EFF;
 		--link-visited-color: #B10DC9;
 		--link-active-color: #EB0C00;
+	}
+}
+/*
+	## Variables: Mid-Sized (tablet)
+*/
+@media (min-width: 40rem) {
+	:root {
+		--fontSize-para: 1.15rem;
+	}
+}
+/*
+	## Variables: Full-Sized (desktop)
+*/
+@media (min-width: 65rem) {
+	:root {
+		--fontSize-para: 1.3rem;
 	}
 }
 /*
@@ -87,10 +116,10 @@ html {
 body {
 	color: var(--color);
 	background: var(--bg-color);
-	font-family: "Source Serif", serif;
+	font-family: var(--serif);
 	font-style: normal;
 	font-weight: normal;
-	font-size: 1.3rem;
+	font-size: var(--fontSize-para);
 	line-height: 1.5;
 	margin: 0;
 }
@@ -207,6 +236,23 @@ a.skip-nav {
 a.skip-nav:focus {
 	transform: translateY(0);
 }
+/*
+	## Header and Footer
+*/
+body > footer,
+body > header {
+	font-family: var(--sans);
+}
+body > header > p {
+	font-family: var(--serif);
+}
+/*
+	# Utility Styles
+*/
+.font_sans {
+	font-family: var(--sans);
+}
+
 /*
 	# Page-Specific Styles
 */
