@@ -134,17 +134,21 @@ a:link {
 	text-decoration-thickness: auto;
 	text-underline-position: auto;
 }
+
 a:visited {
 	color: var(--link-visited-color);
 }
+
 a:focus {
 	outline: solid 2px;
 	border-radius: 2px;
 	text-decoration-thickness: 2px;
 }
+
 a:link:focus {
 	text-decoration-color: var(--link-color);
 }
+
 a:visited:focus {
 	text-decoration-color: var(--link-visited-color);
 }
@@ -157,16 +161,29 @@ a:visited:focus {
 		outline: none;
 	}
 }
-a.btn:focus {
-	outline-offset: 2px;
-	text-decoration-thickness: 3px;
-}
+
 a:hover {
 	text-decoration: none;
 }
+
 a:active {
 	color: var(--link-active-color);
 }
+
+.block-links a:link:focus {
+	color: var(--link-color);
+}
+.block-links a:visited:focus {
+	color: var(--link-visited-color);
+}
+.block-links a:focus {
+	background-color: var(--bg-color);
+	outline: solid 2px;
+	border-radius: 2px;
+	text-decoration-thickness: 3px;
+	outline-offset: 0.25em;
+}
+
 /*
 	## Text Formatting
 */
@@ -246,7 +263,8 @@ th {
 	## Skip to Main Content link
 */
 a.skip-nav {
-	text-decoration: none;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
 	background: var(--bg-color);
 	padding: 0.5rem 1rem;
 	border-radius: 0.25rem;
@@ -258,19 +276,84 @@ a.skip-nav {
 	transition: transform 300ms ease;
 }
 
+a.skip-nav:link {
+	color: var(--link-color);
+}
+
+a.skip-nav:visited {
+	color: var(--link-visited-color);
+}
+
 a.skip-nav:focus {
 	transform: translateY(0);
 }
 /*
-	## Header and Footer
+	## Header
 */
-body > footer,
-body > header {
+.banner {
 	font-family: var(--sans);
 }
 
-body > header > p {
+.banner h2 {
+	padding: 0;
+	margin-bottom: 0.25em;
+}
+.banner p {
 	font-family: var(--serif);
+	margin: 0;
+}
+
+.primary-nav {
+	list-style: none;
+	margin: .5em 0 0 0;
+	padding: 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	gap: 1em;
+}
+
+@media (min-width: 40rem) {
+	.primary-nav {
+		justify-content: flex-end;
+	}
+}
+
+/*
+	## Footer
+*/
+.contentinfo {
+	font-family: var(--sans);
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+.contentinfo {
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: start;
+	align-items: center;
+	gap: 0.5em;
+}
+.contentinfo p {
+	justify-self: start;
+	margin: 0;
+}
+@media (min-width: 40rem) {
+	.contentinfo {
+		grid-template-columns: 1fr 1fr;
+	}
+	.contentinfo p {
+		justify-self: end;
+	}
+}
+.contentinfo > ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	gap: 1em;
 }
 /*
 	# Utility Styles
