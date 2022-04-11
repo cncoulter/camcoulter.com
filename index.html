@@ -11,9 +11,13 @@ sitemap:
 
 <h1>Hello!</h1>
 
-<p>I'm a writer and accessibility nerd, among other things.</p>
+<div class="font_sans">
 
-<p>I am currently developing this website. This will be my personal website/blog. Stay tuned!</p>
+	<p>I'm a writer and accessibility nerd, among other things.</p>
+
+	<p>I am currently developing this website. This will be my personal website/blog. Stay tuned!</p>
+
+</div>
 
 <h2>Recent Posts</h2>
 
@@ -23,6 +27,7 @@ sitemap:
 <p>{{ post.description }}</p>
 <p><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %e, %Y" }}</time></p>
 {% include image.html image=post.image caption="False" %}
+<!-- If there's no featured image, use the site default - need to update -->
 
 {% endfor %}
 
