@@ -61,6 +61,7 @@
 	// ### Colors
 	--color: #FFFFFF;
 	--bg-color: #121212;
+	--bg-color-raised: #616161;
 	--link-color: #3DA5FF;
 	--link-visited-color: #E66DF8;
 	--link-active-color: #FF3429;
@@ -74,6 +75,7 @@
 	:root {
 		--color: #000000;
 		--bg-color: #FFFFFF;
+		--bg-color-raised: #949494;
 		--link-color: #2E2EFF;
 		--link-visited-color: #B10DC9;
 		--link-active-color: #EB0C00;
@@ -126,6 +128,7 @@ body {
 }
 /*
 	## Links
+	--------
 */
 a:link {
 	color: var(--link-color);
@@ -181,6 +184,7 @@ a:active {
 	outline: solid 2px;
 	border-radius: 2px;
 	text-decoration-thickness: 3px;
+	text-underline-position: auto;
 	outline-offset: 0.25em;
 }
 
@@ -212,7 +216,13 @@ mark {
 }
 
 figure {
+	margin: 1em 0em;
+	font-family: var(--sans);
 	text-align: center;
+}
+
+figcaption {
+	margin-top: 0.15em;
 }
 
 img,
@@ -258,9 +268,11 @@ th {
 }
 /*
 	# Specific, Recurring Components
+	================================
 */
 /*
 	## Skip to Main Content link
+	----------------------------
 */
 a.skip-nav {
 	text-decoration: underline;
@@ -288,7 +300,8 @@ a.skip-nav:focus {
 	transform: translateY(0);
 }
 /*
-	## Header
+	## Header/Banner
+	----------------
 */
 .banner {
 	font-family: var(--sans);
@@ -296,10 +309,17 @@ a.skip-nav:focus {
 
 .banner h2 {
 	padding: 0;
-	margin-bottom: 0.25em;
+	margin-bottom: 0em;
+	line-height: 1;
 }
+
+.banner h2 a:focus {
+	outline: none;
+	font-style: italic;
+	text-decoration-thickness: 6px;
+}
+
 .banner p {
-	font-family: var(--serif);
 	margin: 0;
 }
 
@@ -319,14 +339,20 @@ a.skip-nav:focus {
 	}
 }
 
+.primary-nav li {
+	//margin-inline: .5em;
+}
+
 /*
-	## Footer
+	## Footer/Contentinfo
+	---------------------
 */
 .contentinfo {
 	font-family: var(--sans);
 	margin-top: 2em;
 	margin-bottom: 1em;
 }
+
 .contentinfo {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -355,6 +381,21 @@ a.skip-nav:focus {
 	justify-content: flex-start;
 	gap: 1em;
 }
+
+/*
+	## Posts
+	--------
+*/
+
+.post header h1 {
+	margin-bottom: 0em;
+	line-height: 1.2;
+}
+.post header p {
+	margin-top: 0em;
+	font-family: var(--sans);
+}
+
 /*
 	# Utility Styles
 */
