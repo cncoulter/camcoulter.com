@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: 2021 Cam Coulter <git@camcoulter.com>
+SPDX-FileCopyrightText: 2022 Cam Coulter <git@camcoulter.com>
 SPDX-License-Identifier: AGPL-3.0-or-later
 layout: default
 ---
@@ -11,6 +11,18 @@ layout: default
 		<h1>{{ page.title }}</h1>
 
 		{{ page.description | markdownify }}
+
+		<!-- Featured Image -->
+		{% if page.image %}
+			{% assign featured_image = page.image %}
+		{% else %}
+			{% assign featured_image = site.default_image %}
+		{% endif %}
+		{% if page.image_alt %}
+			{% include image.html image=featured_image alt=page.image_alt figClass="full-width" %}
+		{% else %}
+			{% include image.html image=featured_image figClass="full-width" %}
+		{% endif %}
 
 		<ul>
 			<li>Posted on: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %e, %Y at %-I:%M %P %Z" }}</time>.</li>
@@ -35,18 +47,6 @@ layout: default
 			</li>
 			{% endif %}
 		</ul>
-
-		<!-- Featured Image -->
-		{% if page.image %}
-			{% assign featured_image = page.image %}
-		{% else %}
-			{% assign featured_image = site.default_image %}
-		{% endif %}
-		{% if page.image_alt %}
-        	{% include image.html image=featured_image alt=page.image_alt figClass="full-width" %}
-		{% else %}
-			{% include image.html image=featured_image figClass="full-width" %}
-		{% endif %}
 
 	</header>
 
