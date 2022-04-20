@@ -45,4 +45,6 @@ Blog posts are licensed under the [Creative Commons Attribution-ShareAlike 4.0 I
 
 This website uses the [Source Serif](https://github.com/adobe-fonts/source-serif/releases/tag/4.004R), [Source Sans](https://github.com/adobe-fonts/source-sans/releases/tag/3.046R), and [Source Code Pro](https://github.com/adobe-fonts/source-code-pro/releases/tag/2.038R-ro%2F1.058R-it%2F1.018R-VAR) fonts from Adobe, which are licensed under the SIL Open Font License (OFL) version 1.1.
 
+This website uses [Bootstrap icons](https://icons.getbootstrap.com/) for SVG icons, an open-source icon library released under the MIT license.
+
 This website's favicon is the memo emoji from the open-source project [Twemoji](https://twemoji.twitter.com/). The graphic is copyright 2020 Twitter, Inc and other contributors, and it's licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) license. Thanks to [favicon.io](https://favicon.io/) for making it easy.

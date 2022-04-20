@@ -3,8 +3,6 @@ Upstream-Name: camcoulter.com
 Upstream-Contact: Cam Coulter <git@camcoulter.com>
 Source: https://www.camcoulter.com
 
-# Sample paragraph, commented out:
-#
-# Files: src/*
-# Copyright: $YEAR $NAME <$CONTACT>
-# License: ...
+Files: _includes/SVGs/*
+Copyright: 2019-2021 The Bootstrap Authors
+License: MIT
