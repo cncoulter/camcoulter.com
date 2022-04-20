@@ -24,25 +24,35 @@ layout: default
 			{% include image.html image=featured_image figClass="full-width" %}
 		{% endif %}
 
-		<ul>
-			<li>Posted on: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %e, %Y at %-I:%M %P %Z" }}</time>.</li>
+		<ul class="post-metadata">
+			<li>
+				{% include SVGs/calendar3.svg %}
+				Posted on: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %e, %Y at %-I:%M %P %Z" }}</time>.
+			</li>
 
 			{% if page.date_modified %}
-			<li>Last modified on: <time datetime="{{ page.date_modified | date_to_xmlschema }}">{{ page.date_modified | date: "%B %e, %Y  at %-I:%M %P %Z" }}</time>.</li>
+			<li>
+				{% include SVGs/clock.svg %}
+				Last modified on: <time datetime="{{ page.date_modified | date_to_xmlschema }}">{{ page.date_modified | date: "%B %e, %Y  at %-I:%M %P %Z" }}</time>.
+			</li>
 			{% endif %}
 
 			{% if page.categories %}
-			<li>Categorized under:
+			<li>
+				{% include SVGs/folder.svg %}
+				Categorized under:
 				{% for category in page.categories %}
-				<a href="{{ site.baseurl }}/Blog/Categories#{{ category | url_encode }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% if forloop.last == true %}.{% endif %}
+					<a href="{{ site.baseurl }}/Blog/Categories#{{ category | url_encode }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% if forloop.last == true %}.{% endif %}
 				{% endfor %}
 			</li>
 			{% endif %}
 
 			{% if page.tags %}
-			<li>Tagged with:
+			<li>
+				{% include SVGs/tag.svg %}
+				Tagged with:
 				{% for tag in page.tags %}
-				<a href="{{ site.baseurl }}/Blog/Tags#{{ tag | url_encode }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}{% if forloop.last == true %}.{% endif %}
+					<a href="{{ site.baseurl }}/Blog/Tags#{{ tag | url_encode }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}{% if forloop.last == true %}.{% endif %}
 				{% endfor %}
 			</li>
 			{% endif %}

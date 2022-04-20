@@ -236,6 +236,10 @@ picture {
 figure.full-width img {
 	width: 100%;
 }
+
+svg.bi {
+	height: 1em;
+}
 /*
 	## Tables
 */
@@ -394,6 +398,11 @@ a.skip-nav:focus {
 .post header p {
 	margin-top: 0em;
 	font-family: var(--sans);
+}
+
+.post-metadata {
+	list-style: none;
+	padding: 0;
 }
 
 /*
