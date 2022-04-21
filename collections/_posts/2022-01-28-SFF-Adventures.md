@@ -21,7 +21,7 @@ toc: true
 
 ## Introduction
 
-Time this around, I'm going to skip talking about books and instead just shout out essays, podcasts, and TV shows. Why? I've recently posted my reading roundup for 2021, so check out that post for my thoughts on the SFF I've been reading: "[2021 in Reading]({% post_url 2022-01-10-2021-in-Reading %})."
+This time around, I'm going to skip talking about books and instead just shout out essays, podcasts, and TV shows. Why? I've recently posted my reading roundup for 2021, so check out that post for my thoughts on the SFF I've been reading: "[2021 in Reading]({% post_url 2022-01-10-2021-in-Reading %})."
 
 ## Essays & Blog Posts
 
