@@ -176,9 +176,11 @@ a:active {
 .block-links a:link:focus {
 	color: var(--link-color);
 }
+
 .block-links a:visited:focus {
 	color: var(--link-visited-color);
 }
+
 .block-links a:focus {
 	background-color: var(--bg-color);
 	outline: solid 2px;
@@ -187,7 +189,6 @@ a:active {
 	text-underline-position: auto;
 	outline-offset: 0.25em;
 }
-
 /*
 	## Text Formatting
 */
@@ -216,7 +217,7 @@ mark {
 }
 
 figure {
-	margin: 1em 0em;
+	margin: 1em 0;
 	font-family: var(--sans);
 	text-align: center;
 }
@@ -237,8 +238,12 @@ figure.full-width img {
 	width: 100%;
 }
 
-svg.bi {
+.bi {
+	display: inline-block;
+	font-size: inherit;
 	height: 1em;
+	overflow: visible;
+	vertical-align: -.125em;
 }
 /*
 	## Tables
@@ -279,6 +284,7 @@ th {
 	----------------------------
 */
 a.skip-nav {
+	font-weight: bold;
 	text-decoration: underline;
 	text-decoration-thickness: 2px;
 	background: var(--bg-color);
@@ -313,7 +319,7 @@ a.skip-nav:focus {
 
 .banner h2 {
 	padding: 0;
-	margin-bottom: 0em;
+	margin-bottom: 0;
 	line-height: 1;
 }
 
@@ -329,14 +335,13 @@ a.skip-nav:focus {
 
 .primary-nav {
 	list-style: none;
-	margin: .5em 0 0 0;
+	margin: 0.5em 0 0;
 	padding: 0;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-evenly;
 	gap: 1em;
 }
-
 @media (min-width: 40rem) {
 	.primary-nav {
 		justify-content: flex-end;
@@ -346,7 +351,6 @@ a.skip-nav:focus {
 .primary-nav li {
 	//margin-inline: .5em;
 }
-
 /*
 	## Footer/Contentinfo
 	---------------------
@@ -364,6 +368,7 @@ a.skip-nav:focus {
 	align-items: center;
 	gap: 0.5em;
 }
+
 .contentinfo p {
 	justify-self: start;
 	margin: 0;
@@ -372,10 +377,12 @@ a.skip-nav:focus {
 	.contentinfo {
 		grid-template-columns: 1fr 1fr;
 	}
+
 	.contentinfo p {
 		justify-self: end;
 	}
 }
+
 .contentinfo > ol {
 	list-style: none;
 	margin: 0;
@@ -385,29 +392,77 @@ a.skip-nav:focus {
 	justify-content: flex-start;
 	gap: 1em;
 }
-
 /*
 	## Posts
 	--------
 */
-
 .post header h1 {
-	margin-bottom: 0em;
+	margin-bottom: 0;
 	line-height: 1.2;
 }
+
 .post header p {
-	margin-top: 0em;
+	margin-top: 0;
 	font-family: var(--sans);
 }
 
-.post-metadata {
+.post_metadata {
 	list-style: none;
 	padding: 0;
+	font-family: var(--sans);
 }
 
+.post_tags {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	gap: 1em;
+	font-family: var(--sans);
+}
+
+.post_tags a:link {
+	border: 1px solid;
+	border-radius: 10px;
+	padding: 0.15em;
+	text-decoration: none;
+}
+
+.post_tags a:focus,
+.post_tags a:hover {
+	color: var(--bg-color);
+	background-color: var(--link-color);
+}
+
+.post_tags a:visited:focus,
+.post_tags a:visited:hover {
+	background-color: var(--link-visited-color);
+}
+
+.post_tags a:focus {
+	outline: 2px solid var(--link-color);
+}
+
+.post_tags a:visited:focus {
+	outline: 2px solid var(--link-visited-color);
+}
 /*
 	# Utility Styles
 */
+.visually-hidden {
+	position: absolute !important;
+	height: 1px;
+	width: 1px;
+	overflow: hidden;
+	padding: 0 !important;
+	border: 0 !important;
+	white-space: nowrap !important;
+	clip: rect(1px 1px 1px 1px) !important; // IE6, IE7
+	clip: rect(1px, 1px, 1px, 1px) !important;
+	clip-path: inset(50%) !important;
+}
+
 .font_sans {
 	font-family: var(--sans);
 }
