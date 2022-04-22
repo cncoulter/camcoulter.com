@@ -412,6 +412,28 @@ a.skip-nav:focus {
 	font-family: var(--sans);
 }
 
+a.reply-via-email {
+	display: block;
+	width: max-content;
+	margin-inline: auto;
+	margin-block: 2em;
+	padding: .5em;
+	font-family: var(--sans);
+	text-decoration: none;
+	border: 1px solid;
+	border-radius: 10px;
+}
+
+a.reply-via-email:hover,
+a.reply-via-email:focus {
+	color: var(--bg-color);
+	background-color: var(--link-color);
+}
+
+a.reply-via-email:focus {
+	outline: 2px solid var(--link-color);
+}
+
 .post_tags {
 	list-style: none;
 	padding: 0;
@@ -466,6 +488,11 @@ a.skip-nav:focus {
 .font_sans {
 	font-family: var(--sans);
 }
+
+.margin-block-2em {
+	margin-block: 2em;
+}
+
 /*
 	# Page-Specific Styles
 */
