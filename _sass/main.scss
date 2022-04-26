@@ -61,12 +61,14 @@
 	// ### Colors
 	--color: #FFFFFF;
 	--bg-color: #121212;
-	--bg-color-raised: #616161;
+	--bg-color-raised: #1F1F1F;
 	--link-color: #3DA5FF;
 	--link-visited-color: #E66DF8;
 	--link-active-color: #FF3429;
 	--highlight: #616161;
 	--accent: var(--link-color);
+	// ### Other
+	--rounded: 0.5em;
 }
 /*
 	## Variables: Light Mode
@@ -75,7 +77,7 @@
 	:root {
 		--color: #000000;
 		--bg-color: #FFFFFF;
-		--bg-color-raised: #949494;
+		--bg-color-raised: #E6E6E6;
 		--link-color: #2E2EFF;
 		--link-visited-color: #B10DC9;
 		--link-active-color: #EB0C00;
@@ -495,9 +497,75 @@ a.reply-via-email:focus {
 
 /*
 	# Page-Specific Styles
+	======================
 */
 /*
+	## Index
+	--------
+*/
+
+.recent-post {
+	box-sizing: border-box;
+	border: 1px solid var(--color);
+	border-radius: var(--rounded);
+	background-color: var(--bg-color-raised);
+	font-family: var(--sans);
+
+	display: flex;
+	flex-direction: column;
+}
+
+.recent-post:focus-within {
+	outline: 3px solid var(--color);
+}
+
+.recent-post > * {
+	margin: 0;
+}
+
+.recent-post_title {
+	font-family: var(--serif);
+	margin: 0.5em;
+	margin: 0.5em;
+}
+
+.recent-post_title a:focus {
+	color: var(--color);
+	text-decoration-thickness: 4px;
+	text-underline-position: under;
+	outline: none;
+}
+
+.recent-post_description {
+	flex-grow: 1;
+	margin-inline: 0.5em;
+}
+
+.recent-post_image {
+	order: -1;
+}
+
+.recent-post_image img {
+	aspect-ratio: 640 / 427;
+	object-fit: cover;
+	border-top-left-radius: var(--rounded);
+	border-top-right-radius: var(--rounded);
+}
+
+.recent-post_date {
+	margin-top: 1em;
+	margin-inline: 0.5em;
+}
+
+.recent-posts {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+	gap: 1em;
+}
+
+/*
 	## About
+	--------
 */
 figure.About__Headshot img {
 	border-radius: 10px;
