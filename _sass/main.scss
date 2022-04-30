@@ -4,7 +4,7 @@
  */
 /*
 	# FONTS
-	- I am using three open-source variable fonts: Source Serif, Sans, and Code from Adobe.
+	- I am using three open-source variable fonts from Adobe: Source Serif, Source Sans, and Source Code.
 */
 @supports (font-variation-settings: normal) {
 	@font-face {
@@ -58,6 +58,7 @@
 	--sans: "Source Sans", system-ui, sans-serif;
 	--mono: "Source Code", monospace;
 	--fontSize-para: 1rem;
+
 	// ### Colors
 	color-scheme: dark;
 	--color: #FFFFFF;
@@ -67,9 +68,11 @@
 	--link-visited-color: #E66DF8;
 	--link-active-color: #FF3429;
 	--highlight: #616161;
+	--bg-code: #343434;
 	--accent: var(--link-color);
 	// ### Other
 	--rounded: 0.5em;
+	--inline-rounded: 5px;
 }
 /*
 	## Variables: Light Mode
@@ -84,6 +87,7 @@
 		--link-visited-color: #B10DC9;
 		--link-active-color: #EB0C00;
 		--highlight: #FFDC00;
+		--bg-code: #F2F1F1;
 	}
 }
 /*
@@ -130,6 +134,11 @@ body {
 	line-height: 1.5;
 	margin: 0;
 }
+
+/*
+	## Headings
+	-----------
+*/
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -251,7 +260,7 @@ a:active {
 	## Text Formatting
 */
 .bookinfo,
-cite {
+cite, em, i {
 	font-style: italic;
 }
 
@@ -265,6 +274,26 @@ mark {
 	background-color: var(--highlight);
 	color: var(--color);
 }
+
+code {
+	padding: .125em .25em;
+	border-radius: var(--inline-rounded);
+	background-color: var(--bg-code);
+	font-family: var(--mono);
+}
+
+kbd {
+	display: inline-block;
+	padding: 0 3px;
+	margin: 1px;
+	border: 1px solid #666;
+	border-width: 1px 2px 2px 1px;
+	border-radius: var(--inline-rounded);
+	font-family: var(--sans);
+	font-weight: 600;
+	text-align: center;
+}
+
 /*
 	## Figures & Images
 */
