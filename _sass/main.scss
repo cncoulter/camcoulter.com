@@ -59,6 +59,7 @@
 	--mono: "Source Code", monospace;
 	--fontSize-para: 1rem;
 	// ### Colors
+	color-scheme: dark;
 	--color: #FFFFFF;
 	--bg-color: #121212;
 	--bg-color-raised: #1F1F1F;
@@ -75,6 +76,7 @@
 */
 @media (prefers-color-scheme: light) {
 	:root {
+		color-scheme: light;
 		--color: #000000;
 		--bg-color: #FFFFFF;
 		--bg-color-raised: #E6E6E6;
