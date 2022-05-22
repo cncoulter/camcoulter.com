@@ -3,12 +3,12 @@ SPDX-FileCopyrightText: 2022 Cam Coulter <git@camcoulter.com>
 SPDX-License-Identifier: CC-BY-SA-4.0
 layout: default
 title: "Design Guide"
-permalink: /Design-Guide/
+permalink: /About-This-Site/Design-Guide/
 ---
 
 <h1>{{ page.title }}</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eius, accusantium obcaecati corrupti facere mollitia distinctio iure, consequuntur cumque, et eligendi molestias, aliquid incidunt quasi.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis illum nisi quibusdam pariatur similique dolorem expedita, repellat! Aliquam sunt nisi hic ipsum, pariatur, deserunt commodi.</p>
+<p>This is the design guide for this site. This page shows native HTML elements as well as custom components that have been styled for this site. This page exists for the purpose of identifying which elements and components have styles specifically created for them and showcasing those styles. As such, this is not a typical page, and you will encounter a fair bit of lorem ipsum content below.</p>
+<p>Below, I've left notes about some of the design choices and features of different elements, but those notes are not meant to be considered complete or exhaustive. For further documentation on use or modifying these styles, see the CSS file or the site's <a href="/About-This-Site/ReadMe/">ReadMe</a> page.</p>
 
 <h2>Heading Level 2</h2>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae et est laborum doloribus voluptatem veniam harum odio, dolorum in, veritatis sint, rem expedita iusto nihil?</p>
@@ -30,21 +30,104 @@ permalink: /Design-Guide/
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, voluptates quibusdam culpa totam ipsa placeat cupiditate cum, vel voluptatum ex id necessitatibus commodi! Reprehenderit, veniam.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ratione, reiciendis voluptate rerum laboriosam molestiae, odio quibusdam minima rem voluptates expedita, temporibus provident modi ipsa!</p>
 
-<h2>Inline Elements</h2>
+<h2>Dark Mode & Light Mode</h2>
+<p>This site supports both dark and light modes. Change your OS or user agent preferences to change between modes.</p>
 
-<p>The <a href="#">a element</a>.</p>
+<h2 id="inline-elements">Inline Elements</h2>
 
-<p>Here's an abbreviation: <abbr title="Web Content Accessibility Guidelines">WCAG</abbr>.</p>
+<p>The <a href="#inline-elements">a element</a>. This element has unique styles for the hover, focus, and active pseudo-classes.</p>
 
 <p>Here are some elements that appear bolded: <b>the b element</b>, <strong>the strong element</strong>.</p>
 
 <p>Here are some elements that appear italicized: <i>the i element</i>, <em>the em element</em>, <cite>the cite element</cite>.</p>
 
-<p>The <mark>mark element</mark> example.</p>
+<p>The <code>::selection</code> pseudo-element is styled as well. Highlight this text to see it change color.</p>
 
-<p>The <code>code element</code>: the <code>code</code> example.</p>
+<p>Here is the <code>&lt;mark&gt;</code> element: <mark>this text is marked/highlighed</mark>.</p>
 
-<p>The <code>kbd</code> element: <kbd>Alt</kbd>+<kbd>D</kbd> jumps your focus to the browser's URL/search bar.</p>
+<p>Here is the <code>&lt;code&gt;</code> element: this is the <code>&lt;code&gt;</code> element.</p>
+
+<p>Here is the <code>&lt;kbd&gt;</code> element: <kbd>Alt</kbd>+<kbd>D</kbd> jumps your focus to the browser's URL/search bar.</p>
+
+<h2>Lists</h2>
+
+<h3>Ordered List</h3>
+<ol>
+  <li>List Item 1</li>
+  <li>List Item 2</li>
+  <li>List Item 3
+    <ol>
+      <li>List Item 3.1</li>
+      <li>List Item 3.2
+        <ol>
+          <li>List Item 3.2.1</li>
+          <li>List Item 3.2.2</li>
+        </ol>
+      </li>
+      <li>List Item 3.3</li>
+    </ol>
+  </li>
+  <li>List Item 4</li>
+</ol>
+
+<h3>Unordered List</h3>
+<ul>
+  <li>List Item 1</li>
+  <li>List Item 2</li>
+  <li>List Item 3
+    <ul>
+      <li>List Item 3.1</li>
+      <li>List Item 3.2
+        <ul>
+          <li>List Item 3.2.1</li>
+          <li>List Item 3.2.2</li>
+        </ul>
+      </li>
+      <li>List Item 3.3</li>
+    </ul>
+  </li>
+  <li>List Item 4</li>
+</ul>
+
+<h3>Description List</h3>
+<dl>
+  <dt>Definition Term 1</dt>
+  <dd>Definition Description 1</dd>
+  <dt>Definition Term 2</dt>
+  <dd>Definition Description 2</dd>
+</dl>
+
+<h2>Tables</h2>
+
+<table>
+	<caption>Budget</caption>
+    <thead>
+        <tr>
+            <th>Item</th>
+			<th scope="col">Cost (in galactic credits)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Starship</th>
+            <td>9999999</td>
+        </tr>
+		<tr>
+			<th scope="row">Ion core</th>
+			<td>70099</td>
+		</tr>
+		<tr>
+			<th scope="row">Rations</th>
+			<td>2000</td>
+		</tr>
+    </tbody>
+	<tfoot>
+		<tr>
+            <th scope="row">Total</th>
+            <td>10072098</td>
+        </tr>
+	</tfoot>
+</table>
 
 <h2>Block Level Elements</h2>
 
@@ -54,6 +137,59 @@ permalink: /Design-Guide/
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam error blanditiis et culpa ut vero ea quibusdam, consequatur natus quidem nihil officiis a porro accusamus accusantium facilis amet dolore beatae?</p>
 </blockquote>
 
+<!-- <h3>Details/Summary</h3>
+
+<details>
+  <summary>Here is a <code>&lt;summary&gt;</code> element.</summary>
+  <p>Here is a paragraph underneath a <code>&lt;summary&gt;</code> element within a <code>&lt;details&gt;</code> element.</p>
+</details> -->
+
 <h3>Horizontal Rule</h3>
 
 <hr>
+
+<h2>Custom Components</h2>
+
+<div class="raised">
+	<h3>Raised Card</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis porro similique, cum quidem tempore corporis, pariatur voluptate delectus quisquam soluta sequi quae, cumque aliquid ratione.</p>
+</div>
+
+<h3>Links & Buttons</h3>
+
+<h4>Inline</h4>
+
+<p>Here is a standard inline link: <a href="https://annleckie.com/">Ann Leckie</a> is one of my favorite authors. Links have unique states for hover, focus, and active states.</p>
+
+<h4>“Undercover” Links</h4>
+
+<p>Below is a set of “undercover” links. I use these in the header and the footer. They look more or less like simple, free-floating links, but they have a nice rounded outline which appears on focus and which gives the impression of being a button.</p>
+
+<p>In a list of links, give the <code>&lt;ul&gt;</code> or <code>&lt;ol&gt;</code> element <code>class="link-undercover--list"</code>, and give each link <code>class="link-undercover"</code>, like so:</p>
+
+<ul class="link-undercover--list">
+	<li><a href="/About-This-Site/" class="link-undercover">About This Site</a></li>
+	<li><a href="/Site-Map/" class="link-undercover">Site Map</a></li>
+</ul>
+
+<p>If you have one standalone undercover link, give it both of these classes: <code>class="link-undercover link-undercover--standalone"</code>, like so:</p>
+
+<a href="/Publications/" class="link-undercover link-undercover--standalone">Publications</a>
+
+<h4>“Turncoat” Links</h4>
+
+<p>Next up we have “turncoat” links. I use these for tag links after blog posts. They look like classic outline buttons, and in a focus or hover state, their colors flip. These links are often prefaced by a decorative SVG icon.</p>
+
+<p>In a list of links, give the <code>&lt;ul&gt;</code> or <code>&lt;ol&gt;</code> element <code>class="link-turncoat--list"</code>, and give each link <code>class="link-turncoat"</code>, like so:</p>
+
+<ul class="link-turncoat--list">
+	<li><a href="/Blog/Tags#publishing" class="link-turncoat">{% include SVGs/tag-fill.svg %} publishing</a></li>
+	<li><a href="/Blog/Tags#disability" class="link-turncoat">{% include SVGs/tag-fill.svg %} disability</a></li>
+	<li><a href="/Blog/Tags#cartoons" class="link-turncoat">{% include SVGs/tag-fill.svg %} cartoons</a></li>
+</ul>
+
+<p>If you have one standalone turncoat link, give it both of these classes: <code>class="link-turncoat link-turncoat--standalone"</code>, like so:</p>
+
+<a href="/Blog/Archive/" class="link-turncoat link-turncoat--standalone">{% include SVGs/archive.svg %} Blog Archive</a>
+
+<p>The standalone turncoat links have some extra padding.</p>

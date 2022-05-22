@@ -28,7 +28,7 @@ If you come across any accessibility or usability issues on this site, please le
 * This site is hosted with [Netlify](https://www.netlify.com/).
 * [This site's codebase](https://github.com/cncoulter/camcoulter.com) is hosted on GitHub.
 * View the [ReadMe](/About-This-Site/ReadMe/) page for this site.
-* View the [Design Guide](/Design-Guide/) for this site.
+* View the [Design Guide](/About-This-Site/Design-Guide/) for this site.
 
 I'm using the static site generator [Jekyll](https://jekyllrb.com/) to knit the site together, and I'm consciously avoiding Jekyll themes and frameworks such as Bootstrap, instead preferring to write all the website code myself.
 

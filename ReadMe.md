@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: 2021 Cam Coulter <git@camcoulter.com>
+SPDX-FileCopyrightText: 2022 Cam Coulter <git@camcoulter.com>
 SPDX-License-Identifier: CC-BY-SA-4.0
 layout: default
 title: "ReadMe"
@@ -28,6 +28,7 @@ This website is a work-in-progress. This will be my personal website/blog.
 	* Short bio
 	* Photo
 * Add Blog
+	* Add all blog posts
 	* Add category index and tag index
 	* Add featured images
 	* Add [TOC](https://github.com/toshimaru/jekyll-toc) to `_layouts/post.html`
@@ -36,29 +37,36 @@ This website is a work-in-progress. This will be my personal website/blog.
 * Smooth scrolling except when prefers reduced motion
 * Skip to Main Content link
 * Add head/meta
+* Add Site Map
+* Add favicon
+* XML sitemap
+* Add fonts
 
-## To-Do
+## To-Do Soon
+
+* https://poormansstyleguide.com/
+* Style:
+	* Responsive typography
+	* h1, h2, etc
+	* code element
+	* header
+	* footer
 
 ### Filling Out Content & Style
 
-* Add favicon: https://favicon.io/emoji-favicons/memo/
-* google-site-verification
-
-* Add Site Map
 * About This Site
 	* Privacy Policy
-	* Analytics
-	* Features & Non-Features
 * About
 	* Add rest of content
 * Blog
-	* **Add all posts**
 	* Style posts
 	* Style blog home
 * Projects
+
 * Style header
 * Style footer
 * Add print stylesheet
+	* https://www.matuzo.at/blog/i-totally-forgot-about-print-style-sheets/
 * Add responsive typography
 * Style templates
 * Style Blog pages
@@ -66,34 +74,44 @@ This website is a work-in-progress. This will be my personal website/blog.
 
 ### More Advanced Features
 
-* Add RSS feed
-* Add contact form
+* Press button style
+* Add web feeds
+	* https://validator.w3.org/feed/docs/atom.html#text
+	* https://css-tricks.com/working-with-web-feeds-its-more-than-rss/
+	* Try to add RSS, Atom, & JSON, lol?
+	* Different feed options for: 10 recent posts vs all posts; reading+SFF vs tech+a11y?
 * Add search form: https://kevq.uk/how-to-add-search-jekyll
 * Add dark/light mode toggle
+	* https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model
 	* Examples/Inspiration:
+		* <https://12daysofweb.dev/2021/preference-queries/>
 		* <https://a11y.coffee>
 		* <https://oinam.github.io/oinam-jekyll/>
+* [prefers-contrast](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-contrast) (high contrast mode)
+* Add contact form
 * Add focusable heading anchor links
-* Add transition/transform to focus styles?
-	* Exempt prefers-reduced-motion
-* Add multiple RSS feeds
-	* One for SFF + books
-	* One for A11y + FS
 * Add blogrolls
 * Add breadcrumbs (WCAG 2.4.8)
 	* Reference/inspiration:
 		* <https://meiert.com/en/blog/html-common-idioms>
 		* <https://www.w3.org/WAI/WCAG21/Techniques/general/G65.html>
+		* <https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Breadcrumb_Navigation>
 * Add summaries (like [Lainey Feingold's website](https://www.lflegal.com/2021/11/overlay-legal-update/))
 * Try to meet additional WCAG AAA success criteria
+* Optimize sizes attribute for images
+* Expanding/collapsing mobile navbar
 
 ### Publishing
 
 * Add [Plausible](https://plausible.io/) analytics
 	* UTM parameters?
+* site verification
+	* google-site-verification
+	* bing, too
 
 ### Misc Inspiration
 * https://ericwbailey.design/
+* https://yatil.net/blog
 * https://www.tempertemper.net/blog/if-html-and-aria-dont-allow-it-its-probably-a-bad-idea
 * https://danabyerly.com/notes/dear-html-element/
 * https://kevq.uk/posts/
@@ -105,6 +123,10 @@ This website is a work-in-progress. This will be my personal website/blog.
 * https://www.craigabbott.co.uk/blog/defining-a-strategy-for-accessibility
 
 ## Documentation/Notes to Self
+
+### Liquid
+
+Read Liquid documentation at: <https://shopify.github.io/liquid/>.
 
 ### Images
 
@@ -168,3 +190,15 @@ What if you want to use different alt text for a post's featured image? Include 
 	image: desk-keyboard-notebook
 	image_alt: "This is alternative alt text."
 	{% endraw %}
+
+### Image Metadata
+
+In practice, add a featured image to every post.
+
+However, code this website in such a way that featured images are not technically required:
+
+* If a post lacks a featured image, the post should display the site's default image as the post's featured image.
+* If a post lacks a featured image, use the site's default image on the homepage under "Recent Posts".
+* If a post lacks a featured image, set the site's default image as the featured image for head metadata purposes.
+
+The same goes for alt text. In practice, be sure to include alt text for every image in the images collection. In practice, code the site such that alt text is only included if it exists.
