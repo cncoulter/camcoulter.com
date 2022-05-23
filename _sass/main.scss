@@ -805,3 +805,26 @@ figure.About__Headshot img {
 .archive-post ul {
 	margin: 0;
 }
+
+/*
+	## Blog: Category & Tag Indexes
+	-------------------------------
+*/
+.cat-tag-item {
+	margin-block: 2em;
+	padding: 1em;
+	background-color: var(--clr-bg-raised);
+	border-radius: var(--rounded);
+}
+
+.cat-tag-item:focus-within {
+	outline: medium dotted var(--clr-primary);
+}
+
+.cat-tag-item h2 {
+	margin-top: 0;
+}
+
+.cat-tag-item ol {
+	margin-bottom: 0;
+}
