@@ -359,7 +359,6 @@ a:active {
 /*
 	## Text Formatting
 */
-.bookinfo,
 cite, em, i {
 	font-style: italic;
 }
@@ -650,6 +649,13 @@ a.skip-nav:focus {
 	font-family: var(--ft-sans);
 }
 
+.bookinfo {
+	padding: .5em;
+	border-color: var(--clr-primary);
+	border-style: outset;
+	font-family: var(--ft-sans);
+}
+
 /*
 	# Utility Styles
 */
@@ -766,4 +772,36 @@ a.skip-nav:focus {
 */
 figure.About__Headshot img {
 	border-radius: 10px;
+}
+
+/*
+	## Blog: Archive
+	----------------
+*/
+
+.archive-post {
+	margin-block: 2em;
+	padding: 1em;
+	background-color: var(--clr-bg-raised);
+	border-radius: var(--rounded);
+}
+
+.archive-post:focus-within {
+	outline: medium solid var(--clr-primary);
+}
+
+@media (prefers-color-scheme: dark) {
+	.archive-post a:focus {
+		background-color: var(--clr-primary);
+		color: var(--clr-bg);
+
+	}
+}
+
+.archive-post h2 {
+	margin: 0;
+}
+
+.archive-post ul {
+	margin: 0;
 }

@@ -8,9 +8,9 @@ permalink: /Blog/Archive/
 
 <h1>{{ page.title }}</h1>
 
-<ul>
-	<li><a href="/Blog/Categories">View Category Index</a></li>
-	<li><a href="/Blog/Tags">View Tag Index</a></li>
+<ul class="link-turncoat--list">
+	<li><a href="/Blog/Categories" class="link-turncoat">{% include SVGs/folder.svg %} Category Index</a></li>
+	<li><a href="/Blog/Tags" class="link-turncoat">{% include SVGs/tag.svg %} Tag Index</a></li>
 </ul>
 
 {% for post in site.posts %}
@@ -18,12 +18,14 @@ permalink: /Blog/Archive/
 	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 	{{ post.description | markdownify }}
 	{% if post.categories %}
-	<p>Categorized under:
-		{% for category in post.categories %}
-		<a href="{{ site.baseurl }}/Blog/Categories#{{ category | url_encode }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% if forloop.last == true %}.{% endif %}
-		{% endfor %}
-	</p>
-	<p>Posted on: <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %e, %Y" }}</time></p>
+	<ul class="post_metadata">
+		<li>{% include SVGs/calendar3.svg %} Posted on: <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %e, %Y" }}</time></li>
+		<li>{% include SVGs/folder.svg %} Categorized under:
+			{% for category in post.categories %}
+			<a href="{{ site.baseurl }}/Blog/Categories#{{ category | url_encode }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% if forloop.last == true %}.{% endif %}
+			{% endfor %}
+		</li>
+	</ul>
 	{% endif %}
 </div>
 {% endfor %}
