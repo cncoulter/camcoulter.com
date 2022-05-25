@@ -24,7 +24,7 @@ sitemap:
 <div class="recent-posts">
 	{% for post in site.posts limit:6 %}
 		<div class="recent-post">
-			<h3 class="recent-post_title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+			<h3 class="recent-post_title h4"><a href="{{ post.url }}">{{ post.title }}</a></h3>
 			<p class="recent-post_description">{{ post.description }}</p>
 			{% include image.html image=post.image figClass="recent-post_image" caption="False" %}
 			<!-- If there's no featured image, use the site default - need to update -->
