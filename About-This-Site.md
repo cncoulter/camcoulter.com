@@ -8,6 +8,18 @@ permalink: /About-This-Site/
 
 # About This Site
 
+<div class="raised section-margin-top">
+
+<h2>Contents</h2>
+
+<ol>
+	<li><a href="#accessibility-statement">Accessibility Statement</a></li>
+	<li><a href="#website-design--hosting">Website Design & Hosting</a></li>
+	<li><a href="#copyright">Copyright</a></li>
+</ol>
+
+</div>
+
 ## Accessibility Statement
 
 I aim for this website to conform to the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) level AA.

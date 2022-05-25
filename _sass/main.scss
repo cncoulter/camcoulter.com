@@ -698,6 +698,10 @@ a.skip-nav:focus {
 	margin-block: 2em;
 }
 
+.section-margin-top {
+	margin-block-start: calc(var(--ft-size-base) * 2.5);
+}
+
 /*
 	# Page-Specific Styles
 	======================
