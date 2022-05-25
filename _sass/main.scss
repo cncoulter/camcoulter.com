@@ -529,7 +529,8 @@ caption {
 */
 a.skip-nav {
 	color: var(--clr-link);
-	font-weight: bold;
+	font-family: var(--ft-sans);
+	//font-weight: bold;
 	text-decoration: underline;
 	text-decoration-thickness: 2px;
 	text-underline-position: auto;
@@ -567,6 +568,10 @@ a.skip-nav:focus {
 	padding: 0;
 	margin-bottom: 0;
 	line-height: 1;
+}
+
+.banner h2 a {
+	text-decoration-thickness: 2px;
 }
 
 .banner h2 a:visited {
