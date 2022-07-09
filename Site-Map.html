@@ -35,14 +35,14 @@ permalink: /Site-Map/
 
 <h2>Posts</h2>
 
-<ul>
+<ol reversed>
 {% for post in site.posts %}
 	<li><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %e, %Y" }}</time>: <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
-</ul>
+</ol>
 
 <aside>
 	<h2>XML Site Map (For Robots)</h2>
 	<p>Are you a robot looking for an XML site map? You've come to the right place.</p>
-	<a href="/sitemap.xml">XML Site Map</a>
+	<a href="/sitemap.xml" class="link-turncoat link-turncoat--standalone">{% include SVGs/map.svg %} XML Site Map</a>
 </aside>
