@@ -311,6 +311,7 @@ a:active {
 	border: 1px solid;
 	border-radius: var(--rounded);
 	padding: 0.15em;
+	padding-inline: 0.3em;
 	text-decoration: none;
 }
 
@@ -480,6 +481,7 @@ figure.full-width img {
 	height: 1em;
 	overflow: visible;
 	vertical-align: -.125em;
+	padding-inline-end: 0.25em;
 }
 /*
 	## Tables
