@@ -8,16 +8,14 @@ permalink: /About-This-Site/
 
 # About This Site
 
-<div class="raised section-margin-top">
+<div class="toc">
+	<h2>Contents</h2>
 
-<h2>Contents</h2>
-
-<ol>
-	<li><a href="#accessibility-statement">Accessibility Statement</a></li>
-	<li><a href="#website-design--hosting">Website Design & Hosting</a></li>
-	<li><a href="#copyright">Copyright</a></li>
-</ol>
-
+	<ol>
+		<li><a href="#accessibility-statement">Accessibility Statement</a></li>
+		<li><a href="#website-design--hosting">Website Design & Hosting</a></li>
+		<li><a href="#copyright">Copyright</a></li>
+	</ol>
 </div>
 
 ## Accessibility Statement

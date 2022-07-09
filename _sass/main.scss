@@ -474,7 +474,7 @@ figure.full-width img {
 	width: 100%;
 }
 
-.bi {
+.bi { // Bootstrap Icons
 	display: inline-block;
 	font-size: inherit;
 	height: 1em;
@@ -694,12 +694,24 @@ a.skip-nav:focus {
 	margin-bottom: 0;
 }
 
-.margin-block-2em {
-	margin-block: 2em;
+.toc {
+	max-width: 30rem;
+	margin-inline: auto;
+	margin-block-start: calc(var(--ft-size-base) * 2.5);
+	margin-block-end: 1em;
+	padding: 1em;
+	background-color: var(--clr-bg-raised);
+	border-radius: var(--rounded);
+}
+.toc :first-child {
+	margin-top: 0;
+}
+.toc :last-child {
+	margin-bottom: 0;
 }
 
-.section-margin-top {
-	margin-block-start: calc(var(--ft-size-base) * 2.5);
+.margin-block-2em {
+	margin-block: 2em;
 }
 
 /*
