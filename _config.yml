@@ -5,10 +5,11 @@ url: "https://www.camcoulter.com" # the base hostname & protocol for your site, 
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "Cam Coulter"
 author: "Cam Coulter"
+public-email: "hi@camcoulter.com"
 timezone: America/Los_Angeles
 permalink: /:year/:month/:day/:title/
 default_image: desk-keyboard-notebook
-default_description: "Cam Coulter is a writer and accessibility nerd, among other things. They work as a training specialist for a disability services organization, and they think incessantly about ethical technology, speculative fiction, and intentional community."
+default_description: "Cam Coulter is a writer and accessibility nerd, among other things. They work as a digital accessibility consultant, and they think incessantly about ethical technology, speculative fiction, and intentional community."
 default_keywords: "blog, accessibility, technology, science fiction, fantasy"
 
 # Collections

@@ -1,0 +1,41 @@
+---
+# SPDX-FileCopyrightText: 2022 Cam Coulter <git@camcoulter.com>
+# SPDX-License-Identifier: GPL-3.0-or-later
+layout: null
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>{{ site.url }}/</id>
+    <title type="text" xml:lang="en">{{ site.title }}</title>
+    <subtitle>{{ site.default_description }}</subtitle>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+    <author>
+		<name>{{ site.author }}</name>
+		<uri>{{ site.url }}</uri>
+		<email>{{ site.public-email }}</email>
+    </author>
+	<link rel="self" type="application/atom+xml" href="{{ site.url }}/feed.xml" />
+    <link rel="alternate" type="text/html" href="{{ site.url }}/" />
+    <icon>{{ site.url }}/android-chrome-192x192.png</icon>
+    <rights>Copyright © {{ site.time | date: "%Y" }} {{ site.author }}.</rights>
+	<generator uri="https://jekyllrb.com/">Jekyll</generator>
+
+    {% for post in site.posts %}
+        <entry>
+            <title type="html">{{ post.title | xml_escape }}</title>
+			{% if post.categories %}<category term="{% for category in post.categories %}{{ category }}{% if forloop.last == false %}, {% endif %}{% endfor %}"/>{% endif %}
+            <author>
+                <name>{{ site.author }}</name>
+                <uri>{{ site.url }}</uri>
+                <email>{{ site.public-email }}</email>
+            </author>
+            <link href="{{ site.url }}{{ post.url }}"/>
+            <published>{{ post.date | date_to_xmlschema }}</published>
+            {% if post.date_modified  %}<updated>{{ post.date_modified | date_to_xmlschema }}</updated>{% else %}<updated>{{ post.date | date_to_xmlschema }}</updated>{% endif %}
+            <id>{{ site.url }}{{ post.id }}</id>
+            {% if post.description  %}<summary type="html">{{ post.description | xml_escape }}</summary>{% endif %}
+            <content type="html">{{ post.content | xml_escape }}</content>
+        </entry>
+    {% endfor %}
+</feed>
