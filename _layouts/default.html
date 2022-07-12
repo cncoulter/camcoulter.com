@@ -14,6 +14,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 
 	<link rel="stylesheet" href="/assets/css/main.css">
 	<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+	<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
 
 	<meta name="description" content="{% if page.description %}{{ page.description | markdownify | strip_html | strip }}{% else %}{{ site.default_description }}{% endif %}">
 	{% if page.categories %}<meta name="keywords" content="{% for category in page.categories %}{{ category }}, {% endfor %}{% for tag in page.tags %}{{ tag }}{% if forloop.last == false %}, {% endif %}{% endfor %}">{% else %}
