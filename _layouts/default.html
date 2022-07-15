@@ -14,7 +14,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 
 	<link rel="stylesheet" href="/assets/css/main.css">
 	<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
-	<link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+	<link rel="alternate" type="application/atom+xml" title="Atom feed for Cam Coulter's blog" href="/feed.xml" />
 
 	<meta name="description" content="{% if page.description %}{{ page.description | markdownify | strip_html | strip }}{% else %}{{ site.default_description }}{% endif %}">
 	{% if page.categories %}<meta name="keywords" content="{% for category in page.categories %}{{ category }}, {% endfor %}{% for tag in page.tags %}{{ tag }}{% if forloop.last == false %}, {% endif %}{% endfor %}">{% else %}
@@ -106,6 +106,7 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 			<ol class="link-undercover--list">
 				<li><a href="/About-This-Site/" class="link-undercover">About This Site</a></li>
 				<li><a href="/Site-Map/" class="link-undercover">Site Map</a></li>
+				<li><a href="/Blog/Subscribe" class="link-undercover">Subscribe</a></li>
 			</ol>
 			<p>&copy; Cam Coulter 2016&ndash;2022</p>
 		</footer>
