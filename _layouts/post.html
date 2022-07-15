@@ -64,7 +64,7 @@ layout: default
 
 		<hr class="margin-block-2em">
 
-		<a href="mailto:hi@camcoulter.com?subject=RE: {{ page.title }}" class="link-turncoat link-turncoat--standalone">{% include SVGs/envelope.svg %} Reply via email</a>
+		<a href="mailto:hi@camcoulter.com?subject=RE:%20{{ page.title | uri_escape }}" class="link-turncoat link-turncoat--standalone">{% include SVGs/envelope.svg %} Reply via email</a>
 
 		{% if page.tags %}
 		<h2 class="visually-hidden">Tagged with</h2>
