@@ -257,6 +257,11 @@ a:hover {
 a:active {
 	color: var(--clr-link-active);
 }
+@media (prefers-color-scheme: light) {
+	a:active {
+		color: var(--clr-on-bg);
+ 	}
+}
 /*
 	### Undercover Links
 	--------------------
