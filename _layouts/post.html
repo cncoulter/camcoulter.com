@@ -14,14 +14,14 @@ layout: default
 
 		<!-- Featured Image -->
 		{% if page.image %}
-			{% assign featured_image = page.image %}
+		{% assign featured_image = page.image %}
 		{% else %}
-			{% assign featured_image = site.default_image %}
+		{% assign featured_image = site.default_image %}
 		{% endif %}
 		{% if page.image_alt %}
-			{% include image.html image=featured_image alt=page.image_alt figClass="full-width" %}
+		{% include image.html image=featured_image alt=page.image_alt figClass="full-width doNotPrint" %}
 		{% else %}
-			{% include image.html image=featured_image figClass="full-width" %}
+		{% include image.html image=featured_image figClass="full-width doNotPrint" %}
 		{% endif %}
 
 		<ul class="post_metadata">
@@ -42,7 +42,7 @@ layout: default
 				{% include SVGs/folder.svg %}
 				Categorized under:
 				{% for category in page.categories %}
-					<a href="{{ site.baseurl }}/Blog/Categories#{{ category | url_encode }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% if forloop.last == true %}.{% endif %}
+				<a href="{{ site.baseurl }}/Blog/Categories#{{ category | url_encode }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% if forloop.last == true %}.{% endif %}
 				{% endfor %}
 			</li>
 			{% endif %}
@@ -62,19 +62,19 @@ layout: default
 
 		{{ content }}
 
-		<hr class="margin-block-2em">
+		<div class="doNotPrint">
 
-		<a href="mailto:hi@camcoulter.com?subject=RE:%20{{ page.title | uri_escape }}" class="link-turncoat link-turncoat--standalone">{% include SVGs/envelope.svg %} Reply via email</a>
+			<hr class="margin-block-2em">
 
-		{% if page.tags %}
-		<h2 class="visually-hidden">Tagged with</h2>
-		<ul class="link-turncoat--list">
-			{% for tag in page.tags %}
+			<a href="mailto:hi@camcoulter.com?subject=RE:%20{{ page.title | uri_escape }}" class="link-turncoat link-turncoat--standalone">{% include SVGs/envelope.svg %} Reply via email</a>
+
+			{% if page.tags %}
+			<h2 class="visually-hidden">Tagged with</h2>
+			<ul class="link-turncoat--list">
+				{% for tag in page.tags %}
 				<li><a href="{{ site.baseurl }}/Blog/Tags#{{ tag | url_encode }}" class="link-turncoat">{% include SVGs/tag-fill.svg %} {{ tag }}</a></li>
-			{% endfor %}
-		</ul>
-		{% endif %}
+				{% endfor %}
+			</ul>
+			{% endif %}
 
-	</div>
-
-</article>
+		</div </div> </article>

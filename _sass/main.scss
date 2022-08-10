@@ -849,3 +849,109 @@ figure.About__Headshot img {
 .cat-tag-item ol {
 	margin-bottom: 0;
 }
+
+/*
+	# PRINT STYLES
+	==============
+*/
+
+@media screen {
+	.printOnly {
+		display: none;
+	}
+}
+
+@media print {
+
+	:root {
+		// ### Fonts
+		--ft-size-base: 12pt;
+
+		// ### Colors
+		color-scheme: light;
+		--clr-bg: white;
+		--clr-bg-raised: #292929;
+		--clr-on-bg: black;
+		--clr-primary: #72C5A1;
+		--clr-on-primary: var(--clr-bg);
+		--clr-primary-faint: var(--clr-bg-raised);
+		--clr-accent:#DCA8C0;
+		--clr-on-accent: var(--clr-bg);
+		--clr-link: blue;
+		--clr-link-visited: purple;
+		--clr-link-active: red;
+		--clr-bg-code: #343434;
+		--clr-mark: #FFFF70; // at least 3:1 contrast against --clr-bg and at least 4.5:1 contrast against --clr-on-bg
+	}
+
+	// Don't print these things
+	header.banner nav,
+	footer.contentinfo,
+	.doNotPrint {
+		display: none;
+	}
+
+	// Print URLs for links that go to a different site
+	a[href^='http']:not([href*='camcoulter.com'], .doNotPrintLink):after {
+	  content: ' (' attr(href) ')';
+	}
+
+	// Print URLs for links that go to a different site
+	a[href^='mailto']:after {
+	  content: ' (' attr(href) ')';
+	}
+
+	// For abbreviations, print their expanded form
+	abbr[title]:after {
+	  content: ' (' attr(title) ')';
+	}
+
+	// Update general styles to be more print-friendly
+	header.banner h2 a {
+		text-decoration: none;
+		color: black !important;
+		font-weight: 400;
+	}
+
+	.raised,
+	.toc,
+	.recent-post,
+	.archive-post,
+	.cat-tag-item {
+		border: 1px solid black;
+	}
+
+	.recent-post,
+	.archive-post {
+		break-inside: avoid;
+	}
+
+	.body {
+		hyphens: auto;
+	}
+
+	.article_container {
+		columns: 1;
+	}
+
+	td,
+	th {
+		outline: thin solid black;
+	}
+
+	blockquote {
+		border-left: 0.2em solid black;
+		padding: 0.1em 2em;
+		position: relative;
+	}
+
+	blockquote::before {
+		content: "\201C";
+		position: absolute;
+		font-size: 4em;
+		left: .05em;
+		top: -0.25em;
+		color: black;
+	}
+
+}
