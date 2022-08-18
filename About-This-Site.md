@@ -37,6 +37,8 @@ I want this site to work well for people with disabilities and people who use as
 * Images should have appropriate textual equivalents (alt text). Controls should have appropriate accessible names, roles, and states so that screen readers properly announce content for users. Screen reader users should be able to effectively read and navigate this site.
 * You should be able to navigate this site if CSS or JavaScript fails to load (or if you have JavaScript disabled).
 
+Beyond WCAG, I also want this site to work well for people who use high contrast mode on Windows. (I use this mode myself sometimes, and it can be a huge help.) I have designed and tested this site so that it should work well when viewed in high contrast mode on Windows.
+
 Here are some of the tools I'm using to test this site for accessibility:
 
 * W3C's HTML validator
@@ -58,7 +60,7 @@ If you come across any accessibility or usability issues on this site, please le
 
 When designing this site, I consciously avoided Jekyll themes and frameworks such as Bootstrap, instead preferring to write pretty much all all the website code myself. I designed this site to be simple, clean, readable, and accessible. This site mostly functions as my personal blog, which includes a blog archive, category index, tag index, and an Atom feed.
 
-This site should work well on both desktop and mobile devices, and the text size should automatically increase slightly on larger screens. The site supports both light and dark modes. (It automatically adjusts according to your browser preference.)
+This site should work well on both desktop and mobile devices, and the text size should automatically increase slightly on larger screens. The site supports both light and dark modes. (It automatically adjusts according to your browser preference.) Additionally, this site has specially designed print styles, so if you choose to print any page, the printout should render nicely. Decorative images will not print, and URLs will be printed in parenthesis next to external links.
 
 ## Copyright
 
