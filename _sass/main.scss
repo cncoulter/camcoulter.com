@@ -352,7 +352,7 @@ a:active {
 
 .link-turncoat--standalone:link {
 	display: block;
-	width: max-content;
+	max-width: max-content;
 	margin-inline: auto;
 	margin-block: 1em;
 	padding: .5em;
