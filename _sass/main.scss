@@ -334,6 +334,9 @@ a:active {
 }
 
 .link-turncoat:active {
+	color: var(--clr-bg);
+	background-color: var(--clr-link);
+	border-radius: var(--rounded);
 	background-color: var(--clr-accent);
 	outline-color: var(--clr-accent);
 }
