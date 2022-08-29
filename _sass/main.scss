@@ -67,18 +67,17 @@
 	--clr-bg: #121212;
 	--clr-bg-raised: #292929;
 	--clr-on-bg: #FFFFFF;
-	--clr-primary: #72C5A1;
+	--clr-primary: #60e090;
 	--clr-on-primary: var(--clr-bg);
-	--clr-primary-faint: var(--clr-bg-raised);
-	--clr-accent:#DCA8C0;
+	--clr-accent: #ed93c7;
 	--clr-on-accent: var(--clr-bg);
 	--clr-link: var(--clr-primary);
 	--clr-link-visited: var(--clr-accent);
-	--clr-link-active: #FF3429;
+	--clr-link-active: var(--clr--accent);
 	--clr-bg-code: #343434;
-	--clr-mark: #2A6F56; // at least 3:1 contrast against --clr-bg and at least 4.5:1 contrast against --clr-on-bg
-	--clr-selection: #1F513F; // at least 9:1 contrast against --clr-on-bg
-	--clr-mark-selection: #9F416A; // at least 3:1 contrast against --clr-bg and at least 4.5:1 contrast against --clr-on-bg
+	--clr-mark: #1A7A3D; // at least 3:1 contrast against --clr-bg and at least 4.5:1 contrast against --clr-on-bg
+	--clr-selection: #10512B; // at least 9:1 contrast against --clr-on-bg
+	--clr-mark-selection: #C8288B; // at least 3:1 contrast against --clr-bg and at least 4.5:1 contrast against --clr-on-bg
 
 	// ### Other
 	--rounded: 0.5em;
@@ -93,18 +92,17 @@
 		--clr-bg: #FFFFFF;
 		--clr-bg-raised: #E9ECEF;
 		--clr-on-bg: #000000;
-		--clr-primary: #1E523D;
+		--clr-primary: #255B42;
 		--clr-on-primary: var(--clr-bg);
-		--clr-primary-faint: #72C5A1;
-		--clr-accent:#752F4D;
+		--clr-accent: #A62173;
 		--clr-on-accent: var(--clr-bg);
 		--clr-link: var(--clr-primary);
 		--clr-link-visited: var(--clr-accent);
-		--clr-link-active: #FF3429;
+		--clr-link-active: var(--clr--accent);
 		--clr-bg-code: #F2F1F1;
 		--clr-mark: #FFDC00; // at least 9:1 contrast against --clr-on-bg
 		--clr-selection: #FFDC00; // at least 9:1 contrast against --clr-on-bg
-		--clr-mark-selection: #50BE92; // at least 3:1 contrast against --clr-bg and at least 4.5:1 contrast against --clr-on-bg
+		--clr-mark-selection: #E170B7; // at least 3:1 contrast against --clr-bg and at least 4.5:1 contrast against --clr-on-bg
 	}
 }
 /*
@@ -874,7 +872,6 @@ figure.About__Headshot img {
 		--clr-on-bg: black;
 		--clr-primary: #72C5A1;
 		--clr-on-primary: var(--clr-bg);
-		--clr-primary-faint: var(--clr-bg-raised);
 		--clr-accent:#DCA8C0;
 		--clr-on-accent: var(--clr-bg);
 		--clr-link: blue;
