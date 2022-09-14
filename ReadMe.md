@@ -8,125 +8,52 @@ permalink: /About-This-Site/ReadMe/
 
 # ReadMe
 
-This website is a work-in-progress. This will be my personal website/blog.
+This is my personal website/blog.
 
-## Done
+* I use the static site generator [Jekyll](https://jekyllrb.com/) to knit this site together. I have written pretty much all the code myself, consciously avoided Jekyll themes and frameworks such as Bootstrap.
+* [This site's codebase](https://github.com/cncoulter/camcoulter.com) is hosted on GitHub.
+* This website's codebase is [REUSE-compliant](https://reuse.software/). That means each file should clearly indicate the copyright holder and license.
+* This site is hosted with [Netlify](https://www.netlify.com/).
 
-* <code>jekyll new camcoulter.com --blank</code>
-* Host codebase on GitHub
-* Host site with Netlify
-* Add 404 page
-* Make website [REUSE-compliant](https://reuse.software/)
-* Add dark mode
-* Add About This Site
-	* Accessibility Statement
-	* Website Design & Hosting
-	* Copyright
-* Create system (and collection) for images
-* Create image include and set site-wide default image
-* Add About
-	* Short bio
-	* Photo
-* Add Blog
-	* Add all blog posts
-	* Add category index and tag index
-	* Add featured images
-	* Add [TOC](https://github.com/toshimaru/jekyll-toc) to `_layouts/post.html`
-* Add container
-* Add Publications
-* Smooth scrolling except when prefers reduced motion
-* Skip to Main Content link
-* Add head/meta
-* Add Site Map
-* Add favicon
-* XML sitemap
-* Add fonts
+To learn more about this website, view [About This Site]({{ site.baseurl }}/About-This-Site/).
 
-## To-Do Soon
+## Features to Add
 
-* https://poormansstyleguide.com/
-* Style:
-	* Responsive typography
-	* h1, h2, etc
-	* code element
-	* header
-	* footer
-
-### Filling Out Content & Style
-
-* About This Site
-	* Privacy Policy
-* About
-	* Add rest of content
-* Blog
-	* Style posts
-	* Style blog home
-* Projects
-
-* Style header
-* Style footer
-* Add print stylesheet
-	* https://www.matuzo.at/blog/i-totally-forgot-about-print-style-sheets/
-* Add responsive typography
-* Style templates
-* Style Blog pages
-* Style code element
-
-### More Advanced Features
-
-* Press button style
-* Add web feeds
-	* https://validator.w3.org/feed/docs/atom.html#text
-	* https://css-tricks.com/working-with-web-feeds-its-more-than-rss/
-	* Try to add RSS, Atom, & JSON, lol?
-	* Different feed options for: 10 recent posts vs all posts; reading+SFF vs tech+a11y?
-* Add search form: https://kevq.uk/how-to-add-search-jekyll
+* Optimize sizes attribute for images on homepage
+* Add "press" button style
+* Add site search
+* Add contact form
+* Add web feeds in alternate formats/standards
+	* Add RSS feed
+	* Add JSON feed
+	* Reference:
+		* <https://css-tricks.com/working-with-web-feeds-its-more-than-rss/>
 * Add dark/light mode toggle
-	* https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model
-	* Examples/Inspiration:
+	* Reference/inspiration:
+		* <https://developer.mozilla.org/en-US/docs/Web/API/CSS_Object_Model>
+		* <https://yatil.net/blog/welcome-to-the-dark-side>
 		* <https://12daysofweb.dev/2021/preference-queries/>
 		* <https://a11y.coffee>
 		* <https://oinam.github.io/oinam-jekyll/>
-* [prefers-contrast](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-contrast) (high contrast mode)
-* Add contact form
-* Add focusable heading anchor links
-* Add blogrolls
-* Add breadcrumbs (WCAG 2.4.8)
-	* Reference/inspiration:
-		* <https://meiert.com/en/blog/html-common-idioms>
-		* <https://www.w3.org/WAI/WCAG21/Techniques/general/G65.html>
-		* <https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Breadcrumb_Navigation>
-* Add summaries (like [Lainey Feingold's website](https://www.lflegal.com/2021/11/overlay-legal-update/))
-* Try to meet additional WCAG AAA success criteria
-* Optimize sizes attribute for images
-* Expanding/collapsing mobile navbar
 
-### Publishing
-
-* Add [Plausible](https://plausible.io/) analytics
-	* UTM parameters?
-* site verification
-	* google-site-verification
-	* bing, too
-
-### Misc Inspiration
-* https://ericwbailey.design/
-* https://yatil.net/blog
-* https://www.tempertemper.net/blog/if-html-and-aria-dont-allow-it-its-probably-a-bad-idea
-* https://danabyerly.com/notes/dear-html-element/
-* https://kevq.uk/posts/
-* https://www.matuzo.at/blog/html-boilerplate/
-* https://css-irl.info/dont-forget-the-lang-attribute/
-* https://css-irl.info/
-* https://css-irl.info/accessible-toggles/
-* https://www.smashingmagazine.com/2021/10/respecting-users-motion-preferences/
-* https://www.craigabbott.co.uk/blog/defining-a-strategy-for-accessibility
+## Inspiration
+* <https://yatil.net>
+* <https://www.tempertemper.net>
+* <https://kevq.uk>
+* <https://www.craigabbott.co.uk>
+* <https://danabyerly.com>
+* <https://css-irl.info>
 
 ## Documentation/Notes to Self
 
 ### Liquid
 
 Read Liquid documentation at: <https://shopify.github.io/liquid/>.
+
+### Feeds
+
+* Validate your Atom feed here: <https://validator.w3.org/feed/>
+* Helpful reference for Atom feeds: <https://validator.w3.org/feed/docs/atom.html>
 
 ### Images
 
