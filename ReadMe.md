@@ -15,7 +15,7 @@ This is my personal website/blog.
 * This website's codebase is [REUSE-compliant](https://reuse.software/). That means each file should clearly indicate the copyright holder and license.
 * This site is hosted with [Netlify](https://www.netlify.com/).
 
-To learn more about this website, view [About This Site]({{ site.baseurl }}/About-This-Site/).
+To learn more about this website, view [About This Site](https://www.camcoulter.com/About-This-Site/).
 
 ## Features to Add
 
