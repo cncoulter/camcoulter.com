@@ -11,6 +11,6 @@ SPDX-License-Identifier: AGPL-3.0-or-later
 	{% if image.height %}height="{{ image.height }}"{% endif %}
 	src="{{ image.source }}"
 	{% if image.srcset %}srcset="{{ image.srcset }}"{% endif %}
-	{% if image.sizes != "False" %}sizes="(min-width: 65rem) 65rem, 100vw"{% endif %}>
+	{% if include.sizes %}sizes="{{ include.sizes }}"{% elsif image.sizes != "False" %}sizes="(min-width: 65rem) 65rem, 100vw"{% endif %}>
 	{% if include.caption != "False" %}<figcaption>{{ image.content | strip }}</figcaption>{% endif %}
 </figure>

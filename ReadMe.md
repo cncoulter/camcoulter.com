@@ -19,7 +19,6 @@ To learn more about this website, view [About This Site](https://www.camcoulter.
 
 ## Features to Add
 
-* Optimize sizes attribute for images on homepage
 * Add "press" button style
 * Add site search
 * Add contact form
