@@ -404,6 +404,7 @@ code {
 	border-radius: var(--rounded-inline);
 	background-color: var(--clr-bg-code);
 	font-family: var(--ft-mono);
+	white-space: pre-wrap;
 }
 
 kbd {
