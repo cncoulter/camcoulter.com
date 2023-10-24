@@ -19,7 +19,6 @@ collections:
         output: false
 
 plugins:
-  - jekyll-redirect-from
   - jekyll-toc
 
 # Plugin: jekyll-toc
