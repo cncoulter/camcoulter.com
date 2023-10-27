@@ -19,7 +19,6 @@ To learn more about this website, view [About This Site](https://www.camcoulter.
 
 ## Features to Add
 
-* Add "press" button style
 * Add site search
 * Add contact form
 * Add web feeds in alternate formats/standards
@@ -104,7 +103,13 @@ You can also add a class to the figure element like so:
 	{% include image.html image="cam-coulter" figClass="About__Headshot" %}
 	{% endraw %}
 
-Good alt text is contextual. If a image is used in different contexts, you may want to use different alt text. You can do that with this include like so:
+The image include defines a standard sizes attribute, which should work well enough in most cases, but you can pass through a custom sizes attribute. This is done for the featured images on the homepage. You can do that like so:
+
+	{% raw  %}
+	{% include image.html image=post.image figClass="recent-post_image doNotPrint" sizes="(min-width: 21rem) 21rem, 100vw" %}
+	{% endraw %}
+
+Good alt text is contextual. If an image is used in different contexts, you may want to use different alt text. You can do that with this include like so:
 
 	{% raw  %}
 	{% include image.html image="desk-keyboard-notebook" alt="this is different alt text" %}
@@ -115,6 +120,12 @@ What if you want to use different alt text for a post's featured image? Include 
 	{% raw  %}
 	image: desk-keyboard-notebook
 	image_alt: "This is alternative alt text."
+	{% endraw %}
+
+What if you want to suppress the caption and mark an instance of an image as decorative? For example, this is done with the feature images for blog posts on the homepage, where they really only serve a decorative purpose. You can do that like so:
+
+	{% raw  %}
+	{% include image.html image=post.image caption="False" decorative="True" %}
 	{% endraw %}
 
 ### Image Metadata
