@@ -11,7 +11,7 @@ tags:
 - blogging
 - Jekyll
 - Bootstrap
-- Github
+- GitHub
 description: "Over the last two months, I taught myself the Bootstrap framework for web development, and I used it to redesign my website/blog."
 image: code-01
 toc: true

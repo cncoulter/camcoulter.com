@@ -13,7 +13,7 @@ tags:
 - blogging
 - WordPress
 - Jekyll
-- Github
+- GitHub
 description:
 - For almost a year now, I have been blogging at <https://cameronncoulter.wordpress.com/>, blogging largely about what I've been reading. Now, however, I've migrated my blog to <http://www.cncoulter.com>.
 description: "I've migrated from WordPress to Jekyll."
