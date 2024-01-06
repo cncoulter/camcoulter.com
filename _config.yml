@@ -17,6 +17,9 @@ collections_dir: collections
 collections:
     images:
         output: false
+    Archive:
+        output: false
+        permalink: /:collection/:year/:month/:day/:title/
 
 plugins:
   - jekyll-toc

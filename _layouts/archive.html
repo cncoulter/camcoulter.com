@@ -1,0 +1,46 @@
+---
+SPDX-FileCopyrightText: 2022 Cam Coulter <git@camcoulter.com>
+SPDX-License-Identifier: AGPL-3.0-or-later
+layout: default
+---
+
+<article class="post">
+
+	<header>
+
+		<h1>{{ page.title }}</h1>
+
+		<p>{% include SVGs/calendar3.svg %}{% if page.original-url %}<a href="{{ page.original-url }}">{% endif %}Originally published on {{ page.original-site }}{% if page.original-url %}</a>{% endif %} on <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %e, %Y" }}</time>. {% if page.date_modified %}Last modified on <time datetime="{{ page.date_modified | date_to_xmlschema }}">{{ page.date_modified | date: "%B %e, %Y" }}</time>.{% endif %}</p>
+
+	</header>
+
+	<div class="article_container">
+
+		{% if page.toc == true %}
+		<div class="raised">
+			<h2>Contents</h2>
+
+			{{ content | toc_only }}
+		</div>
+		{% endif %}
+
+		{{ content }}
+
+		<div class="doNotPrint">
+
+			<hr class="margin-block-2em">
+
+			<a href="mailto:hi@camcoulter.com?subject=RE:%20{{ page.title | uri_escape }}" class="link-turncoat link-turncoat--standalone">{% include SVGs/envelope.svg %} Reply via email</a>
+
+			{% if page.tags %}
+			<h2 class="visually-hidden">Tagged with</h2>
+			<ul class="link-turncoat--list">
+				{% for tag in page.tags %}
+				<li><a href="{{ site.baseurl }}/Blog/Tags#{{ tag | url_encode }}" class="link-turncoat">{% include SVGs/tag-fill-alt.svg %} {{ tag }}</a></li>
+				{% endfor %}
+			</ul>
+			{% endif %}
+
+		</div>
+	</div>
+</article>
