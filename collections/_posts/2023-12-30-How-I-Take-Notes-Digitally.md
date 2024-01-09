@@ -2,7 +2,7 @@
 SPDX-FileCopyrightText: 2023 Cam Coulter <git@camcoulter.com>
 SPDX-License-Identifier: CC-BY-SA-4.0
 layout: post
-title: "How I Take Notes (Digitially)"
+title: "How I Take Notes (Digitally)"
 published: true
 date: 2023-12-30 13:17
 categories:
