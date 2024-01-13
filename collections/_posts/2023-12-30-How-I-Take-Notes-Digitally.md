@@ -19,6 +19,8 @@ image: desk-keyboard-notebook
 toc: true
 ---
 
+## Introduction
+
 Lately I have been rediscovering the joy of handwritten text. I spend so much time on a computer for my job, it is a relief to be away from a screen. I feel more relaxed handwriting with a pen and paper, and my mind can shift into a different pattern of attention. I hear it helps with memory and recall too.
 
 This post is not about that. There is a place for handwritten notes, and there is a place for digital notes. Digitally, I have notes about my to-dos, goals, and priorities, about my favorite recipes, about various command-line utilities, about games I get invested in, and more. I also have a lot of lists. I like to make lists. You should see my reading list. It is joyously, stupidly long.
