@@ -6,7 +6,7 @@ title: "ReadMe"
 permalink: /About-This-Site/ReadMe/
 ---
 
-<h1 id="main-content">ReadMe</h1>
+<h1 id="main-content" tabindex="-1">ReadMe</h1>
 
 This is my personal website/blog.
 

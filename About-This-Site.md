@@ -6,7 +6,7 @@ title: "About This Site"
 permalink: /About-This-Site/
 ---
 
-<h1 id="main-content"> About This Site</h1>
+<h1 id="main-content" tabindex="-1"> About This Site</h1>
 
 <div class="toc">
 	<h2>Contents</h2>

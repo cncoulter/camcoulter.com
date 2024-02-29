@@ -213,6 +213,11 @@ h6, .h6 {
 	## Links
 	--------
 */
+
+#main-content:focus-visible {
+	outline: 2px dashed;
+}
+
 a {
 	color: var(--clr-link);
 	text-decoration-line: underline;
