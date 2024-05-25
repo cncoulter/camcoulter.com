@@ -15,6 +15,7 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 Earlier in this blog series, in "[Let's Disambiguate Some Terms]({{ site.baseurl }}{% post_url 2021-04-23-Lets-Disambiguate-Some-Terms %})," I drew a rough distinction between accessibility and usability. I wrote:
 
@@ -61,6 +62,7 @@ Even though accessibility can fall under usability and UX, accessibility can als
 For folks who specialize in accessibility, I think it's likewise important to know something about usability and UX more generally. That's because intuitive and usable designs can help improve accessibility, and because you should perform usability testing with people with disabilities to confirm that what you're creating really is accessible.
 
 ## Additional Resources
+{: tabindex="-1"}
 
 * <https://www.usability.gov/>
 * <https://www.nngroup.com/>

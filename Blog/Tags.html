@@ -18,7 +18,7 @@ description: "Here's the tag index for my blog."
 <ol>
 	{% for tag in tags_list %}
 	<li>
-		<a href="{{ site.baseurl }}/Blog/Tags#{{ tag[0] | url_encode }}">
+		<a href="#{{ tag[0] | url_encode }}">
 			{{ tag[0] }}
 		</a>
 	</li>
@@ -27,8 +27,8 @@ description: "Here's the tag index for my blog."
 
 <!-- List out all posts for reach tag -->
 {% for tag in tags_list %}
-<div id="{{ tag[0] | url_encode }}" class="cat-tag-item">
-	<h2>{{ tag[0] }}</h2>
+<div class="cat-tag-item">
+	<h2 id="{{ tag[0] | url_encode }}" tabindex="-1">{{ tag[0] }}</h2>
 	<ol reversed>
 		{% for post in tag.last %}
 		<li>

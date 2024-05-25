@@ -15,12 +15,14 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 What are the main ideas and guiding principles behind web accessibility? How are those principles applied in practice?
 
 First, let's start with some context.
 
 ## W3C & WAI
+{: tabindex="-1"}
 
 The [World Wide Web Consortium](https://www.w3.org/) (W3C) is the standards organization for the web. Technically, the W3C creates what are called *W3C Recommendations* for web standards, and has [a well-defined process](https://www.w3.org/2020/Process-20200915/#rec-track) for doing so. In short, different working groups are chartered to tackle specific topics. Before a working group's specification is officially published as a W3C Recommendation (REC), it will go through several revisions and stages, including a Working Draft (WD), Candidate Recommendation (CD), and Proposed Recommendation (PR).
 
@@ -48,6 +50,7 @@ Additionally, the W3C currently has a working draft of the [W3C Accessibility Gu
 I think all of that is helpful as context. (I do love context.) Now, let's dig into WCAG, the actual principles of web accessibility, and how we apply those in practice.
 
 ## WCAG
+{: tabindex="-1"}
 
 The W3C's Web Content Accessibility Guidelines (WCAG) explain how to make web content accessible to people with disabilities. The page "[Accessibility Principles](https://www.w3.org/WAI/fundamentals/accessibility-principles/)" on WAI's website summarizes the principles behind WCAG in fairly approachable language.
 

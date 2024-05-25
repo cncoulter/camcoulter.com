@@ -16,6 +16,7 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 Outside the United States, what rights do people with disabilities have and what laws mandate accessibility?
 
@@ -39,6 +40,7 @@ Domain-specific laws affect a specific industry. For example, in the US, the Air
 As we'll see in a moment, there are lots of different laws across the world that affect disability rights and accessibility, and while it isn't realistic for any one person to be an expert in all of these, I do think it can be helpful for accessibility professionals to have a basic familiarity with accessibility laws and regulations in other countries. Many of those laws fall into one of these three categories, so I think it's helpful to have this framework in mind as we talk about these laws. Now, let's get into it!
 
 ## Canada
+{: tabindex="-1"}
 
 The [Canadian Human Rights Act](https://laws-lois.justice.gc.ca/eng/acts/h-6/page-1.html) explicitly prohibits discrimination on the basis of ability.
 
@@ -56,6 +58,7 @@ The AODA is the oldest and most well-known of these provincial laws. It sets acc
 For more on disability rights and accessibility laws in Canada, I recommend "[A Complete Overview of Canada’s Accessibility Laws](https://siteimprove.com/en-ca/blog/a-complete-overview-of-canada-s-accessibility-laws/)" by Jennifer Doyle on Siteimprove's blog.
 
 ## United Kingdom: Equality Act 2010
+{: tabindex="-1"}
 
 The [Equality Act 2010](https://www.legislation.gov.uk/ukpga/2010/15/contents) is a broad anti-discrimination act that explicitly protects people with disabilities. Here are some links where you can learn more:
 
@@ -63,14 +66,17 @@ The [Equality Act 2010](https://www.legislation.gov.uk/ukpga/2010/15/contents) i
 * [Gov.UK: Guidance on Equality Act 2010](https://www.gov.uk/guidance/equality-act-2010-guidance)
 
 ## Australia: Disability Discrimination Act
+{: tabindex="-1"}
 
 In Australia, the [Disability Discrimination Act](https://humanrights.gov.au/our-work/disability-rights/brief-guide-disability-discrimination-act) prohibits discrimination against persons with disabilities, and [conformance with WCAG 2.0](https://humanrights.gov.au/our-work/disability-rights/world-wide-web-access-disability-discrimination-act-advisory-notes-ver) is "strongly recommended."
 
 ## New Zealand: Human Rights Act
+{: tabindex="-1"}
 
 In New Zealand, the [Human Rights Act](https://www.legislation.govt.nz/act/public/1993/0082/latest/DLM304212.html) explicitly prohibits discrimination against persons with disabilities.
 
 ## Government Standards for Accessibility
+{: tabindex="-1"}
 
 Even if they don't prohibit discrimination against people with disabilities or mandate accessibility in the private sector, many countries have set their own public-facing, government standards for accessibility, and those standards often reference WCAG 2.0. Below are some links where you can learn more about those requirements as well as other laws across the world that affect disability rights and accessibility.
 

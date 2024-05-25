@@ -18,18 +18,22 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 In August, I posted about how I've recently discovered and have been falling in love with the world of digital accessibility: "[Accessibility Adventures: August 2020]({{ site.baseurl }}{% post_url 2020-08-05-A11y-Adventures %})." Here's what I've been up to since then.
 
 ## Science Fiction & Accessibility
+{: tabindex="-1"}
 
 I enjoyed this short post on [science fiction and accessibility](https://levelup.gitconnected.com/sci-fi-and-accessibility-7bebba9bd92c) from Sheri Byrne-Haber. As someone who is into both of those, the title caught my eye, and apparently I'm not the only one. Sheri Byrne-Haber anecdotally notes that there seem to be many people who love both science fiction and accessibility, and she suggests that's probably because of a common denominator: both science fiction and accessibility are "about building a future that does not yet exist." This resonated with me. I do have other reasons I care about both of them, but this is definitely a shared theme that I return to quite often.
 
 ## Accessibility Audits
+{: tabindex="-1"}
 
 I enjoyed reading "[What to look for in an accessibility audit](https://www.deque.com/blog/what-to-look-for-in-an-accessibility-audit/)" by Glenda Sims on the Deque blog. It's a highly detailed post about different types of accessibility audits and how they are conducted. I hadn't come across someone talking about accessibility audits in this level of detail before, so I found it really interesting.
 
 ## Accessible Certification
+{: tabindex="-1"}
 
 I enjoyed reading "[Diversity, Equity and Inclusion: Including Disabled People in Digital Certification, Credentialing and Licensure](https://www.credentialinginsights.org/Article/diversity-equity-and-inclusion-including-disabled-people-in-digital-certification-credentialing-and-licensure-1)" by Samantha Evans in *Credentialing Insights*. The post examines how disability justice and accessibility relate to the world of credentialing, certification, and licensure. At the end of the post, Samantha writes:
 
@@ -38,10 +42,12 @@ I enjoyed reading "[Diversity, Equity and Inclusion: Including Disabled People i
 That was exciting news to me! Accessibility and inclusion in the credentialing/certification/licensure space is important, and I'm glad to see that IAAP is working with the Institute for Credentialing Excellence and other groups to make this space more inclusive.
 
 ## Assistive Technology Videos
+{: tabindex="-1"}
 
 I really enjoyed this post from Axess Lab: "[Videos of people with disabilities using tech](https://axesslab.com/tech-youtubers/)." The post collects videos of people with disabilities using eye trackers, Xbox adaptive controllers, screen readers, and switch controls to play games, shop, edit videos, and write code. It's a wonderful collection of videos, and watching them made me think about not only how cool assistive technology is, but also how important accessibility is. Assistive technology can be a great help, but if the underlying software isn't accessibility written --- for example, can you only use the software if you have a mouse, good vision, and fine motor control? --- people using assistive technologies still won't be able to access or use it.
 
 ## Accessible & Inclusive Gaming
+{: tabindex="-1"}
 
 I enjoyed this Bloomberg article by Renata Geraldo about the growing market for [accessibility in the gaming industry](https://www.bloomberg.com/news/articles/2020-08-21/video-games-for-people-with-disabilities). Video games are a huge industry, one that often has not been (and isn't) accessible to gamers with disabilities. There's still a long way to go, but it's cool to read about the progress that's happening.
 
@@ -52,12 +58,14 @@ On the topic of tabletop games and inclusive gaming, here's an excerpt from [my 
 > I have another D&D essay I recommend: "[D&D will change to address racism, but someone has already done the work](https://www.polygon.com/reviews/2020/7/9/21317614/dungeons-dragons-dnd-race-ancestry-and-culture-book)" by Charlie Hall on Polygon. This essay examines how race in D&D is problematic and bigoted and looks at alternatives to the current system. In particular, this essay looks at [<cite>Ancestry & Culture: An Alternative to Race in 5e</cite>](https://www.drivethrurpg.com/product/314622) by Eugene Marshall, which offers a critical and progressive way to rework race in D&D. In short, it looks like Marshall splits the problematic concept of race into biological ancestry and cultural heritage. <cite>Ancestry & Culture</cite> seems like (1) a cool, non-problematic way to rework race in D&D, and (2) a work of critical race theory disguised an an RPG game. I want to read <cite>Ancestry & Culture</cite>, but I haven't gotten around to it yet. In the meantime, I recommend any D&D fan or anyone striving to be anti-racist to check out the essay on Polygon.
 
 ## Books
+{: tabindex="-1"}
 
 I recently listened to [<cite>Disability Visibility: First-Person Stories from the Twenty-First Century</cite>](https://libro.fm/audiobooks/9780593216460-disability-visibility-first-person-stories-from-the-twenty-first-century), a new nonfiction anthology edited by Alice Wong. It's very good! It's a bunch of great essays on disability from a bunch of different perspectives. I loved how intersectional most of these essays were. I definitely recommend.
 
 I also just read two books from [A Book Apart](https://abookapart.com/): <cite>HTML5 For Web Designers</cite> by Jeremy Keith and Rachel Andrew and <cite>CSS3 for Web Designers</cite> by Dan Cederholm. In "web time," these are old books. They were originally published in 2010 and had updated second editions released in 2016 and 2015, respectively. The age showed. For example, <cite>CSS3 for Web Designers</cite> focused mostly on using CSS3 modules for minor progressive enhancements and basically didn't even touch on Grid layout, which is [currently supported for over 95% of users](https://caniuse.com/css-grid). Despite the age, however, I actually did find these books quite useful. They were short, well-written, and easily digestible. They taught me about history and context that I previously didn't know much about, such as introducing me to the Web Hypertext Application Technology Working Group (WHATWG). And they also introduced me to techniques that I didn't really understand before, such as vendor prefixing. While I have had formal schooling that introduced me to computer programming and networking, my web design knowledge is all mostly self-taught, and these books did a good job of filling in some of my knowledge gaps.
 
 ## Compliant or Conformant?
+{: tabindex="-1"}
 
 In my short time that I've been in the world of accessibility, I've already come across two words quite often: compliance and conformance. These words are used when referring to laws (such as the Americans with Disabilities Act or Section 508 or the Rehabilitation Act) as well as standards (such as the Web Content Accessibility Guidelines). I began to wonder if the two words can be used interchangably, or if there are any significant differences between the two, so naturally I did a web search.
 
@@ -70,10 +78,12 @@ This is partially confusing because the two words sound similar and have largely
 I will do my best to use those words precisely (compliant to the law, conformant to standards), but I also want to recognize that it seems in practice these two words are often used interchangably.
 
 ## FreeCodeCamp.org
+{: tabindex="-1"}
 
 I've been working to upgrade my tech skills with [FreeCodeCamp.org](https://www.freecodecamp.org/). I completed their [Responsive Web Design certification](https://www.freecodecamp.org/certification/fcc1be882aa-3ed6-490e-9a8f-74952cbced6b/responsive-web-design), and I'm currently working on JavaScript with them. Thus far, I've been really satisfied with their program. The interface works well for me, the content is nicely chunkable, and the curriculum exposes you to a sizable breadth of info with a gentle on-ramp. The Responsive Web Design certification also includes a set of [challenges on applied accessibility](https://www.freecodecamp.org/learn/responsive-web-design/applied-accessibility/), which I was glad to see. And that's to say nothing of the fact that FreeCodeCamp is a nonprofit with tons of free content. I'm trying to stay focused on JavaScript right now, but their courses on front-end libraries and Python keep grabbing my attention.
 
 ## Classless CSS Stylesheets
+{: tabindex="-1"}
 
 Recently, I was exporting a bunch of markdown notes to HTML pages, and I wanted them to look prettier than the default styling that Firefox applies. Hence, I discovered the world of [classless CSS stylesheets](https://css-tricks.com/no-class-css-frameworks/). It's pretty much what it sounds like: CSS stylesheets that don't use any (or use very few) classes, relying instead upon styling semantic HTML elements. Obviously, these will not be a good fit for a great many projects. However, for converting markdown documents to simple HTML pages, it's a perfect fit. Assuming that you're not doing weird things to your markdown, when you export markdown to HTML, you get plain old semantic HTML, complete with zero classes, which makes it trivial to add a classless stylesheet and see your document redesigned cohesively in under a minute. There are plenty of classless CSS stylesheets out there that you can use. Some of my favorites are [new](https://newcss.net/), [water-dark](https://watercss.kognise.dev/), and [sakura-earthly](https://oxal.org/projects/sakura/demo/). I downloaded a host of stylesheets, tried them all out, and had quite a bit of fun looking at all the different ways my document could be styled.
 
@@ -82,6 +92,7 @@ What's the connection to accessibility? Writing in semantic HTML (assuming you'r
 However, classless stylesheets aren't necessarily accessible. As I wrote earlier, writing in semantic HTML is great for accessibility --- *assuming* that you're actually using the elements correctly. If you use a certain HTML element to achieve a certain styling, but if your content doesn't align with that element's semantic purpose, that's ... not great. Assistive technologies, for example, might misinterpret your content and thereby misrepresent it to users. One classless stylesheet that I fear might enable folks to do this is [MVP](https://andybrewer.github.io/mvp/). For example, with MVP, if you nest an aside element within a section element, it's formatted as a centered content card. Designers might be thereby be tempted to use an aside element for a page's main content, rather than content that's "only indirectly related to the document's main content," as the Mozilla Developer Network defines [the aside element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside). To be clear, I like MVP's design, and its website clearly states that the stylesheet is intended only for temporary, ad-hoc purposes. However, I did want to note this potential way for classless stylesheets to be misused and lead to less accessible designs.
 
 ## Website Updates
+{: tabindex="-1"}
 
 I recently did my first website remediation! At work, my team has put up an ad-hoc website this year as we've responded to the pandemic, pivoted to online staff trainings, and put together an online distance learning program for our clients. I identified that the color contrast between some commonly-used text and the background was not WCAG level AA conformant. With my manager's approval, I selected a darker shade that was conformant, and I updated the text color. Hurrah for my first accessibility website fix!
 

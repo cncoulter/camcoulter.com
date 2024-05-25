@@ -16,10 +16,12 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 There are lots of different disabilities out there. In my next post, I will explore specific types of disabilities, their associated barriers, and appropriate assistive technologies and adaptive strategies. First, though, I want to explore some different broad ways that we can categorize disabilities.
 
 ## Four General Categories
+{: tabindex="-1"}
 
 Most disabilities can fall under one of these broad categories:
 
@@ -35,6 +37,7 @@ These four categories can be a helpful shorthand, but there are some limitations
 3. The term "cognitive disabilities" is incredibly broad, so broad that it might not be particularly useful. The term includes developmental disabilities, traumatic brain injuries, dyslexia, autism spectrum disorder, anxiety, depression, and more. Not only does the term "cognitive disabilities" include this broad set of differing disabilities, but most of these disabilities, taken individually, can still vary enormously person to person.
 
 ## Permanent, Temporary, and Situational
+{: tabindex="-1"}
 
 You can also categorize disabilities based on how long they affect someone for. Do you have a permanent disability, a temporary impairment, and/or a situational limitation?
 
@@ -50,6 +53,7 @@ I think Microsoft does a fantastic job illustrating this with their Persona Spec
 I love this way of thinking about disabilities and limitations because it reminds us [disability is a spectrum](https://www.24a11y.com/2018/disability-is-a-spectrum-not-a-binary) that we all fall under to varying degrees, not a binary on/off switch. Relatedly, accessibility is also a spectrum. Most things aren't just "accessible or not accessible." Rather, they are accessible to certain types of people with certain types of disabilities and limitations.
 
 ## Age-Related
+{: tabindex="-1"}
 
 Have you ever encountered one of these sayings?
 
@@ -59,6 +63,7 @@ Have you ever encountered one of these sayings?
 I'm not sure those two sayings are technically true. Someone could be born without disabilities and die before they acquire any. That said, these sayings convey an important truth: as we age, our bodies weaken, and if we live long enough, most all of us are likely to acquire age-related disabilities. Maybe our vision will degrade, or maybe we will be diagnosed with Alzheimer's disease. This is a broad way of categorizing disabilities, and in certain contexts this lens can be quite useful.
 
 ## Recognizable and Hidden Disabilities
+{: tabindex="-1"}
 
 Some disabilities are easily recognizable. Someone who is blind may carry a cane. Someone with a seizure disorder may routinely wear a helmet. A person with a mobility impairment may use their wheelchair every day.
 
@@ -69,18 +74,22 @@ This way of categorizing disabilities is also a spectrum. If you use a wheelchai
 This can be a useful way of categorizing disabilities (recognizable vs. hidden) because how others read your disability affects how others treat you. Those with hidden disabilities can be quite different experiences than those with recognizable ones.
 
 ## Web-Relevant Disabilities
+{: tabindex="-1"}
 
 Computers, the Internet, and the web have become integral elements of modern life. Many, but not all, disabilities affect a person's ability to use these tools. Typically, only disabilities that affect a person's eyes, ears, hands, or brain influence a person's ability to use the web independently. This way of categorizing disabilities can be useful to designers and developers creating websites and apps.
 
 ## Print Disabilities
+{: tabindex="-1"}
 
 The term "print disabilities" is another broad way of categorizing disabilities. The term includes those with visual disabilities (like blindness and low vision) as well as certain cognitive disabilities like dyslexia. Although the causes of print disabilities can differ significantly, people with print disabilities will use many of the same adaptive strategies and assistive technologies. For those with print disabilities, it can be important to hear content read to them, adjust the display of text, or simply be given more time to process text. For these reasons, I think this category can be useful when it comes to discussing or thinking about accessibility or assistive technology.
 
 ## Speech Disabilities
+{: tabindex="-1"}
 
 There are many different causes of speech disabilities (a stroke, hearing loss, ALS), but they all affect a central element of life: speech. In this way, I think the phrase "speech disabilities" is somewhat similar to the phrase "print disabilities." However, unlike with print disabilities, I think people with speech disabilities may use significantly different adaptive strategies or assistive technologies depending on the specific cause of their disability.
 
 ## Disabilities that are Minor and Easily Compensated for
+{: tabindex="-1"}
 
 I wear glasses. I can complete most tasks without them, although reading can be a challenge if I don't have them. My employer pays for my vision insurance, and my vision insurance pays for some of the cost of my glasses. It's relatively easy to get my vision checked out and order a new pair when I need one. This is a relatively minor (and common) impairment, one that society supports and compensates for fairly well and one that doesn't create many limitations or restrictions.
 

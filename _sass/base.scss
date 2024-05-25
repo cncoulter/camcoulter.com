@@ -214,7 +214,13 @@ h6, .h6 {
 	--------
 */
 
-#main-content:focus-visible {
+h1:focus-visible,
+h2:focus-visible,
+h3:focus-visible,
+h4:focus-visible,
+h5:focus-visible,
+h6:focus-visible,
+li:focus-visible {
 	outline: 2px dashed;
 }
 
@@ -410,6 +416,10 @@ code {
 	background-color: var(--clr-bg-code);
 	font-family: var(--ft-mono);
 	white-space: pre-wrap;
+}
+
+pre code {
+	display: block;
 }
 
 kbd {

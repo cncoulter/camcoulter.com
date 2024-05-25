@@ -20,6 +20,7 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 I confess, New Years has never been one of my favorite holidays. I don't care for most of the typical New Years traditions, and in fact, I usually try to get to bed before midnight.
 
@@ -36,6 +37,7 @@ This year, however, we have something to celebrate that's genuine, meaningful, a
 And in particular, one lesser known item has now definitively entered the public domain, and this particular item brings me great joy: [<cite>The Plays of Roswitha</cite>](https://archive.org/details/playsofroswitha00hrotuoft/page/n9) translated by Christopher St. John. More on this item (and a free ebook!) after brief rant about copyright laws.
 
 ## *Finally*
+{: tabindex="-1"}
 
 In 1998, the Sonny Bono Copyright Term Extension Act (CTEA) extended copyright terms in the US. For many works that were about to enter the public domain, the CTEA retroactively extended the copyright term by two decades. As the awesome public domain scholar Jennifer Jenkins [writes](https://scholarship.law.duke.edu/cgi/viewcontent.cgi?referer=&httpsredir=1&article=1244&context=dltr), "For works published between 1923 and 1977 that were still in copyright, the terms were extended to 95 years from publication, keeping them  out  of  the  public  domain  for  an  additional  20  years" (2). Today, work from 1923 *finally* enters the public domain. Next year, work from 1924 will enter the public domain. And so on. (Assuming Congress doesn't pass another misguided copyright law.)
 
@@ -57,6 +59,7 @@ As you can no doubt tell by now, I'm quite a nerd about copyright. I learned a t
 If you're interested in copyright law or the public domain but you aren't ready to pick up a book, then check out Duke University's [Center for Study of the Public Domain](https://law.duke.edu/cspd/).
 
 ## The Plays of Roswitha
+{: tabindex="-1"}
 
 [Roswitha](https://en.wikipedia.org/wiki/Hrotsvitha) is awesome. She was a 10th-century German canoness, dramatist, and poet, and she was one of the first people to write drama since antiquity. Among her other accomplishments, she wrote six plays in which she attempted to "Christianize" the work of the Roman comic playwright Terence. I first came across her work in college, and I've read and reread her a few times since. I reread her plays last year, and shared my thoughts about them [in this blog post]({{ site.baseurl }}{% post_url 2018-02-08-Reading %}#the-plays-of-roswitha-translated-by-christopher-st-john), so check that out for a more thoughtful reflection on her work.
 

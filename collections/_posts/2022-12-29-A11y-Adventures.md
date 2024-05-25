@@ -18,6 +18,7 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 A lot has changed since [my last Accessibility Adventures post back in November 2021]({{ site.baseurl }}{% post_url 2021-11-11-A11y-Adventures %}). For one thing, I finished a [redesign of my personal website/blog]({% post_url 2022-09-12-Website-Redesign %}). For another, I transitioned into a full-time accessibility role: I now work as a Senior Accessibility Analyst at Level Access, where I test websites and apps to make sure they work well for people with disabilities and people who use assistive technologies such as screen readers. I've generally been quite happy with this role, and I have been able to learn *a lot* about digital accessibility.
 
@@ -26,12 +27,14 @@ For example, I remember a year ago I understood what the Accessible Rich Interne
 Now, with that preamble out of the way, let's talk about some of the cool accessibility things I've come across recently.
 
 ## ARIA Authoring Practices Guide (APG)
+{: tabindex="-1"}
 
 Since I just mentioned ARIA, let's start with the [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/) (APG). This summer, it was updated and released with a spiffy new website. This existed before, but it looked more like a typical technical specification and wasn't nearly as engaging or user-friendly.
 
 The APG is amazing. It is well-designed, and it clearly presents wonderfully helpful information. Basically, if you are trying to develop any sort of interactive web component (like a accordions, tabs, comboboxes, etc), come read and reference the APG early in your development. It lists expected and helpful keyboard interaction patterns as well as expected ARIA roles, states, and properties. It also features working and accessible examples of these components, and this is all presented in a user-friendly, approachable way.
 
 ## Buttons, <kbd>Enter</kbd>, and <kbd>Space</kbd>
+{: tabindex="-1"}
 
 I'm a little obsessed with Adrian Roselli's blog post "[Brief Note on Buttons, Enter, and Space](https://adrianroselli.com/2022/04/brief-note-on-buttons-enter-and-space.html)."
 
@@ -42,14 +45,17 @@ I find this fascinating because this sort of minutia is easily unknown and overl
 Relatedly, here's another thing I learned recently: native button elements will fire click events when a user clicks on the button but also when keyboard users press <kbd>Enter</kbd> or <kbd>Space</kbd>. This means with a native button element, you only need to write one JavaScript event listener (for a click event) to make the button work for mouse users, touchscreen users, and for keyboard users. However, if you try to use a div element to create a custom button (for example, something like <code>div role="button"</code>), click events for that button will only be triggered when users click — click events won't trigger if users press <kbd>Enter</kbd> or <kbd>Space</kbd>. That means, you'll need to write more JavaScript event listeners to make those custom buttons accessible to both mouse users and keyboard users. Again, I find this interesting because it's a small, technical detail that helps me better understand and explain matters of web accessibility, but also this has broad implications, so broad that I'd think more web developers need to know this (but I'm not confident they do).
 
 ## Creating Custom Buttons
+{: tabindex="-1"}
 
 I liked Ben Myer's blog post "[How (Not) to Build a Button](https://benmyers.dev/blog/clickable-divs/)." Web developers often create buttons using div elements with click event handlers, but this style of buttons isn't necessarily accessible to keyboard users or assistive technology users. If you're using a div element to create a button, there's a number of additional things you need to do to make sure keyboard users and assistive technology users can actually interact with and use the button: it needs to receive keyboard focus, have a visible focus style, be triggered by click events as well as <kbd>Enter</kbd> and <kbd>Space</kbd>, and it needs to communicate proper role and state information to assistive technologies. Again, these issues are things I come across all the time when I am testing websites. Ben Myer's post is a good explainer about how to clickable div element and turn it into a proper button.
 
 ## Labeling Buttons
+{: tabindex="-1"}
 
 I liked Manuel Matuzović's blog post "[Buttons and the Baader–Meinhof phenomenon](https://www.matuzo.at/blog/2022/button-baader/)." This blog post is about right and wrong ways to label buttons. When we label a button, we provide it with an accessible name that can be announced via assistive technologies such as screen readers. It's important that we make sure buttons have proper labels so that screen readers users understand what the button does. There are a lot of different ways to label buttons and links, particularly when the button only has an icon and no visible label (which is often the case with search buttons or social media links). Manuel Matuzović's post lists out several different ways you can label a button and several common mistakes. The post is a good learning tool as well as a good resource for all of your options.
 
 ## Accessibility in Fedora
+{: tabindex="-1"}
 
 I enjoyed reading these articles in <cite>Fedora Magazine</cite>:
 
@@ -59,6 +65,7 @@ I enjoyed reading these articles in <cite>Fedora Magazine</cite>:
 I am a Fedora user and a digital accessibility professional. I care about free/libre and open-source software and about accessibility, so it's important to me that Fedora and other Linux distributions are accessible, work well for people with disabilities, and include people with disabilities in the community, so I naturally enjoyed reading about what's going on with this all in Fedora.
 
 ## iOS and Android Accessibility
+{: tabindex="-1"}
 
 Most of my experience and expertise in digital accessibility has been specifically directed toward web accessibility. That's because there's huge demand for web accessibility skills in particular, because I'm personally interested in the web, and because on the web it's easy to inspect the source code to better understand what makes good things good and bad things bad.
 
@@ -69,10 +76,12 @@ To that point, I enjoyed reading "[How to Fix Common iOS Accessibility Issues](h
 Similarity, I think "[Principles for improving app accessibility](https://developer.android.com/guide/topics/ui/accessibility/principles)", part of Android's developer documentation, is an interesting read because it explores digitial accessibility principles and practices that are specific to the Android platform.
 
 ## Swearing and Speech-to-Text Software
+{: tabindex="-1"}
 
 I enjoyed Eric Bailey's blog post "[Swearing and automatic captions](https://ericwbailey.website/published/swearing-and-automatic-captions/)." Many video platforms, automatic captioning services, and speech-to-text services censor curse words. That inappropriately infantilizes users who rely on captioning, presuming they can't handle or use certain words, and it can also lead to confusion in certain contexts. Obviously, swearing may not be appropriate in all contexts, but it isn't the job of captioning services to deem which words are appropriate or to censor those words when users say them. In this blog post, Eric Bailey explains this issue in greater detail and then reports on which speech-to-text platforms inappropriately censor users' speech. It's a fun read on an important topic.
 
 ## Annotating Designs for Accessibility
+{: tabindex="-1"}
 
 You may have heard of "shifting left" in regard to accessibility. That term refers to the idea that accessibility should be integrated throughout the entire development lifecycle and content creation process, in contrast to treating accessibility as something you can bolt-on after the fact. Shifting left in accessibility is important because by taking a proactive approach to accessibility you can create more accessible end-products with less time and less money.
 
@@ -81,6 +90,7 @@ Part of shifting left entails bringing designers into the accessibility conversa
 But how exactly can designers do that? Claire Webber and Sarah Pulis share their answer (and detailed examples) in their presentation [Annotating designs for Accessibility](https://www.youtube.com/watch?v=Y35jmpS8lQM) from Inclusive Design 24. I enjoyed their presentation, and I highly recommend it to anyone working in design. I suspect that "annotating designs for accessibility" will be a much bigger, more commonplace thing in five to ten years from now, if not sooner.
 
 ## Focusing on Sticky Headers
+{: tabindex="-1"}
 
 You've probably encountered a sticky header before (a header that stays at the top of your screen even when you scroll down the page).
 
@@ -89,6 +99,7 @@ Sticky headers can often present challenges for sighted keyboard users, who rely
 So I was excited to come across "[Prevent focused elements from being obscured by sticky headers](https://www.tpgi.com/prevent-focused-elements-from-being-obscured-by-sticky-headers/)" by James Edwards, which demonstrates how to create an accessible sticky header, one that doesn't obscure keyboard focus for elements behind it. If you're creating a sticky header or footer, make sure you are planning for this!
 
 ## HTMHell Advent Calendar
+{: tabindex="-1"}
 
 [HTMHell](https://www.htmhell.dev/) is one of my favorite accessibility blogs. [I've shared about HTMHell before]({{ site.baseurl }}{% post_url 2021-11-11-A11y-Adventures %}/#htmhell), back when I first discovered it, and I'm happy to stay HTMHell is still crushing it.
 

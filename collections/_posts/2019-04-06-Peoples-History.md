@@ -17,12 +17,14 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 <p class="bookinfo">Harper Perennial Modern Classics, 2003. Introduction copyright 2015. Originally published in 1980.</p>
 
 This is a good book, and I'm glad I read it. It's also a big long book, and I'm not sure how to sum up my thoughts on it. I think I'll try to articulate what I perceived to be the book's main ideas, and then I'll review some of the recurrent themes.
 
 ## Main Ideas
+{: tabindex="-1"}
 
 1. Mainstream histories suck. They obscure our understanding of the past and serve to indoctrinate us and make us passive, often with and through patriotism. A corrective, a People's History, is needed.
 2. So much of the history of the United States is a history of elites struggling against the majority, trying to keep the majority fighting among itself and identifying with the elites rather than with each other. When the elites to admit change, it is because it is the smallest possible change that still permits them to maintain control.
@@ -31,6 +33,7 @@ This is a good book, and I'm glad I read it. It's also a big long book, and I'm 
 5. In the post-WWII era, the US is tragically committed to funding its massive military and not taxing the super rich at super high rates, which undermines our ability to invest in peace and in people.
 
 ## Featuring American Classics, such as
+{: tabindex="-1"}
 
 1. "the easy acceptance of atrocities as a deplorable but necessary price to pay for progress" (9)
 2. It's a "defensive" war, we swear.

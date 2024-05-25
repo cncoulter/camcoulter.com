@@ -15,12 +15,14 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 Last year, I wrote a [short fiction review column](https://skiffyandfanty.com/author/cameronncoulter/) for <cite>Skiffy and Fanty</cite>. Life got busy and I missed some months, but hey, that's the way life works, particularly when you're a fan writer/doing unpaid labor.
 
 By my count, I read nearly 200 pieces of short fiction originally published last year. (There's also an uncounted number of short stories that I started reading but didn't finish.) It's not [the nearly 300 short stories that I read the year before]({{ site.baseurl }}{% post_url 2019-01-19-Favorite-2018-Short-Stories %}), and it's certainly not nearly as much as [the remarkable Charles Payseur](https://quicksipreviews.blogspot.com/), but I'm fairly happy and impressed with myself nonetheless.
 
 ## Trump-Era Anthologies
+{: tabindex="-1"}
 
 Last year, I read three of what I'm calling "Trump era anthologies":
 
@@ -31,6 +33,7 @@ Last year, I read three of what I'm calling "Trump era anthologies":
 I enjoyed them all. <cite>A People's Future of the United States</cite> had the most impressive roster of contributors, and it showed --- its stories were excellent. The stories in that anthology engaged with contemporary themes, such as racism, xenophobia, and polarization, in relatively broad and general ways. <cite>If This Goes On</cite> took a different approach, engaging with more specific contemporary issues, like immigration, healthcare, gun violence, abortion, and net neutrality.
 
 ## Favorite Stories
+{: tabindex="-1"}
 
 Last year, I was able to pick a favorite story: "[You Can Make a Dinosaur, but You Can’t Help Me](https://uncannymagazine.com/article/you-can-make-a-dinosaur-but-you-cant-help-me/)" by K.M. Szpara. It's an amazing story about family, found family, dinosaurs, and trans romance that's [unlike anything else I've come across](https://skiffyandfanty.com/blogposts/reviews/shortfictionreviews/shortfictionreviewjuly2018dinosaurs/).
 

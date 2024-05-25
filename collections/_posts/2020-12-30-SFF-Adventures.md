@@ -20,6 +20,7 @@ toc: true
 ---
 
 ## Blog Posts & Essays
+{: tabindex="-1"}
 
 I liked "['Oh, Frak' — Avoiding the Censors the SFF Way](https://www.tor.com/2020/10/21/oh-frak-avoiding-the-censors-the-sff-way/)" by CD Covington on Tor.com. If you like linguistics or cursing, check this out!
 
@@ -38,6 +39,7 @@ I recently came across this essay from 2019: "[Asexual Representation in Mainstr
 On the topic of good, non-recently-published essays, I recently read "[Another Word: On Being a Late Bloomer](http://clarkesworldmagazine.com/another_word_09_16/)" by Kelly Robson, published in <cite>Clarkesworld Magazine</cite> in September 2016. It's a good read. I recommend this essay if you ever look at young artists doing awesome stuff and feel like you don't measure up or if it's too late for you. (I'm a relatively young one myself, and sometimes even I feel that way!)
 
 ## Podcasts
+{: tabindex="-1"}
 
 Lately, <cite>Flash Forward</cite> has had a string of terrific episodes. My favorite recent episode was "[Everybody Votes](https://www.flashforwardpod.com/2020/10/27/everybody-votes/)," where we travel to a future in which voting rights in the United States are extended to non-citizens, 16-year-olds, and convicted felons. After listening to this episode, I am firmly in favor of all of those groups being extended voting rights. Wild fact: did you know that for a long time in the <abbr>US</abbr>, non-citizens *were* allowed to vote in many elections? I also greatly enjoyed "[Give the Land Back?](https://www.flashforwardpod.com/2020/11/10/land-back/)" (about the landback movement in the <abbr>US</abbr> and Canada) and "[Home Sweet Home](https://www.flashforwardpod.com/2020/11/24/home-sweet-home/)" (about a future where housing is guaranteed and provided to everybody).
 
@@ -52,6 +54,7 @@ Another favorite podcast of mine is <cite><a href="https://www.patreon.com/queer
 <cite>The Ezra Klein Show</cite> is another favorite podcast of mine that usually isn't SFF-related. However, Klein recently [interviewed Kim Stanley Robinson](https://www.vox.com/2020/11/30/21726563/kim-stanley-robinson-the-ezra-klein-show-climate-change) about Robinson's new novel <cite>The Ministry for the Future</cite>. They had a great discussion about climate, art, humanity, and politics. Side-note: I've started listening to <cite>The Ministry for the Future</cite>, and so far it's quite good!
 
 ## Comics
+{: tabindex="-1"}
 
 I recently re-read <cite>Kim Reaper: Grim Beginnings</cite> and read (for the first time) <cite>Kim Reaper: Vampire Island</cite> by Sarah Graley. [As I wrote back in 2018]({{ site.baseurl }}{% post_url 2018-12-30-Recent-Reading %}) about <cite>Grim Beginnings</cite>, "This adorable and fun comic is adorable and fun. It features: a college student who’s a part time grim reaper + a lesbian romance + cats + ghosts + zombies + pretty artwork. I want more please." All of that remains true, but now having read <cite>Vampire Island</cite>, I can say that this series also includes vampires, a nonbinary best friend, and a great overarching plot arc! If you are at all interested in queer or paranormal comics, I highly recommend <cite>Kim Reaper</cite>, and yes, I still want more please.
 
@@ -60,6 +63,7 @@ I recently re-read <cite>Kim Reaper: Grim Beginnings</cite> and read (for the fi
 In October, Revoy released three beautiful <cite>Pepper & Carrot</cite> books, each which contains about ten episodes of the webcomic. He also released a fourth book, <cite>The Art of Pepper & Carrot</cite>, which compiles sketches, artwork, and worldbuilding info. Since I support the comic on Patreon, my name is printed in the back of the books! I bought the books, read through them all, and really enjoyed it. I'm happy and grateful that I have hard copies of these comics now. I have enjoyed following along online as new episodes are released, but I think it's even better to have beautiful print copies that I can get lost inside of, especially considering how gorgeous and detailed Revoy's art is.
 
 ## TV
+{: tabindex="-1"}
 
 TV-wise, 2020 has been the year of cartoons for my partner and me. We've watched all of <cite>Avatar: The Last Airbender</cite>, <cite>The Legend of Korra</cite>, and <cite>Steven Universe</cite>.
 
@@ -70,14 +74,17 @@ Most recently, we finished watching all ten seasons of <cite>Adventure Time</cit
 We've now started watching <cite>Gravity Falls</cite>. It's a fun show with endearing characters that's on the creepy/paranormal side of things. So far, I am enjoying it!
 
 ## Novels
+{: tabindex="-1"}
 
 ### <cite>Uprooted</cite> by Naomi Novik
+{: tabindex="-1"}
 
 I listened to the audiobook of <cite>Uprooted</cite> by Naomi Novik. My experience with this book was similar to my experience with N. K. Jemisin's Broken Earth trilogy: marketing blurbs and descriptions of the book didn't really captivate me, but I heard enough people squee loud enough about the book that I wanted to read it and see what all the fuss was about. And then I read it, and then I understood: it is just an exceptionally well-crafted story and an exceptionally well-written novel. Because of that, I loved it, even though there was nothing in particular about the premise that called out to me. Which is to say, I strongly recommend this book, and I'm not even going to bother telling you anything else about it. Go read <cite>Uprooted</cite>.
 
 Relatedly, I haven't read <cite>Gideon the Ninth</cite> by Tamsyn Muir, but I think it might fall into the same sort of bucket. Sure, lesbian necromancers in space sounds cool, but for me that's not enough on its own to make me want to read it immediately, but I do want to better understand what all the fuss is about…
 
 ### <cite>The City in the Middle of the Night</cite> by Charlie Jane Anders
+{: tabindex="-1"}
 
 I recently read <cite>The City in the Middle of the Night</cite> by Charlie Jane Anders, and I've been bugging my partner to read it so that I can discuss it with someone. It is a good book, and I recommend it. The story takes place on January, a tidally-locked planet far from Earth, which means half of the planet perpetually faces the sun and is deathly hot, and the other half of the planet perpetually faces into space and is deathly cold. Humans live in a couple cities in the narrow band between night and day.
 
@@ -86,6 +93,7 @@ That was one of the coolest things about reading the book: on January, night and
 This is a great novel, specifically along the axes of worldbuilding and ideas.  Plot and characters, while not neglected, definitely felt like secondary focuses to me. If you want a fun, gripping read, honestly this probably isn't it. But if you want a book that makes you think about civilization, politics, marginalization, privilege, and climate and leaves you with your head spinning, then you should absolutely read this book. Those themes are fundamental to where we are as a species right now, and this book is important.
 
 ### <cite>Provenance</cite> by Ann Leckie
+{: tabindex="-1"}
 
 I re-read <cite>Provenance</cite> by Ann Leckie. (To be precise, this time I mostly *listened* to the audiobook version.) It remains a terrific book! Honestly, I finished re-reading this book, and I thought, *I definitely want to read this book again in a year or two.* I tend to only re-read one or maybe two novels a year, so that's saying something!
 

@@ -18,6 +18,7 @@ toc: true
 ---
 
 ## Why?
+{: tabindex="-1"}
 
 A year ago, [I participated in Knowbility's Accessibility Internet Rally]({{ site.baseurl }}{% post_url 2021-11-11-A11y-Adventures %}/#accessibility-internet-rally) (AIR), a friendly competition in which teams of web designers and developers first learn about web accessibility and then create accessible websites for small nonprofits. For the competition, my team created an accessible [WordPress](https://wordpress.org/) site for our nonprofit partner. I think WordPress is a great tool for small organizations and independent creators who only need a simple website and/or blog. It isn't too challenging to create accessible sites with WordPress, WordPress is a robust platform with many customization and support options, and I think WordPress is usable and understandable for people who are tech-fluent but who may not know anything about HTML or CSS. WordPress was definitely the right choice for AIR.
 
@@ -26,6 +27,7 @@ However, by the end of the competition, I was burned out with WordPress for the 
 So what did I do after finishing the AIR program? Naturally, I started a website design project using Jekyll. Specifically, I started to redesign my personal website/blog. I wasn't proud of my existing website's codebase, and I wanted to rebuild it from the ground up.
 
 ## A trip down memory lane
+{: tabindex="-1"}
 
 My personal website/blog has gone through several iterations over the years.
 
@@ -44,6 +46,7 @@ In 2020, I started learning about and falling in love with web accessibility. I 
 In the summer of 2021, I used this blog to study for my Certified Professional in Accessibility Core Competencies (CPACC) credential, writing a "[100 Days of A11y]({{ site.baseurl}}/Blog/Tags/#100+Days+of+A11y)" blog series. In the fall of 2021, I participated in AIR. Then, after AIR, I started this redesign project.
 
 ## So what's new?
+{: tabindex="-1"}
 
 I am still using Jekyll to knit this site together. I like Jekyll.
 
@@ -66,6 +69,7 @@ On the [About This Site]({{ site.baseurl }}/About-This-Site/) page, I have added
 Also, I switched over to hosting with [Netlify](https://www.netlify.com/) rather than with GitHub Pages.
 
 ## How does it feel?
+{: tabindex="-1"}
 
 I'm happy with how it turned out, proud of my work, and relieved to be done. I've probably spent about ten months working on this website redesign. That is a good chunk of time. Partially, it took that long because this has been an involved, detailed project. I essentially built this site from the ground up, from scratch. It was a lot of work, and there was a lot I needed to research or learn. Also, this project took ten months because it was only a side project of mine. I didn't work on it every day, or even necessarily every week. There were a few nights or weekends when I could spend a few hours working on this, but most often, I worked on this in 30 minute chunks during my lunch break.
 

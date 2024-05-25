@@ -6,7 +6,7 @@ title: "How I Take Notes (Digitally)"
 published: true
 date: 2023-12-30 13:17
 categories:
-- Web Design
+- web design
 tags:
 - HTML
 - CSS
@@ -20,6 +20,7 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 Lately I have been rediscovering the joy of handwritten text. I spend so much time on a computer for my job, it is a relief to be away from a screen. I feel more relaxed handwriting with a pen and paper, and my mind can shift into a different pattern of attention. I hear it helps with memory and recall too.
 
@@ -28,14 +29,14 @@ This post is not about that. There is a place for handwritten notes, and there i
 Admittedly, I have digital notes scattered in a few different places, but most of them live together in one system, a folder with Markdown files that I can compile together into interlinked HTML files. Let me explain how that works and why I like it. I'm sharing because I think it is an awesome system with some real advantages and because it's different than what most people use or consider using. If you think it's cool, I have made a GitHub repository that you can clone and use to try it out yourself.
 
 ## How It Works
+{: tabindex="-1"}
 
 I have a folder for my notes. That folder has folders within it for different categories, such as to-dos, food, games, and reference. Each note is a plain text file written in Markdown. I have a Bash script that uses Pandoc to convert the Markdown files into interlinked HTML files. In effect, it is a very simple website. 
 
 I have a homepage note that links to my most used notes and to an index note for each category, which in turn links to all the notes in that category. I actually have the homepage note set as my homepage in Firefox so that it's easy for me to view my notes. If any two notes are related to each other, they may also link to each other. I use a classless CSS stylesheet to add some basic styling to the rendered HTML files. I use Git to version control it all, usually committing a snapshot every month or so. I sync my notes folder with Nextcloud to back it up and make it available on my phone.
 
-
-
 ## Advantages
+{: tabindex="-1"}
 
 There are a lot of advantages to this system of taking digital notes.
 
@@ -60,6 +61,7 @@ It's searchable. If I want to search across all of my notes for something, I can
 It's lightweight. My notes folder weighs in at a total of 9 MB. The bulk of that (7.8 MB) is my journals, going back 9 years, before I even started this notes system. (Did I mention that it can be easy to import new content into the system? You just need Markdown files, and you can even use Pandoc to convert Word files to Markdown.) Text editors, browsers, and Pandoc take up more space on my system, but those are programs I would already have installed anyway.
 
 ## Drawbacks
+{: tabindex="-1"}
 
 There are some drawbacks I can think of.
 
@@ -72,6 +74,7 @@ It is moderately complex. If I want a new note to be reachable through the rende
 It assumes you have a desktop computer, and you may not be able to compile your Markdown notes into HTML files on mobile phones and tablets. I think this point is moreso a drawback of today's mobile operating systems, which in theory should allow you to use simple command-line utilities like Pandoc and Git but which in practice obfuscate or prevent you from doing so. That said, you should still be able to sync these notes to your mobile devices, view and edit the plain text Markdown files, and view the already-complied HTML pages.
 
 ## Try It Out
+{: tabindex="-1"}
 
 I set up a [GitHub repository](https://github.com/cncoulter/notes-to-website) that you can copy to set up your own notes system as I described here. Be sure to read the included ReadMe page for detailed instructions on getting set up and using the system.
 

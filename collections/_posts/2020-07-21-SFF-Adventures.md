@@ -19,10 +19,12 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 Welcome to SFF Adventures! This is a new column that I'm trying out. This is where I will round up everything that I am reading, listening to, and watching in the realms of science fiction, fantasy, and horror, and I'll also talk about anything I've been creating or doing in these realms. I'll shout out awesome things, give my thoughts on other things, and occasionally write short reviews.
 
 ## Podcasts
+{: tabindex="-1"}
 
 My friend Emily Win recently interviewed me on her podcast <cite>Our Daily Beard</cite> and let me squee and geek out about trans SFF and my nonbinary identity! It was tons of fun, and I'm quite happy with how it turned out. (It was my first podcast, so I was a little nervous about it!) Please give it a listen, and also check out the show notes on Emily's website for a long list my reading recommendations. Here's the link: "[Season 2 Episode 9: What are Spivak Pronouns? And More on the Queer Sci-fi World with Cam Coulter](https://www.emilyrosewin.com/post/season-2-episode-9-what-are-spivak-pronouns-and-more-on-the-queer-sci-fi-world-with-cam-coulter)."
 
@@ -31,6 +33,7 @@ My friend Emily Win recently interviewed me on her podcast <cite>Our Daily Beard
 I liked the podcast episode "[Speculative Dispatch #9 - A World Without Police](https://www.patreon.com/posts/speculative-9-38457279)" from <cite>Skiffy and Fanty</cite>. You'll need to support <cite>Skiffy and Fanty</cite> on Patreon to listen to this one, but if you're an SFF fan, you definitely should if you can! <cite>Skiffy and Fanty</cite> is fun shining force for inclusion and social justice in SFF fandom. This podcast episode is a great discussion about how police function as an arm of capitalism as well as about SFF stories that attempt to envision a world without police.
 
 ## Blog Posts
+{: tabindex="-1"}
 
 I liked and recommend "[Searching for Body Positivity in Fantasy](https://www.tor.com/2020/06/23/searching-for-body-positivity-in-fantasy/)" by Rosamund Lannin, published on Tor.com. It's an important essay about feminism, fantasy, and how important it is that we do better with representation.
 
@@ -57,8 +60,10 @@ While we're talking about genre magazines, J. Scott Coatsworth recently publishe
 I enjoyed "[The Striking Style of SFF Artist Galen Dara](https://www.tor.com/2020/07/03/the-daring-style-of-sff-artist-galen-dara/)" by Aidan Moher, published on Tor.com. Galen Dara is my favorite artist, so of course I loved getting to learn more about her and her craft. My partner actually gave me a print of [Dara's cover for <cite>Uncanny Magazine</cite> Issue 23](http://www.galendara.com/#6) as a gift. I love that print because (1) it's gorgeous SFF artwork (featuring a dinosaur!), and (2) that issue of <cite>Uncanny</cite> features "[You Can Make a Dinosaur, but You Can’t Help Me](https://uncannymagazine.com/article/you-can-make-a-dinosaur-but-you-cant-help-me/)" by K.M. Szpara, which is one of my all-time favorite short stories.
 
 ## Short Stories
+{: tabindex="-1"}
 
 ### "We're Here, We're Here" by K.M. Szpara
+{: tabindex="-1"}
 
 Speaking of K.M. Szpara, I loved his new short story "[We’re Here, We’re Here](https://www.tor.com/2020/06/10/were-here-were-here-k-m-szpara/)," published on Tor.com. I haven't got around to reading his debut novel <cite>Docile</cite> yet, but reading this short story makes me realize that <cite>Docile</cite> really needs to be the next novel I read.
 
@@ -77,6 +82,7 @@ But then of course there's the flip-side, the real conflict and drama of the sto
 This story is many things, and all of them I loved. It's a scathing critique of society's over-narrow acceptance of queer and trans people. It's a story about a boy band's healthy platonic masculine love. It's a story about a gay trans man falling in love with a bisexual man. It's a story about a boy band sticking together and resisting their controlling manager. If any of those stories sound interesting to you, go read this already!
 
 ### "Getaway" by Nicole Kornher-Stace
+{: tabindex="-1"}
 
 I really liked "[Getaway](https://uncannymagazine.com/article/getaway/)" by Nicole Kornher-Stace in <cite>Uncanny Magazine</cite> Issue 33. It's a time loop story, told from the perspective of a getaway driver. Heads-up: it's dark, bloody, and generally depressing. However, I loved this story because:
 
@@ -86,16 +92,20 @@ I really liked "[Getaway](https://uncannymagazine.com/article/getaway/)" by Nico
 4. It's written in the second-person. I quite enjoy short stories written in the second-person. (I know second-person is more uncommon and weird for novel readers, but in short stories second-person isn't that rare, and I've grown to enjoy it.)
 
 ### "If You Want to Erase Us, You Must Be Thorough" by L. Tu
+{: tabindex="-1"}
 
 I also really liked "[If You Want to Erase Us, You Must Be Thorough](https://uncannymagazine.com/article/if-you-want-to-erase-us-you-must-be-thorough/)" by L. Tu in <cite>Uncanny Magazine</cite> Issue 33. It's a gripping and powerful story about genocide, imperialism, indoctrinating children, and resistance. Sadly, it's a story with themes that can relate to any number of real world matters. It made me think of the [slow-motion genocide happening to Uighurs in China](https://theruinedreport.com/2020/01/24/we-need-to-talk-about-china/) and the recent reports of [forced birth control](https://apnews.com/269b3de1af34e17c1941a514f78d764c).
 
 ## Comics
+{: tabindex="-1"}
 
 ### <cite>Pepper & Carrot</cite> by David Revoy
+{: tabindex="-1"}
 
 The two most recent episodes of <cite>Pepper & Carrot</cite> are about Pepper and Carrot accompanying an army into war. "[Episode 32: The Battlefield](https://www.peppercarrot.com/en/article465/episode-32-the-battlefield)" is a fun comic about dress, representation, and prejudices; it's fun like always. But "[Episode 33: Spell of War](https://www.peppercarrot.com/en/article466/episode-33-spell-of-war)" was really something special --- you must go read it now! I'd say more, but I really don't want to spoil it for you.
 
 ### <cite>Phoebe and Her Unicorn</cite> by Dana Simpson
+{: tabindex="-1"}
 
 If you haven't heard of Dana Simpson's [<cite>Phoebe and Her Unicorn</cite>](https://www.gocomics.com/phoebe-and-her-unicorn) yet, it's time.
 

@@ -15,16 +15,19 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 Who benefits from accessible design?
 
 People with disabilities, of course, but also their friends, family, and caregivers. Organizations such as businesses, schools, and governments also benefit from accessibility. In fact, even the general populace without disabilities benefits from accessibility.
 
 ## Benefits for People with Disabilities
+{: tabindex="-1"}
 
 For some people with disabilities, accessibility makes things easier. For others, accessibility makes things possible. An accessible website can allow you to read the news, learn something new, connect with others, shop, or bank on your own. Accessible transit and architecture allow you to independently go to work and appointments, visit museums or theaters, or go see friends and family. When organizations practice accessibility, people with disabilities have opportunities to work, earn money, break the cycle of poverty, and also participate in their communities.
 
 ## Benefits for Organizations
+{: tabindex="-1"}
 
 Organizations that practice accessibility can reap many benefits, including:
 
@@ -39,6 +42,7 @@ Organizations that practice accessibility can reap many benefits, including:
 * They [innovate](https://habengirma.com/2017/09/13/people-with-disabilities-drive-innovation/).
 
 ## Benefits for People without Disabilities
+{: tabindex="-1"}
 
 People without disabilities also benefit from accessibility.
 

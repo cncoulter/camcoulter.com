@@ -20,10 +20,12 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 This time around, I'm going to skip talking about books and instead just shout out essays, podcasts, and TV shows. Why? I've recently posted my reading roundup for 2021, so check out that post for my thoughts on the SFF I've been reading: "[2021 in Reading]({% post_url 2022-01-10-2021-in-Reading %})."
 
 ## Essays & Blog Posts
+{: tabindex="-1"}
 
 I liked "[How to Survive a Decade in Publishing](https://locusmag.com/2021/02/kameron-hurley-how-to-survive-a-decade-in-publishing/)" by Kameron Hurley in <cite>Locus Magazine</cite>. I always enjoy Kameron Hurley's essays. (If you like reading nonfiction about SFF, I highly recommend [<cite>The Geek Feminist Revolution</cite>]({% post_url 2016-06-15-The-Geek-Feminist-Revolution %}) by Kameron Hurley.)
 
@@ -40,6 +42,7 @@ In the SFF blogosphere, there are many posts listing out different categories or
 Speaking of queer and trans things, I enjoyed this discussion with  Keffy Kehrli, Joyce Chng, and Charlie Jane Anders on <cite>Strange Horizons</cite>: "[Towards Hope and Inclusivity: A Conversation](http://strangehorizons.com/non-fiction/articles/towards-hope-and-inclusivity-a-conversation/)."
 
 ## Podcasts
+{: tabindex="-1"}
 
 Lately, I've been enjoying <cite>Breaking the Glass Slipper</cite>, a podcast about women and genre literature. Here are a few episodes in particular that I liked:
 
@@ -54,12 +57,15 @@ Relatedly, I enjoyed [Episode 181: Playing Blind](https://www.imaginaryworldspod
 I also liked [Episode 185: Rerolling Role-Playing Games](https://www.imaginaryworldspodcast.org/episodes/rerolling-role-playing-games) of <cite>Imaginary Worlds</cite>, which looks at tabletop role-playing game (TTRPG) systems beyond Dungeons & Dragons as well as issues of representation and marginalization.
 
 ## TV Shows
+{: tabindex="-1"}
 
 ### <cite>Gravity Falls</cite>
+{: tabindex="-1"}
 
 I watched all of <cite>Gravity Falls</cite>, a Disney cartoon about two siblings who spend their summer in Gravity Falls, Oregon, a small town filled with the paranormal. I really enjoyed this series. I liked the characters; the series has top-notch weird/paranormal elements; and the series' plot arc is compelling and relatively sophisticated. If you like cartoons and the weird/paranormal, I highly recommend <cite>Gravity Falls</cite>. If you're into just one of those (cartoons *or* the weird/paranormal), you will probably enjoy this show as well.
 
 ### <cite>Kipo and the Age of Wonderbeasts</cite>
+{: tabindex="-1"}
 
 I watched all three seasons of <cite>Kipo and the Age of Wonderbeasts</cite>, a Netflix cartoon that told a complete story over three seasons. The show takes place after an apocalypse of sorts: a mutation has caused some animals to become intelligent, and some animals to grow to sizes that rival dinosaurs, pushing most of the humans who remain to live underground in burrows. The show follows Kipo, a burrow girl who accidentally gets stuck on the surface. In her quest to get home, she needs to make friends, help foster peace between the competing animal clans on the surface, and face a couple villains.
 
@@ -70,6 +76,7 @@ First, the representation is great. Most of the human characters are Black and/o
 Second, this show has some powerful, beautiful themes. Much like Steven in <cite>Steven Universe</cite> or Tohru Honda in <cite>Fruits Basket</cite>, Kipo's superpower is really her extraordinary empathy and her ability to make peace with and between others. I love it so much.
 
 ### <cite>Scooby-Doo! Mystery Incorporated</cite>
+{: tabindex="-1"}
 
 I watched <cite>Scooby-Doo! Mystery Incorporated</cite>. I really enjoyed it, although that's not to say it's solidly good. Ultimately, I think this is a show that *fails well*. Here are some interesting and fun things this show does:
 

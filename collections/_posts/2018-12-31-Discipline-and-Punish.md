@@ -21,12 +21,14 @@ toc: true
 <p class="bookinfo"><cite>Discipline and Punish: The Birth of the Prison</cite> by Michel Foucault. Translated by Alan Sheridan. Vintage Books, 1995. Originally published in France in 1975.</p>
 
 ## Foucault's Ideas
+{: tabindex="-1"}
 
 We had discussed this book in a few of my college classes, so I had some context for understanding it, but it's still admittedly a challenging text to parse, so after I read it, I listened to the recent [<cite>Philosophize This!</cite> podcasts](https://www.philosophizethis.org/podcast/michel-foucault-pt-1) about Foucault and his work. I'm very glad I did. Those podcasts helped a lot with my understanding and appreciation of the text.
 
 <cite>Discipline and Punish</cite> may look like a history book, but it's not. It doesn't point to the past and tell us how things used to be, back then. Foucault would argue that <cite>Discipline and Punish</cite> is more of a genealogy, a book which traces how our current mechanisms of power developed over time. On the face of it, this is a book about prisons, but it's really concerned with systems of discipline and with disciplinary power, which are at play all throughout society --- in prisons yes, but also in schools, in business, in government, in the military, and even in our private lives. The key modalities of power have shifted, Foucault argues. No longer is power primarily exercised by the brute strength of the state. Nowadays, power operates and functions most significantly through discipline, a widespread and diffuse (and even internalized) system, a process of surveillance, normalization, and examination. All throughout society, we are constantly monitoring and tracking ourselves and each other and then comparing everyone to normalized standards of behavior. In this process, we become both controlled subjects and active participants, simultaneous following and reinforcing the norms of society. Discipline is the primary mode of power in our modern world, and in most cases, it shapes our behavior more significantly than the state's threat of force.
 
 ## My Reactions
+{: tabindex="-1"}
 
 The book is entirely a descriptive account. Foucault doesn't directly argue whether this system of discipline that has developed is good or bad. Which is fair. Discipline is somewhat like a tool; it's more or less neutral, neither good or bad. As Foucault writes:
 
@@ -43,6 +45,7 @@ So I guess I'm a little frustrated that Foucault didn't engage in this sort of a
 Moreover, discipline has become so ingrained in our lives that, as Foucault puts it, "there is no outside" (301). It's reach is inescapable. How can you truly know where your authentic desires end and where the internalized norms and standards of society begin? You probably can't, not fully, not always clearly. If that's the case, if there is no outside to the system, then it's particularly useful to understand how exactly this system operates, and that's a question that Foucault devotes a lot of energy to answering.
 
 ## Discipline and Me
+{: tabindex="-1"}
 
 As I read <cite>Discipline and Punish</cite>, I couldn't help but reflect on the fact that I've recently been researching [<abbr title="Getting Things Done">GTD</abbr>](https://en.wikipedia.org/wiki/Getting_Things_Done), [minimalism](http://calnewport.com/blog/2016/12/18/on-digital-minimalism/), and Cal Newport's work (especially his ideas concerning [deep work](http://calnewport.com/about/#ideas)), and subsequently I've been incorporating some of these ideas into a developing system of personal habits and practices. In short, I've been "getting productive" and getting into productivity, although I'd argue that I'm just trying to spend my time in ways that are more meaningful to me. (I need to write a future essay in which I reflect on the points of both overlap and tension between "being productive" and trying to spend my life more meaningfully.)
 

@@ -15,10 +15,12 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 How many people have disabilities? From looking at statistics about people with disabilities, what else can we learn?
 
 ## How common are disabilities?
+{: tabindex="-1"}
 
 It depends how you measure it, but roughly 10--20% of people have one or more disabilities. That's over one billion people with disabilities worldwide.
 
@@ -27,6 +29,7 @@ The [CDC actually estimates](https://www.cdc.gov/ncbddd/disabilityandhealth/info
 Disability statistics can vary a lot, especially between countries. That's partially because disability is broad and diverse, and how you define it (or ask about it) can greatly affect your statistics. Context significantly affects the statistics we gather about disability. For example, people are more likely to identify as having a disability when it can help them qualify for benefits, and less likely to self-identify when they fear discrimination.
 
 ## What is the relationship between disability and poverty?
+{: tabindex="-1"}
 
 Disability and poverty exist in a vicious cycle with each other. People with disabilities are more likely to be poor, and poor people are more likely to acquire disabilities.
 
@@ -37,6 +40,7 @@ In the US, people with disabilities are about [twice as likely to be unemployed]
 [According to the US Bureau of Transportation Statistics](https://www.bts.gov/travel-patterns-with-disabilities), people with disabilities are less likely to own or have access to vehicles than those without disabilities. Even if they do have vehicles, people with disabilities are still less likely to drive. Public transit in the US is ... not great. It's limited, and it's time-intensive. Moreover, too much of our housing stock exists in suburbs, distant from work opportunities, shopping, and services. For people with disabilities in the United States, lacking a car or not being a driver can further trap you in this cycle of poverty.
 
 ## How much disposable income do people with disabilities have?
+{: tabindex="-1"}
 
 Even though people with disabilities are more likely to live in poverty, as a group they still have a ton of disposable income and purchasing power. [According to AIR](https://www.air.org/resource/hidden-market-purchasing-power-working-age-adults-disabilities), US Americans with disabilities have about $490 billion in disposable income. [According to the Return on Disability Group](https://www.rod-group.com/content/rod-research/edit-research-design-delight-disability-2020-annual-report-global-economics), the disability market worldwide (people with disabilities as well as their friends and families) influence over $13 trillion each year in disposable income. That amount of money is [hard to fathom](https://sheribyrnehaber.medium.com/people-with-disabilities-control-8-trillion-in-spending-dabd43a87d81).
 

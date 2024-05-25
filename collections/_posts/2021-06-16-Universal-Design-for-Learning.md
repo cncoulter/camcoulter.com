@@ -15,6 +15,7 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 When we talk about universal design, you might think about universal design of physical spaces and objects, but you can also apply universal design to information and communication technologies (ICT), as we looked at recently ("[Principles of Web Accessibility]({{ site.baseurl }}{% post_url 2021-06-09-Principles-Web-Accessibility %})"). In this post, we are going to look at how you can apply universal design to learning.
 
@@ -23,6 +24,7 @@ When we talk about universal design, you might think about universal design of p
 UDL is a framework that you can use to help create curriculum that works for all learners from the start, without the need for specialized accommodations or modifications. In that way, UDL can help you achieve the first principle of universal design: [Equitable Use](http://universaldesign.ie/What-is-Universal-Design/The-7-Principles/#p1). With UDL, you can create one curriculum or lesson plan that works for a diverse array of learners, rather than segregate learners with different abilities into different classes.
 
 ## Principle: Provide Multiple Means of Engagement
+{: tabindex="-1"}
 
 Use a variety of tactics to motivate a learner and capture their interest and attention, to help them answer the question: why should I learn this?
 
@@ -43,6 +45,7 @@ This principle breaks down into three guidelines, and each guideline breakds dow
 	* Use tools like self-assessments and reflections so that learners can see their progress.
 
 ## Principle: Provide Multiple Means of Representation
+{: tabindex="-1"}
 
 Present information in a variety of mediums, so that learners are able to access the underlying content no matter their dis/abilities, so that all learners are able to answer the question: what am I learning?
 
@@ -61,6 +64,7 @@ Present information in a variety of mediums, so that learners are able to access
 	* Similarly, don't overwhelm the learner by throwing everything at them at once. Break things down into digestible pieces. Use scaffolding, progressive guidance, and step-by-step procedures.
 
 ## Principle: Multiple Means of Action and Expression
+{: tabindex="-1"}
 
 Not everyone is good at taking tests or writing essays. Just because someone failed your test doesn't mean they don't understand the content. Use a variety of different learning activities and provide different sorts of formative and summative assessments. Imagine your learner is asking "How can I demonstrate that I know this or can do this?" Give them many different options and ways to show you that they know it or can do it.
 

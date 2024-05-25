@@ -16,6 +16,7 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 There are a number of different theoretical models that we use to understand disability. What are the most common models that you are likely to come across?
 
@@ -30,6 +31,7 @@ There are a number of different theoretical models that we use to understand dis
 What are the basic concepts behinds each of these models, as well as their strengths and weaknesses? Which of these models best align with the principles of accessibility and universal design? What are some practical examples of these models in our lives?
 
 ## The Medical Model
+{: tabindex="-1"}
 
 Under the medical model of disability, disabilities arise from various biological impairments or diagnosable health conditions. The medical model emphasizes individuals' impairments and limitations and is often concerned with "healing" the person or mitigating their impairments through professional medical care.
 
@@ -40,6 +42,7 @@ Weakness: The medical model over-emphasizes the individual and overlooks the fun
 We see the medical model in action when someone with a disability is diagnosed by a medical professional with a health condition and then offered treatment or a cure for their condition through the health care system.
 
 ## The Social Model
+{: tabindex="-1"}
 
 The social model of disability emphasizes mismatches between individuals' capabilities and the demands of their environment. While under the medical model, disabilities are created by various impairments, under the social model, people are disabled when their environment is not designed to meet their needs. In this case, impairments don’t directly cause disability. Instead, people are disabled by poorly designed environments. Adherents to the social model of disability typically won't deny that people have various impairments, medical conditions, or differing abilities that can present challenges. However, under the social model, those challenges on their own don’t cause a disability. Instead, the mismatch between a person’s abilities and their environment creates a disability, not an impairment in and of itself.​
 
@@ -52,6 +55,7 @@ Weakness: If you look at disability strictly from the social model, you may over
 We see the social model in action when buildings are designed to be wheelchair accessible or when websites are designed to work with assistive technologies such as screen readers or switch controls. By carefully and inclusively creating our built environments, we can include rather than disable people.
 
 ## The Functional Solutions Model
+{: tabindex="-1"}
 
 The functional socials model of disability looks at disability as a practical problem to be solved, often through innovative assistive technologies or adaptive strategies.
 
@@ -64,6 +68,7 @@ Weakness: This view can be too narrow or myopic at times, overlooking the role o
 We see the functional solutions model in action when an engineer create new assistive technologies or when we [3D-print braille dice](https://boingboing.net/2021/02/19/3d-printed-braille-dice.html).
 
 ## Biopsychosocial Model
+{: tabindex="-1"}
 
 The biopsychosocial model is probably the most complicated, nuanced framework for understanding what disability is. This model is the basis for the World Health Organization's [International Classification of Functioning, Disability and Health](https://www.who.int/classifications/icf/icfbeginnersguide.pdf?ua=1) (ICF), a framework which is often [used by occupational therapists](https://journals.sagepub.com/doi/10.1177/0008417416638842).
 
@@ -78,6 +83,7 @@ Weakness: It's a little complicated to wrap your head around at first. It may al
 We can see the biopsychosocial model in action when an occupational therapist (OT) helps someone learn to use an assistive technology and later when the OT advocates for web accessibility.
 
 ## The Economic Model
+{: tabindex="-1"}
 
 The economic model is concerned with how disability impacts an individual's ability to work. By extension, this model may also be used by employers to analyze "productivity" or by the state to plan welfare programs.
 
@@ -88,6 +94,7 @@ Weakness: This approach to disability overlooks many other aspects of disability
 We see the economic model in action when an employer wonders if someone with a disability would be "as productive" as someone without or when people creating welfare systems assume people with disabilities require economic support.
 
 ## The Social Identity or Cultural Affiliation Model
+{: tabindex="-1"}
 
 People with disabilities often have similar life experiences to each other, experiences that others in society may not understand. The social identity or cultural affiliation model of disability pays attention to how people with disability can have a shared culture and take pride in their membership in this group.
 
@@ -98,6 +105,7 @@ Weakness: For some people with disabilities, it is not easy to accept their disa
 We see this model in action when Deaf individuals showcase Deaf pride and create or support Deaf culture.
 
 ## The Charity Model
+{: tabindex="-1"}
 
 Under the charity model, disabilities are viewed as tragic or unfortunate, and people with disabilities may be viewed as inspirational for living with their impairments. Relatedly, people with disabilities are viewed as needing assistance, and providing that assistance is seen as morally laudable.
 

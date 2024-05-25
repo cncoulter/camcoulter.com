@@ -35,18 +35,22 @@ toc: true
 ---
 
 ## <cite>Kim Reaper: Grim Beginnings</cite> by Sarah Graley
+{: tabindex="-1"}
 
 This adorable and fun comic is adorable and fun. It features: a college student who's a part time grim reaper + a lesbian romance + cats + ghosts + zombies + pretty artwork. I want more please.
 
 ## <cite>Moonstruck Vol 1: Magic to Brew</cite> by Grace Ellis and Shae Beagle
+{: tabindex="-1"}
 
 This gorgeous, queer comic is about a handful of friends living their life in a college town filled with magical creatures of all sorts. This comic made me feel all warm and cozy inside because of its beautiful art, laid-back attitude, and diverse cast of characters.
 
 ## <cite>The Bride was a Boy</cite> by Chii
+{: tabindex="-1"}
 
 This manga is a cute and heartwarming love story, created by a trans artist, sharing about her marriage and her husband. It's a quick read, and I liked it.
 
 ## <cite>Teaching Critical Thinking: Practical Wisdom</cite> by bell hooks
+{: tabindex="-1"}
 
 <cite>Teaching Critical Thinking</cite> is the third book in bell hook's teaching trilogy. (The other two books are <cite>Teaching to Transgress</cite> and <cite>Teaching Community</cite>.) I have now read and enjoyed all three essay collections.
 
@@ -55,12 +59,14 @@ The essays in this book are short, accessible, intelligent, and thought-provokin
 I am sure that I will return to these three books in the future. I'd found that reading these books has been a good way for me to break down my assumptions and default routines when it comes to teaching, a good way to pause and reflect on what I really want my teaching to do.
 
 ## <a href="https://uncannymagazine.com/issues/uncanny-magazine-issue-twenty-four/"><cite>Uncanny Magazine Issue 23: Disabled People Destroy Science Fiction!</cite></a> edited by Dominik Parisien and Elsa Sjunneson-Henry
+{: tabindex="-1"}
 
 This special issue of <cite>Uncanny Magazine</cite> is really worth checking out. First off, it's just really good. I especially loved the fiction and the personal essays about disability and SF. Secondly, I don't think we have nearly enough disabled representation or stories that seriously engage disability, so this issue --- which is all about that --- felt like a welcome breath of fresh air.
 
 Back in November, I [reviewed](https://skiffyandfanty.com/blogposts/reviews/shortfictionreviews/shortfictionreviewseptemberoctober2018/) ["The House on the Moon"](https://uncannymagazine.com/article/the-house-on-the-moon/) by William Alexander, my favorite story in the issue. At the very least, you should go read that.
 
 ## <cite>The Three-Body Problem</cite>, <cite>The Dark Forest</cite>, and <cite>Death's End</cite> by Liu Cixin (translated Ken Liu and Joel Martinsen)
+{: tabindex="-1"}
 
 I really enjoyed these three novels, which together comprise <cite>The Remembrance of Earth's Past</cite> trilogy. Each novel is filled with really cool, really awesome ideas (mostly taken from physics) that are clearly explained and beautifully written. It's translated from Chinese and centered around Chinese characters, which of course I enjoyed a lot, although the trilogy as a whole is much more a story about humanity at large rather than just China.
 
@@ -69,6 +75,7 @@ In my option, the highlights from each book were the video game in book one, the
 I was a little less impressed with the ending, but I think that has less to do with Liu's writing and more to do with my own reading. After reading Robert Charles Wilson’s short story "[Utriusque Cosmi](http://clarkesworldmagazine.com/wilson_01_14_reprint/)" and <cite>Excession</cite> by Iain M. Banks, the wonder of the finale felt, well, less wonderful, perhaps even slightly derivative. But I still as heck enjoyed it.
 
 ## <cite>Leviathan Wakes</cite> and <cite>Babylon's Ashes</cite> by James S.A. Corey
+{: tabindex="-1"}
 
 Over the summer, I got to reread <cite>Leviathan Wakes</cite> and read for the first time <cite>Babylon's Ashes</cite>, the first and sixth books in <cite>The Expanse</cite> series by James S.A. Corey. <em>I had so much fun!</em> Honestly, this series is [the most fun I've ever had reading]({{ site.baseurl }}{% post_url 2017-12-19-Reading %}#nemesis-games-by-james-sa-corey). It's filled with excellent scifi action, character conflict, and political drama. The prose is sharp, accessible, and immersive, and the worldbuilding and themes are interesting and engaging.
 
@@ -86,6 +93,7 @@ I loved <cite>Babylon's Ashes</cite>. It's my favorite book in the series so far
 If you like SF and if you like reading things which are, you know, <em>fun</em>, you gotta check out <cite>The Expanse</cite> (both the book and the TV series).
 
 ## <cite>I Am Providence</cite> by Nick Mamatas
+{: tabindex="-1"}
 
 Often, I find myself returning to this idea: our expectations greatly affect our experience of reading a book, sometimes more than anything else. For more of my thoughts on this, see my posts about [<cite>The Left Hand of Darkness</cite>]({{ site.baseurl }}{% post_url 2017-04-20-The-Left-Hand-of-Darkness %}) and [<cite>A Series of Unfortunate Events</cite>]({{ site.baseurl }}{% post_url 2018-07-16-Reading %}#a-series-of-unfortunate-events-by-lemony-snicket).
 
@@ -94,6 +102,7 @@ For whatever reason, my expectations were somewhat off base for this book. <cite
 I enjoyed the books' commentary and exploration of Lovecraft, the Lovecraft community, and the unsavory, unjust, and problematic elements of those (racism, sexism, ableism, etc). But --- because of my misguided expectations --- I kept waiting for Cthulhu to rise from the deep, or something like that anyway, so I was ultimately disappointed when that didn't really happen.
 
 ## <cite>The Remnant Fleet</cite> by Geonn Cannon
+{: tabindex="-1"}
 
 I picked up this book in the [2018 LGBT+ StoryBundle](https://storybundle.com/archives/the-2018-lgbt-bundle) back in June. It's a short novel, and it looked like a fun, queer space opera, so of course I could not resist.
 
@@ -102,6 +111,7 @@ I like this book! This book was fun! And queer! And filled with many of my favor
 I must also raise content warnings for this book for rape and sexual abuse. There is some <em>very heavy</em> stuff in this book. I think it handles it well, and all in all the book still felt relatively upbeat, at least for me anyway, but you should definitely be aware of this before you start reading.
 
 ## <cite>Transcendent: The Year's Best Transgender Speculative Fiction</cite> edited by K.M. Szpara
+{: tabindex="-1"}
 
 Of course I loved this. Look at the title. Look at [who edited it](https://skiffyandfanty.com/blogposts/reviews/shortfictionreviews/shortfictionreviewjuly2018dinosaurs/). My favorite stories were:
 * "[The Shape of My Name](https://www.tor.com/2015/03/04/the-shape-of-my-name/)" by Nino Cipri
@@ -111,6 +121,7 @@ Of course I loved this. Look at the title. Look at [who edited it](https://skiff
 * "[Where Monsters Dance](http://podcastle.org/2015/10/13/podcastle-385-where-monsters-dance/)" by A. Merc Rustad
 
 ## <cite>Amaryllis and Other Stories</cite> by Carrie Vaughn
+{: tabindex="-1"}
 
 Carrie Vaughn is such a good writer. I wish I could write prose like her. Her stories are lush, detailed, and immersive but also accessible, character-centered, and skillfully plotted. Before reading <cite>Amaryllis and Other Stories</cite>, I had read a lot of her short fiction published online and also her novel [<cite>Bannerless</cite>]({{ site.baseurl }}{% post_url 2017-11-01-Reading %}#bannerless-by-carrie-vaughn), which I loved. It was one of my favorite novels of the year, and I still find myself thinking about it fairly often.
 
@@ -127,5 +138,6 @@ I tried to select some of my favorite stories to shout out, but ... I like pract
 Lastly, I'd be remiss not to also mention that earlier this year, <cite>Tor.com</cite> published "[Where Would You Be Now?](https://www.tor.com/2018/02/07/where-would-you-be-now-carrie-vaughn/)" by Carrie Vaugh, another short story set in the <cite>Bannerless</cite> universe. I super loved that story also. Check it out!
 
 ## Recent Short Fiction
+{: tabindex="-1"}
 
 And of course I've also been reading lots of short fiction for my [short fiction review column](https://skiffyandfanty.com/author/cameronncoulter/) over at <cite>Skiffy & Fanty</cite>.

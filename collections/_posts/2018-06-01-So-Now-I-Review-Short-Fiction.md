@@ -18,12 +18,14 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 [<cite>The Skiffy and Fanty Show</cite>](https://skiffyandfanty.com/) is a science fiction and fantasy podcast network, mostly focused on prose fiction but with some regular coverage of movies as well. The show also runs a blog filled with reviews of recent genre publications. <cite>Skiffy and Fanty</cite> is a great place to find interesting interviews, discussions, and reviews.
 
 And now, I've joined the team! I'm writing a monthly [short fiction review column](https://skiffyandfanty.com/author/cameronncoulter/) for the <cite>Skiffy and Fanty</cite> blog. My first three reviews are already up.
 
 ## Why?
+{: tabindex="-1"}
 
 Since falling down the SF rabbit hole a few years ago, I've been looking for ways to build community with fellow SF nerds.
 
@@ -34,6 +36,7 @@ None of my friends have the same passionate interest in literary SF that I do, a
 Then, back in January, I noticed that <cite>Skiffy and Fanty</cite> was looking for more contributors to their blog. I knew I should apply. Writing reviews for <cite>Skiffy and Fanty</cite> would be a great way to fulfill both goals: finding community, and getting involved and giving back. Suddenly, it seemed that the last year and a half of book blogging I'd done actually had a purpose: I had experience writing about SF literature, and I had a portfolio of work I could point to.
 
 ## Now What Exactly?
+{: tabindex="-1"}
 
 I'm reviewing short fiction, at the pace of one review per month. In my reviews, I'm trying to be mostly positive and minimally critical. Short stories are super subjective, and I'm new to this; no one needs me to be negative. (More on this in the next section.) Also, the short story market for SF is massive, so I'm trying to do what I think is most useful for me to do: shout out my favorite stories, encourage folks to go read them, and offer my thoughts on those stories. To couch it in "Skiffy and Fanty" speak, I'm going to squee about and signal boost my favorite stories, and in particular, I'm trying to highlight stories by new writers and writers with marginal identities.
 
@@ -52,6 +55,7 @@ Favorite themes: (1) Feminism! I love feminist stories, especially stories that 
 Three things I've read (and loved!) recently that engage these themes are: (1) [<cite>Capricious</cite> Issue 9: Gender Diverse Pronouns](http://www.capricioussf.org/issue-9-gender-diverse-pronouns/) (QUILTBAG feminism); (2) [“Graveyard Girls on Paper Phoenix Wings”](http://www.glittership.com/2018/03/05/episode-51-graveyard-girls-on-paper-phoenix-wings-by-andrea-tang/) by Andrea Tang (religion with QUILTBAG feminism); and (3) ["Where Would You Be Now?"](https://www.tor.com/2018/02/07/where-would-you-be-now-carrie-vaughn/) by Carrie Vaughn (community with QUILTBAG feminism).
 
 ## Identity, Labor, and Sustainability
+{: tabindex="-1"}
 
 I will try my best to ground my reviews in the language of opinion. That means focusing on how I react to each piece rather than saying any given piece of short fiction is "objectively" good or bad. I'm not going to recommend the "best" stories in any given month, just my favorites. I'm not covering the whole field, and I'm not trying to. I make no pretenses to providing objective, critical, authoritative reviews.
 

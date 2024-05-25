@@ -16,6 +16,7 @@ toc: true
 ---
 
 ## The Universal Declaration of Human Rights
+{: tabindex="-1"}
 
 The [Universal Declaration of Human Rights](https://www.un.org/en/about-us/universal-declaration-of-human-rights) was accepted by the United Nations General Assembly on December 10, 1948. Now, December 10th is celebrated annually as Human Rights Day. (That's just a few days after December 3rd, the [International Day for Persons with Disabilities](https://www.un.org/en/observances/day-of-persons-with-disabilities).)
 
@@ -34,6 +35,7 @@ So, under article 25, people with disabilities do explicitly have a right to sec
 Article 23 states that "everyone has the right to work," and article 26 states that "everyone has the right to education." I would argue that disability justice and accessibility are necessary pre-conditions for people with disabilities to exercise these rights.
 
 ## Declaration on the Rights of Disabled Persons
+{: tabindex="-1"}
 
 In 1975, the United Nations General Assembly passed the [Declaration on the Rights of Disabled Persons](https://www.ohchr.org/EN/ProfessionalInterest/Pages/RightsOfDisabledPersons.aspx). Like the Universal Declaration of Human Rights, this is a non-binding declaration. However, unlike the Universal Declaration of Human Rights, this declaration explicitly proclaims the rights of people with disabilities.
 
@@ -44,6 +46,7 @@ Similar to the Universal Declaration of Human Rights, the Declaration on the Rig
 (Another declaration of note might be the [Declaration on the Rights of Mentally Retarded Persons](https://www.ohchr.org/EN/ProfessionalInterest/Pages/RightsOfMentallyRetardedPersons.aspx), which the UN passed in 1971.)
 
 ## Convention on the Rights of Persons with Disabilities
+{: tabindex="-1"}
 
 The [Convention on the Rights of Persons with Disabilities](https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities.html) (CRPD) is a binding human rights treaty. (Hurrah!) It was adopted in 2006 and came into force in 2008. US President Barack Obama signed the treaty in 2009, but the US has not yet ratified the treaty. According to the UN:
 
@@ -58,6 +61,7 @@ The CRPD is a binding treaty concerning the rights of persons with disabilities,
 There is also an [optional protocol](https://www.un.org/development/desa/disabilities/convention-on-the-rights-of-persons-with-disabilities/optional-protocol-to-the-convention-on-the-rights-of-persons-with-disabilities.html) to the Convention which authorizes the UN's Committee on the Rights of Persons with Disabilities to receive and monitor purported violations of the Convention.
 
 ## Marrakesh Treaty
+{: tabindex="-1"}
 
 The full title of the [Marrakesh Treaty](https://www.wipo.int/treaties/en/ip/marrakesh/summary_marrakesh.html) tells you its purpose: The Marrakesh Treaty to Facilitate Access to Published Works for Persons who are Blind, Visually Impaired, or Otherwise Print Disabled. That is, the Marrakesh Treaty creates limitations and exceptions to copyright laws so that accessible versions of books (and other copyrighted materials) can be created for people with print disabilities. The treaty also allows those accessible texts to be exported and imported across national boundaries.
 

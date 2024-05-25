@@ -16,12 +16,14 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 Jamie Knight works for the BBC. He likes to say that his job is "to make sure that our apps, websites, and services [don't disable people](https://youtu.be/XBzXBY9G2u4?t=253)." That viewpoint is informed by the [social model of disability]({{ site.baseurl }}{% post_url 2021-04-26-Models-of-Disability%}#the-social-model).
 
 One method to not disable people is to practice universal design. [Universal design](https://projects.ncsu.edu/www/ncsu/design/sod5/cud/about_ud/udprinciplestext.htm) is the "design of products and environments to be usable by all people, to the greatest extent possible, without the need for adaptation or specialized design." If you practice universal design, you won't need to provide accommodations for people as often, because your building or website will be usable to more people by default. You may still need to provide some accommodations, but if you do your best to practice universal design and avoid disabling anyone, you won't need to provide specialized accommodations nearly as often.
 
 ## Universal Design
+{: tabindex="-1"}
 
 The term "universal design" was coined by the architect Ronald Mace, and North Carolina State University's Center for Universal Design developed [seven principles](http://universaldesign.ie/What-is-Universal-Design/The-7-Principles/) of universal design:
 
@@ -49,6 +51,7 @@ When I think about universal design, I think about how [dis/ability is a spectru
 Universal design can help [remove the need for specialized accommodations](https://www.washington.edu/doit/universal-design-vs-accommodation). If a building is designed to be wheelchair accessible, people who use wheelchairs won't need to request accommodations. Universal design (and accessibility more generally) also helps enable specialized assistive technologies to work properly. When information is provided on an accessible webpage, people who are deafblind can read it with a screen reader and a refreshable braille display. However, a refreshable braille display won't do you much good if the information is only available as a scanned image file or a printed handout.
 
 ## Accommodations
+{: tabindex="-1"}
 
 Universal design is for everyone. Accommodations, however, are typically for individuals. Accommodations are specialized solutions to provide equal access for individuals with disabilities, solutions that are designed to make up for the shortcomings of an inaccessible environment. Accommodations are often particular and individualized to both the person and the situation, specifically designed to allow that person to perform the same tasks to the same extent as those without disabilities. Accommodations may require professional documentation of a disability in order to be arranged.
 

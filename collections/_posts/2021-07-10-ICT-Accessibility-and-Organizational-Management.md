@@ -16,10 +16,12 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 By this point, we've looked at different types of disabilities and assistive technologies. We've talked about the principles of accessibility and universal design in both physical and digital environments. We've also reviewed disability rights and accessibility laws outside and inside the United States. What's left? Putting it all into practice: integrating ICT accessibility into organizational governance and management.
 
 ## Be Proactive about Accessibility
+{: tabindex="-1"}
 
 There are two broad approaches to dealing with accessibility:
 
@@ -45,6 +47,7 @@ If you walk away from this post with just one idea about managing accessibility,
 You may have heard professionals talk about "shifting left" when dealing with accessibility. This is what they mean: you should integrate accessibility from the beginning and throughout an entire project, rather than treating it as a final or optional step.
 
 ## Recommendations from the W3C's Web Accessibility Initiative
+{: tabindex="-1"}
 
 The World Wide Web Consortium’s Web Accessibility Initiative (WAI) provides detailed recommendations for managing and supporting accessibility within an organization on their website. Their recommendations fall under four categories:
 
@@ -65,6 +68,7 @@ Embedded within these recommendations are a few items that I think are of partic
 4. Have a clear system or process for receiving and responding to accessibility feedback.
 
 ## Recommendations from the European Agency for Special Needs & Inclusive Education
+{: tabindex="-1"}
 
 The [European Agency for Special Needs & Inclusive Education](https://www.european-agency.org) has also published recommendations for implementing accessibility within an organization: "[Making Your Organisation's Information Accessible for All](https://www.european-agency.org/sites/default/files/Making%20your%20Organisations%20Information%20Accessible%20for%20All_EN.pdf)."
 
@@ -79,6 +83,7 @@ The agency has seven main recommendations:
 7. When outsourcing, make sure you include (and double-check) accessibility requirements.
 
 ## The Capability Maturity Model
+{: tabindex="-1"}
 
 The Capability Maturity Model is a way to describe how developed a process is. It was created with a focus on software development, but it can be applied to other processes as well. The model includes five levels:
 
@@ -91,6 +96,7 @@ The Capability Maturity Model is a way to describe how developed a process is. I
 I like it. It's a simple way to understand how developed and robust a process is, and it helps me think about what next steps might be helpful in further improving the process.
 
 ## Business Disability Forum: Accessibility Maturity Model
+{: tabindex="-1"}
 
 The Business Disability Forum has created the [Accessible Technology Charter](https://businessdisabilityforum.org.uk/knowledge-hub/resources/tech-taskforce-accessible-technology-charter/), which lists ten commitments on ICT accessibility that businesses are encouraged to make.
 
@@ -103,6 +109,7 @@ In conjunction with the charter, the forum also created the Accessibility Maturi
 5. Best Practice
 
 ## Security, Privacy, Performance, & Accessibility
+{: tabindex="-1"}
 
 Security, privacy, performance, and accessibility are all important. Except for performance, you can get sued if you fail on these, and all of these can impact your bottom-line. None of these are things you want to "bolt on" at the end of a project; if you try, it'll often be harder and more expensive than the alternative.
 
@@ -111,6 +118,7 @@ Accessibility, however, is also quite different than security, privacy, and perf
 For more on the differences between accessibility on one hand and security and privacy on the other, see Jeff Singleton's post "[Web Accessibility is Broken (Part 3)](https://convergeaccessibility.com/2021/06/01/web-accessibility-is-broken-part-3/)."
 
 ## Get an Accessibility Champion in Management
+{: tabindex="-1"}
 
 Accessibility programs don't tend to succeed if they don't have people championing and advocating for them, ideally a higher-up manager. Of course, it's important to have buy-in throughout an organization, but management champions are particularly important because:
 
@@ -120,6 +128,7 @@ Accessibility programs don't tend to succeed if they don't have people championi
 * Managers can use the accessibility maturity model to develop, formalize, and improve accessibility workflows within the organization.
 
 ## Define Your Scope
+{: tabindex="-1"}
 
 On the development side of things, most accessibility projects fall into one of these four categories:
 
@@ -129,12 +138,14 @@ On the development side of things, most accessibility projects fall into one of 
 4. Maintenance: Testing, updating, and maintaining something that should already be largely accessible.
 
 ## Create Role-Specific Requirements and Job-Aids
+{: tabindex="-1"}
 
 It's not enough just to train employees and expect them to be able to "go and be accessible." I work as a training specialist, and I see just how easy it is to give someone a training that's related to their work, for them to "get it" in the training, and yet they then go back to their job and nothing changes. If you want your accessibility training to actually change things, you need to walk the last mile.
 
 You need to break down accessibility standards and policies into role-specific requirements and guidance and then create job-aids like checklists and [guides](https://www.ucop.edu/information-technology-services/_files/word-pdf-accessibility-guide.pdf). *And then*, you need to use these tools in your trainings and have trainers and managers ensure that these tools are being used and the role-specific requirements are being met in practice. I think Ken Nakata and Jeff Singleton at [Converge Accessibility](https://convergeaccessibility.com/2021/05/17/post-3684/) do a good job making this point.
 
 ## Test & Evaluate
+{: tabindex="-1"}
 
 Testing and evaluating is essential to creating accessible ICT. In particular:
 
@@ -147,14 +158,17 @@ Testing and evaluating is essential to creating accessible ICT. In particular:
 See WAI's website for more specifics on [testing and evaluating for accessibility](https://www.w3.org/WAI/test-evaluate).
 
 ## Communicate Accessibly
+{: tabindex="-1"}
 
 Pay attention to communications, both within your organization and for public-facing communications. Create accessibility standards for communications. Ensure that all your communications (of all media types) are accessible. Use plain language where possible, and consider translating your communications into other languages. For videos, remember to include captions, audio descriptions, and transcripts. Accessibility is good for your brand and reputation.
 
 ## Follow the Law
+{: tabindex="-1"}
 
 There are also accessibility considerations when it comes to legal compliance. Basically, make sure you're following the law. Become familiar with accessibility laws and standards, and assess your potential liability. If you're not already practicing accessibility, set priorities and start doing so, starting with the largest barriers to the most essential services. Create an accessibility policy if you don't have one already, follow it, and document it.
 
 ## Procure Accessibly
+{: tabindex="-1"}
 
 Pay special attention to procurement. When your organization procures new products or services, make sure they are accessible.
 
@@ -168,6 +182,7 @@ Pay special attention to procurement. When your organization procures new produc
 If you take these steps, you not only ensure that you are practicing accessibility, but you influence vendors by showing them that accessibility truly is a priority.
 
 ## Recruit, Hire, & Train People with Disabilities and People with Accessibility Skills
+{: tabindex="-1"}
 
 When it comes to "human resources," there are three main priorities when it comes to accessibility:
 
@@ -182,5 +197,6 @@ Hire accessibility experts when you can, and remember, practically everyone need
 Finally, train and develop your existing workforce on accessibility. It's useful to have in-house accessibility experts, and as we just touched on, practically everyone needs some accessibility skills. Provide accessibility trainings and encourage your employees to acquire accessibility certifications (and when they do, pay for their IAAP membership and exam fees).
 
 ## Remember What It's All About
+{: tabindex="-1"}
 
 Finally, remember that while accessibility benefits everyone, it's essential for people with disabilities. Center people with disabilities. Engage with them, listen to them, include them, hire them, pay them well, and promote them. And remember that accessibility is only one piece of disability justice.

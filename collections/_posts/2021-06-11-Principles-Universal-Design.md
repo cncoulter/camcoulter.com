@@ -15,6 +15,7 @@ toc: true
 ---
 
 ## Introduction
+{: tabindex="-1"}
 
 What are the main ideas and guiding principles behind universal design? How are those principles applied in practice?
 
@@ -27,6 +28,7 @@ NC State University's Center for Universal Design defines [universal design](htt
 There are seven principles of universal design, and each principles has four to five guidelines. What are the principles and guidelines and what are examples of those in the physical world?
 
 ## Principle One: Equitable Use
+{: tabindex="-1"}
 
 The design is useful and marketable to people with diverse abilities.
 
@@ -43,6 +45,7 @@ Examples:
 * Sidewalks with bumped tiles and curb cuts that are wheelchair-accessible (clear and smooth with gentle inclines).
 
 ## Principle Two: Flexibility in Use
+{: tabindex="-1"}
 
 The design accommodates a wide range of individual preferences and abilities.
 
@@ -60,6 +63,7 @@ Examples:
 * Check-out options that allow you to pay with cash or credit cards.
 
 ## Principle Three: Simple and Intuitive Use
+{: tabindex="-1"}
 
 Use of the design is easy to understand, regardless of the user's experience, knowledge, language skills, or current concentration level.
 
@@ -78,6 +82,7 @@ Examples:
 * Simple remote controls that don't have more than, say, 15 buttons.
 
 ## Principle Four: Perceptible Information
+{: tabindex="-1"}
 
 The design communicates necessary information effectively to the user, regardless of ambient conditions or the user's sensory abilities.
 
@@ -98,6 +103,7 @@ Examples:
 * ATMs that allow you to plug in headphones to hear (if you can't see) and with a tactile interface or a simple touchscreen interface.
 
 ## Principle Five: Tolerance for Error
+{: tabindex="-1"}
 
 The design minimizes hazards and the adverse consequences of accidental or unintended actions.
 
@@ -117,6 +123,7 @@ Examples:
 * Microwaves that won't start if the door is still open.
 
 ## Principle Six: Low Physical Effort
+{: tabindex="-1"}
 
 The design can be used efficiently and comfortably and with a minimum of fatigue.
 
@@ -134,6 +141,7 @@ Examples:
 * Hands-free faucets or drinking fountains.
 
 ## Principle Seven: Size and Space for Approach and Use
+{: tabindex="-1"}
 
 Appropriate size and space is provided for approach, reach, manipulation, and use regardless of user's body size, posture, or mobility.
 

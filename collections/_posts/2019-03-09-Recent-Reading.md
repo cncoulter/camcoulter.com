@@ -26,6 +26,7 @@ toc: true
 ---
 
 ## <cite>Born to the Blade: Season 1</cite> by Michael R. Underwood, Marie Brennan, Malka Older, Cassandra Khaw
+{: tabindex="-1"}
 
 <p class="bookinfo">Serial Box, 2018.</p>
 
@@ -34,6 +35,7 @@ This was tons of fun. The mash-up pitch is: <cite>Avatar: The Last Airbender</ci
 I especially liked how nuanced the villains are. There's one clear set of bad guys, Mertika, the classic imperialist power. They suck. But I loved how Quloo, Mertika's capitalist rival, wasn't without faults either. Quloo also sucks. In some ways, you could even argue Quloo is worse than Mertika. (I'm writing in general terms here so as to not spoil things.) I loved this nuance. A fun effect of this is that our heroes end up running around trying to stop everything from going to shit, which I think is a more interesting storyline than a "just" war against a flat villain.
 
 ## <cite>The Stars Change</cite> by Mary Anne Mohanraj
+{: tabindex="-1"}
 
 <p class="bookinfo">Circlet Press, 2017.</p>
 
@@ -49,6 +51,7 @@ I really liked this short novel because of its:
 I will quickly recommend this book to basically anyone.
 
 ## <cite>Acadie</cite> by Dave Hutchinson
+{: tabindex="-1"}
 
 <p class="bookinfo">Tor.com, 2017.</p>
 
@@ -57,6 +60,7 @@ This short and fun novella is short and fun. I was able to read it in a day. I l
 I recommend this book if you like twists or if you like stories about genetics, human modification, and/or transhumanism.
 
 ## <cite>The Lamb Will Slaughter the Lion</cite> by Margaret Killjoy
+{: tabindex="-1"}
 
 <p class="bookinfo">Tor.com, 2017.</p>
 
@@ -71,6 +75,7 @@ In particular, I loved the collectivist community of anarchist squatters that Ki
 To me, the plot felt a little tight, a little too hurried. I think it would have benefited from more room to stretch. That said, the novella was long enough to be engrossing and short enough to read in a day, which is a pretty delightful length. I want to read the sequel, <cite>The Barrow Will Send What it May</cite>, and I hope that that book is able to spend more time worldbuilding and developing characters.
 
 ## <cite>Walkaway</cite> by Cory Doctorow
+{: tabindex="-1"}
 
 <p class="bookinfo">Tor Books, 2017.</p>
 
@@ -89,6 +94,7 @@ Lastly, this book made me happy because of its queer, transgender, and POC repre
 I tend not to reread books all that often, but I'm already itching to reread this one.
 
 ## <cite>A People’s Future of the United States</cite> edited by Victor LaValle and John Joseph Adams
+{: tabindex="-1"}
 
 <p class="bookinfo">One World, 2019.</p>
 
@@ -109,6 +115,7 @@ My favorite stories in the anthology are:
 If you want to read excellent science fiction short stories that feel hyper-contemporary, read this. I can practically guarantee you'll enjoy it.
 
 ## <cite>Invisible Planets: Contemporary Chinese Science Fiction in Translation</cite> translated and edited by Ken Liu
+{: tabindex="-1"}
 
 <p class="bookinfo">Tor Books, 2016.</p>
 

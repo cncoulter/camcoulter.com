@@ -18,12 +18,14 @@ toc: true
 ---
 
 ## Supplementing Audio Descriptions
+{: tabindex="-1"}
 
 Netflix released an 11-minute [audio featurette](https://www.netflix.com/tudum/articles/all-the-light-we-cannot-see-aria-mia-lorbeti-audio-introduction) to accompany its miniseries <cite>All the Light We Cannot See</cite>. The featurette is specifically for audience members who are blind or have low vision, and it provides detailed descriptions of characters and locations in the series.
 
 I think this is a cool idea and hope we can see more of it. [Audio description](https://www.w3.org/WAI/media/av/description/) is a vital way to make TV shows and movies accessible to people who are blind or have low vision, but it has limitations. With standard audio description, descriptions are inserted into the pauses between dialog, but there may not be long enough pauses to allow for detailed descriptions. Extended audio descriptions pause the video to ensure there is sufficient space for detailed descriptions, but extended audio descriptions may not always be practical because they necessitate creating a separate video file or using a specialized video player. I think this audio featurette is a cool idea because it provides a higher level of detail to people who are blind and have low vision without the complexity of extended audio descriptions (and without creating a separate experience for the audience in the way that can happen with extended audio description).
 
 ## Running Accessibility Programs
+{: tabindex="-1"}
 
 Here's a few resources I've come across or referenced lately that might be helpful to those of you administering or implementing accessibility at the program-level:
 
@@ -33,6 +35,7 @@ Here's a few resources I've come across or referenced lately that might be helpf
 * "[How to start your agency’s digital accessibility program](https://adhocteam.us/2024/01/04/OMB-a11y/)" by Brian DeConinck (for those of you working in government)
 
 ## Text Over Images
+{: tabindex="-1"}
 
 Hannah Milan published two posts on <cite>Smashing Magazine</cite> that are an excellent deep dive into how to accessibly design text over images.
 
@@ -41,7 +44,8 @@ Designers, read this. Accessibility consultants, bookmark this.
 1. [Designing Accessible Text Over Images: Best Practices, Techniques, And Resources (Part 1)](https://www.smashingmagazine.com/2023/08/designing-accessible-text-over-images-part1/)
 2. [Designing Accessible Text Over Images: Best Practices, Techniques And Resources (Part 2)](https://www.smashingmagazine.com/2023/08/designing-accessible-text-over-images-part2/)
 
-## Tables: Heuristics, Headers, Interactivity, and Responsiveness 
+## Tables: Heuristics, Headers, Interactivity, and Responsiveness
+{: tabindex="-1"}
 
 Did you know that browsers use heuristics to determine if your <code>&lt;table&gt;</code> element is actually a logical data table or if it is a layout table?
 
@@ -67,10 +71,12 @@ Moving on, let’s talk about responsive tables! It may be a good idea to make s
 * “[A Responsive Accessible Table](https://adrianroselli.com/2017/11/a-responsive-accessible-table.html)” by Adrian Roselli
 
 ## Math!
+{: tabindex="-1"}
 
 I want to quickly signal boost "[Making Math Accessible](https://www.tpgi.com/making-math-accessible/)" by Ricky Onsman, which is a nice intro to making math accessible in HTML content.
 
 ## ARIA Live Regions
+{: tabindex="-1"}
 
 Screen readers will announce changes in ARIA live regions as they happen without shifting keyboard or screen reader focus. For this reason, ARIA live regions can be an important and helpful way to help make dynamic web content more accessible to screen reader users. Live regions are simple to get started with (<code>aria-live="polite"</code> will do it), but they can get complicated or be tricky to get right. Sara Soueidan has two terrific posts explaining what ARIA live region are and how they work. In particular, Souedian does a great job explaining the lesser-used attributes aria-relevant, aria-atomic, and aria-busy and explaining the lesser-known HTML <code>&lt;output&gt;</code> element. I highly recommend:
 
@@ -78,12 +84,14 @@ Screen readers will announce changes in ARIA live regions as they happen without
 * [Accessible notifications with ARIA Live Regions (Part 2)](https://www.sarasoueidan.com/blog/accessible-notifications-with-aria-live-regions-part-2/)
 
 ## Invented and Multiple Roles
+{: tabindex="-1"}
 
 Did you know that you can specify multiple values for an element's role attribute? An element can't have more than one role, mind you, but the idea here is that if the first role listed is new and unsupported, assistive technologies should fallback to announcing the secondary role. It's a cool idea, but unfortunately, the support for it isn't great. You can read more here: "[Notes on use of multiple ARIA role attribute values](https://www.tpgi.com/notes-on-use-of-multiple-aria-role-attribute-values/)" by Steve Faulkner.
 
 You can also just straight-up make up roles using the [aria-roledescription](https://www.w3.org/TR/wai-aria-1.2/#aria-roledescription) attribute, which I find wild. That said, I struggle to see any good reasons to use it beyond perhaps <code>aria-roledescription="slide"</code> for slides in a presentation or carousel. (That said, please just avoid carousels.) It's interesting though! You can read more here: "[Avoid aria-roledescription](https://adrianroselli.com/2020/04/avoid-aria-roledescription.html)" by Adrian Roselli.
 
 ## Semantic CSS
+{: tabindex="-1"}
 
 Accessibility professionals often talk about the importance of “semantic HTML.” For example, if you have a heading, please use a heading element, such as an <code>&lt;h1&gt;</code>. If you instead style a <code>&lt;div&gt;</code> element to look like a heading, screen reader users won’t be able to efficiently navigate the page.
 
@@ -97,6 +105,7 @@ Here are some good resources I’ve come across on the topic:
 * "[Using CSS to Enforce Accessibility](https://adrianroselli.com/2021/06/using-css-to-enforce-accessibility.html)" by Adrian Roselli
 
 ## JavaScript for Keyboard Accessibility
+{: tabindex="-1"}
 
 When we talk about the details of web accessibility, we often talk about HTML (including ARIA) and sometimes CSS comes up as well, but JavaScript doesn't always get the attention or detail it deserves. So here are a few JavaScript-focused resources that relate to keyboard accessibility:
 
@@ -104,7 +113,8 @@ When we talk about the details of web accessibility, we often talk about HTML (i
 * [ARIA Authoring Practices Guide](https://www.w3.org/WAI/ARIA/apg/): Specifically, check out the Keyboard Interaction section for each pattern and the JavaScript used for the various examples. See also [Developing a Keyboard Interface](https://www.w3.org/WAI/ARIA/apg/practices/keyboard-interface/).
 * [Buttons, Enter, and Space]({{ site.baseurl }}{% post_url 2022-12-29-A11y-Adventures %}/#buttons-enter-and-space) from my earlier post "Accessibility Adventures: December 2022"
 
-## Web Components & Shadow DOM 
+## Web Components & Shadow DOM
+{: tabindex="-1"}
 
 Speaking of JavaScript, let's talk about web components!
 
