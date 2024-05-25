@@ -31,7 +31,7 @@ This policy was last updated on July 25, 2022.
 ## Accessibility Statement
 {: tabindex="-1"}
 
-I want this site to work well for people with disabilities and people who use assistive technologies such as screen readers, and I aim for this website to conform to the [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/) level AA. What does that mean?
+I want this site to work well for people with disabilities and people who use assistive technologies such as screen readers, and I aim for this website to conform to the [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/) level AA. What does that mean?
 
 * You should be able to navigate this site by keyboard alone or by using assitive technologies like switch controls or voice access.
 * You should be able to zoom and increase text size up to 200% (or more) without any loss of content or functionality. When text size is increased and/or on mobile devices, content should reflow nicely without requiring horizontal scrolling (except perhaps for tables).
@@ -45,12 +45,15 @@ Here are some of the tools I'm using to test this site for accessibility:
 
 * W3C's HTML validator
 * NVDA screen reader on Windows with Firefox and Chrome
-* Orca screen reader on Fedora with Firefox and Edge
+* Orca screen reader on Fedora with Firefox
+* TalkBack screen reader on Android with Firefox and Chrome
+* VoiceOver screen reader on iPhone with Safari
 * axe DevTools browser extension
-* tota11y bookmarklet
 * WebAIM's color contrast checker
 
 If you come across any accessibility or usability issues on this site, please let me know. You can [file an issue on GitHub](https://github.com/cncoulter/camcoulter.com/issues) or email me at contact@camcoulter.com.
+
+This policy was last updated on May 24, 2024.
 
 ## Website Design & Hosting
 {: tabindex="-1"}
