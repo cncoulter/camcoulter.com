@@ -131,33 +131,36 @@ permalink: /About-This-Site/Design-Guide/
 
 <h2>Block Level Elements</h2>
 
+<div class="raised">
+	<h3>Raised Card</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis porro similique, cum quidem tempore corporis, pariatur voluptate delectus quisquam soluta sequi quae, cumque aliquid ratione.</p>
+</div>
+
+<h3>Block Level Code</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;a href="#same-page-link-target"&gt;Jump to kittens!&lt;/a&gt;  
+&lt;h2 id="same-page-link-target"&gt;Kittens!&lt;/a&gt;</code></pre></div></div>
+
 <h3>Blockquote</h3>
 
 <blockquote>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam error blanditiis et culpa ut vero ea quibusdam, consequatur natus quidem nihil officiis a porro accusamus accusantium facilis amet dolore beatae?</p>
 </blockquote>
 
-<!-- <h3>Details/Summary</h3>
+<h3>Details/Summary</h3>
 
 <details>
   <summary>Here is a <code>&lt;summary&gt;</code> element.</summary>
   <p>Here is a paragraph underneath a <code>&lt;summary&gt;</code> element within a <code>&lt;details&gt;</code> element.</p>
-</details> -->
+</details>
 
-<h2>Custom Components</h2>
+<h2>Links & Buttons</h2>
 
-<div class="raised">
-	<h3>Raised Card</h3>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis porro similique, cum quidem tempore corporis, pariatur voluptate delectus quisquam soluta sequi quae, cumque aliquid ratione.</p>
-</div>
-
-<h3>Links & Buttons</h3>
-
-<h4>Inline</h4>
+<h3>Inline</h3>
 
 <p>Here is a standard inline link: <a href="https://annleckie.com/">Ann Leckie</a> is one of my favorite authors. Links have unique states for hover and focus styles.</p>
 
-<h4>“Undercover” Links</h4>
+<h3>“Undercover” Links</h3>
 
 <p>Below is a set of “undercover” links. I use these in the header and the footer. They look more or less like simple, free-floating links, but they have a nice rounded outline which appears on focus and which gives the impression of being a button.</p>
 
@@ -172,7 +175,7 @@ permalink: /About-This-Site/Design-Guide/
 
 <a href="/Publications/" class="link-undercover link-undercover--standalone">Publications</a>
 
-<h4>“Turncoat” Links</h4>
+<h3>“Turncoat” Links</h3>
 
 <p>Next up we have “turncoat” links. I use these for tag links after blog posts. They look like classic outline buttons, and in a focus or hover state, their colors flip. These links are often prefaced by a decorative SVG icon.</p>
 
@@ -189,3 +192,14 @@ permalink: /About-This-Site/Design-Guide/
 <a href="/Blog/Archive/" class="link-turncoat link-turncoat--standalone">{% include SVGs/archive.svg %} Blog Archive</a>
 
 <p>The standalone turncoat links have some extra padding.</p>
+
+<h3>Footnotes</h3>
+
+<p>Here is a paragraph that includes an inline footnote reference.<sup><a href="#ftn-1" id="ftn-ref-1"><span class="visually-hidden">Footnote </span>1</a></sup> As you can see, there is a <code>&lt;sup&gt;</code> element that includes an <code>&lt;a&gt;</code> element. The <code>&lt;a&gt;</code> includes visually hidden text that says, "Footnote". The <code>&lt;a&gt;</code> element links to a list item lower in the page.</p>
+
+<h4 tabindex="-1">Footnotes</h4>
+
+<ol>
+    <li id="ftn-1" tabindex="-1"><p>Footnotes are an ordered list under a heading. After a footnote, there is a link to return users to the footnote reference in the text. That link visually appears as the &#8617; icon, but has a unique accessible name provided via the aria-label attribute. 
+       <a href="#ftn-ref-1" aria-label="Return to text, Footnote 1">&#8617;</a></p></li>
+</ol>
