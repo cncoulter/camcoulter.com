@@ -53,7 +53,7 @@ Here are some of the tools I'm using to test this site for accessibility:
 
 If you come across any accessibility or usability issues on this site, please let me know. You can [file an issue on GitHub](https://github.com/cncoulter/camcoulter.com/issues) or email me at contact@camcoulter.com.
 
-This policy was last updated on May 24, 2024.
+This statement was last updated on May 30, 2024.
 
 ## Website Design & Hosting
 {: tabindex="-1"}
