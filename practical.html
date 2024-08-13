@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="generator" content="pandoc" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical Accessibility</title>
+    <style>
+        .group {
+            margin: 2em;
+        }
+        img {
+            max-width: 100%;
+        }
+        .hidden {
+            display: none;
+        }
+        .fakeHeading, h2 {
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        .gray {
+            color: #BDBDBD;
+        }
+        body {
+            font-size: 1.2em;
+            width: 2000px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <p>Santa Clara University | <a href="https://www.scu.edu/oae/">Office of Accessible Education</a></p>
+    </header>
+
+    <main>
+
+    <h1>Faculty & Staff</h1>
+
+    <h2>Y'all will be able to</h2>
+
+    <ol>
+        <li>Define digital accessibility.</li>
+        <li>Identify a few digitial accessibility barriers and explain their human impact.</li>
+        <li>Describe some benefits of digitial accessibility.</li>
+    </ol>
+
+    <p class="fakeHeading">Convert Tool</p>
+
+    <p class="gray">This is a self-service, computer-automated tool that allows you to convert documents into different file formats, including audiobooks, e-books, and digital Braille. Notably, this tool can convert scanned PDF files into accessible alternatives.</p>
+
+    <fieldset>
+        <legend>Source:</legend>
+      
+        <div>
+          <input type="radio" id="huey" name="drone" value="huey" checked />
+          <label for="huey">File</label>
+        </div>
+      
+        <div>
+          <input type="radio" id="dewey" name="drone" value="dewey" />
+          <label for="dewey">URL</label>
+        </div>
+      
+        <div>
+          <input type="radio" id="louie" name="drone" value="louie" />
+          <label for="louie">Text</label>
+        </div>
+      </fieldset>
+
+    <div class="group">
+        <label for="fileUpload">Upload your file:</label>
+        <br/>
+        <input type="file" id="fileUpload" name="fileUpload"/>
+    </div>
+
+    <div class="group"><button tabindex="-1" type="button" onclick="alert('Your file has been submitted!')">Submit</button></div>
+
+    <div class="hidden">
+        <h2>Issues on this page</h2>
+
+        <ol>
+            <li>Text has weak color contrast.</li>
+            <li>There is an implicit heading.</li>
+            <li>The submit button is not keyboard operable.</li>
+            <li>The page does not reflow when users zoom.</li>
+        </ol>
+
+        <img src="GDocsColor.png" alt="Google Docs toolbar. Text color picker is expanded.">
+        <img src="GDocsHeadings.png" alt="Google Docs toolbar. Styles control is expanded, showing options for headings.">
+        
+    </div>
+
+    <h2>Resources</h2>
+
+    <ul>
+        <li><a href="https://www.scu.edu/oae/">SCU Office of Accessible Education</a></li>
+        <li><a href="https://webaim.org/resources/contrastchecker/">WebAIM Contrast Checker</a></li>
+        <li><a href="https://accessibility-bookmarklets.org/install.html">Accessibility bookmarklets</a></li>
+        <li><a href="https://www.w3.org/WAI/">W3C Web Accessibility Initiative</a></li>
+        <li><a href="https://www.a11yproject.com/checklist/">A11y Project Checklist</a></li>
+        <li><a href="https://www.section508.gov/">Section508.gov</a></li>
+        <li><a href="https://www.coursera.org/learn/accessibility/">Introduction to Accessibility & Inclusive Design</a> from University of Illinois at Urbana-Champaign on Coursera</li>
+    </ul>
+
+    </main>
+
+</body>
+</html>
