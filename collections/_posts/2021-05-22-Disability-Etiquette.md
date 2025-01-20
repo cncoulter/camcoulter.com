@@ -5,7 +5,7 @@ layout: post
 title: "Disability Etiquette"
 published: true
 date: 2021-05-22 13:31
-date_updated: 2021-07-22 19:28
+date_updated: 2025-01-04 17:49
 categories:
 - accessibility
 tags:
@@ -58,3 +58,7 @@ Consider learning sign language.
 Don't assume that someone can't interact with you. If you're not sure, ask them how they want to communicate.
 
 Remember to create accessible documents, websites, and apps. When you are planning events, plan for an accessible venue and presentation. When you are advertising events, share the access info alongside other basic info like the time and place. Provide a way for people to ask for accommodations as necessary.
+
+***
+
+Update: In December 2024, I read <cite>Demystifying Disability: What to Know, What to Say, and How to Be an Ally</cite> by Emily Ladau, which I'd strongly recommend for this topic in particular. I thought this book's chapter on disability etiquette was great. It is probably the best treatment on this subject I've come across. Check it out!
